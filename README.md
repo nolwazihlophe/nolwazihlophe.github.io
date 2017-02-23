@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages
+## Nolwazi Hlophe
+
+I am from Swaziland and I am a PhD student in Economics at the University of Cape Town under the supervision of Co-Pierre Georg. I also work at the Central Bank of Swaziland in the Financial Stability Unit.
+
+My interests are in financial inclusion and financial innovation.
 
 You can use the [editor on GitHub](https://github.com/nolwazihlophe/nolwazi/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
