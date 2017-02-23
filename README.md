@@ -6,7 +6,11 @@ My interests are in financial inclusion and financial innovation.
 
 [Download CV]()
 
-### Markdown
+### Learning from Masters
+
+Include relevant documents here that have helped me
+
+contact details and linkedin link 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
