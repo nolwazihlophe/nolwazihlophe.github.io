@@ -1,12 +1,10 @@
 ## Nolwazi Hlophe
 
-I am from Swaziland and I am a PhD student in Economics at the University of Cape Town under the supervision of Co-Pierre Georg. I also work at the Central Bank of Swaziland in the Financial Stability Unit.
+I am from Swaziland and I am a PhD student in Economics at the University of Cape Town under the supervision of Dr Co-Pierre Georg. I also work at the Central Bank of Swaziland in the Financial Stability Unit.
 
 My interests are in financial inclusion and financial innovation.
 
-You can use the [editor on GitHub](https://github.com/nolwazihlophe/nolwazi/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Download CV]()
 
 ### Markdown
 
