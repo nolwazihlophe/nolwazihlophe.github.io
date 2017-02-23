@@ -2,7 +2,7 @@
 
 I am from Swaziland and I am a PhD student in Economics at the University of Cape Town under the supervision of Dr Co-Pierre Georg. I also work at the Central Bank of Swaziland in the Financial Stability Unit.
 
-My interests are in financial inclusion and financial innovation.
+My interests are in financial inclusion, central banks and financial innovation.
 
 [Download CV]()
 
