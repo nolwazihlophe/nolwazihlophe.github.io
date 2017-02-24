@@ -1,6 +1,9 @@
 I am from Swaziland and I am a PhD student in Economics with [AIFMRM](http://www.aifmrm.uct.ac.za/), the African Institute of Financial Markets and Risk Management at the University of Cape Town. under the supervision of [Dr Co-Pierre Georg](https://cogeorg.github.io/). I also work at the Central Bank of Swaziland in the Financial Stability Unit.
 
-My interests are in financial inclusion, central banks and financial innovation.  ![Github logo](Nolwazi.jpeg){:height="36px" width="36px"}
+My interests are in financial inclusion, central banks and financial innovation. 
+<dl>
+<img src="Nolwazi.jpeg" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="240">
+</dl>
 
 [Download CV](https://www.dropbox.com/s/j7phm95k0sego35/Nolwazi_CV.pdf?dl=0)
 
