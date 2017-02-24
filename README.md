@@ -15,11 +15,10 @@ My interests are in financial inclusion, central banks and financial innovation.
 J. Cochrane, [Writing Tips for Ph. D. Students](https://www.dropbox.com/s/71fd3btjs8vass0/phd_paper_writing.pdf?dl=0)
 
 
-Contact:
-nolwazihlophe@gmail.com
+
 
 <dl>
-<a href="https://www.linkedin.com/in/nolwazi-hlophe-53428838">
+<a href="https://www.linkedin.com/in/nolwazi-hlophe-53428838"> Contact: nolwazihlophe@gmail.com
 <img style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" src="Linkedin-Circle-SM-Button.png" width="70" height="70">
 </a>
 </dl>
