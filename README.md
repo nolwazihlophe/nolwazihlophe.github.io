@@ -10,9 +10,17 @@ My interests are in financial inclusion, central banks and financial innovation.
 
 [Download CV](https://www.dropbox.com/s/j7phm95k0sego35/Nolwazi_CV.pdf?dl=0)
 
-#### Learning from Masters
+#### What I've learned from Masters:
 
-Include relevant documents here that have helped me
+J. Cochrane, [Writing Tips for Ph. D. Students](https://www.dropbox.com/s/71fd3btjs8vass0/phd_paper_writing.pdf?dl=0)
 
-contact details and linkedin link 
+
+Contact:
+nolwazihlophe@gmail.com
+
+<dl>
+<img src="Nolwazi.jpeg" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="240">
+<p style="text-align: left;">
+</p>
+</dl>
 
