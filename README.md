@@ -16,7 +16,7 @@ J. Cochrane, [Writing Tips for Ph. D. Students](https://www.dropbox.com/s/71fd3b
 
 <dl>
 <a href="https://www.linkedin.com/in/nolwazi-hlophe-53428838"> 
-<img style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" src="Linkedin-Circle-SM-Button.png" width="70" height="70">
+<img style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" src="Linkedin-Circle-SM-Button.png" width="40" height="40">
 </a>
 </dl>
 
