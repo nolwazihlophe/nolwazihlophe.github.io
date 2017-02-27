@@ -3,7 +3,7 @@
 <p style="text-align: left;">
 </p>
 </dl>
-I am a Swazi PhD student in Economics with the African Institute of Financial Markets and Risk Management [AIFMRM](http://www.aifmrm.uct.ac.za/) at the University of Cape Town under the supervision of [Dr Co-Pierre Georg](https://cogeorg.github.io/). I also work at the Central Bank of Swaziland in the Financial Stability Unit.
+I am a Swazi PhD student in Economics with the African Institute of Financial Markets and Risk Management, [AIFMRM](http://www.aifmrm.uct.ac.za/), at the University of Cape Town under the supervision of [Dr Co-Pierre Georg](https://cogeorg.github.io/). I also work at the Central Bank of Swaziland in the Financial Stability Unit.
 
 My interests are in financial inclusion, central banks and financial innovation. 
 
