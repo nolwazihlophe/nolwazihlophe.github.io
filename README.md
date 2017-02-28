@@ -24,4 +24,4 @@ My interests are in financial inclusion, central banks and financial innovation.
 </dl>
 
 ##### Contact: 
-nolwazihlophe@gmail.com
+[nolwazihlophe@gmail.com](mailto:nolwazihlophe@gmail.com)
