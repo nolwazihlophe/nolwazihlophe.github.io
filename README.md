@@ -15,7 +15,6 @@ My interests are in financial inclusion, central banks and financial innovation.
 2. Z. Shaw, [Learn Python the Hard Way](https://www.dropbox.com/s/gnzy1gv37xa533u/Learn%20Python%20the%20Hard%20Way.pdf?dl=0)
 3. D Levine, [David Levine's Cheap Advice](http://faculty.haas.berkeley.edu/levine/cheap_advice.html#dissertation)
 
-<br/>
 #### Contact: 
 nolwazihlophe@gmail.com
 
