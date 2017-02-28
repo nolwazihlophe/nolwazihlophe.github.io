@@ -22,5 +22,6 @@ nolwazihlophe@gmail.com
 <a href="https://www.linkedin.com/in/nolwazi-hlophe-53428838"> 
 <img style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" src="Linkedin-Circle-SM-Button.png" width="40" height="40">
 <p style="text-align: right;">
+</p>
 </a>
 </dl>
