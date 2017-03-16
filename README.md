@@ -5,7 +5,7 @@
 </dl>
 I am a Swazi PhD student in Economics with the African Institute of Financial Markets and Risk Management, [AIFMRM](http://www.aifmrm.uct.ac.za/), at the University of Cape Town under the supervision of [Dr Co-Pierre Georg](https://cogeorg.github.io/). I have obtained an MCom in Economics, in 2016, from the University of Pretoria. I also work at the Central Bank of Swaziland in the Financial Stability Unit.
 
-My research interests include financial inclusion, central banks and financial innovation. I am currently focusing on financial innovation and digital currencies in emerging markets.
+My research interests include financial inclusion, central banks and [financial innovation](http://www.finlab.org.za). I am currently focusing on financial innovation and digital currencies in emerging markets.
 
 [Download CV](https://www.dropbox.com/s/j7phm95k0sego35/Nolwazi_CV.pdf?dl=0)
 
