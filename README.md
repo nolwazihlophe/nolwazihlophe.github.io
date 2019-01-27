@@ -3,7 +3,7 @@
 <p style="text-align: left;">
 </p>
 </dl>
-I am a PhD student in Economics with the African Institute of Financial Markets and Risk Management, [AIFMRM](http://www.aifmrm.uct.ac.za/), at the University of Cape Town under the supervision of [Prof Co-Pierre Georg](https://cogeorg.github.io/). I have obtained an MCom in Economics, in 2016, from the University of Pretoria. I have previously worked for the Central Bank of eSwatini in the Financial Stability Unit and the FinTech Unit. I am currently a Senior Research Analayst with Cenfri within the Risk, Remittances and Integrity programme.
+I am a PhD student in Economics with the African Institute of Financial Markets and Risk Management, [AIFMRM](http://www.aifmrm.uct.ac.za/), at the University of Cape Town under the supervision of [Prof Co-Pierre Georg](https://cogeorg.github.io/). I have obtained an MCom in Economics, in 2016, from the University of Pretoria. I previously worked for the Central Bank of eSwatini in the Financial Stability Unit and the FinTech Unit, and now I am a Senior Research Analayst with Cenfri within the Risk, Remittances and Integrity programme.
 
 My research interests include financial inclusion and [financial innovation](http://www.finlab.org.za). I am currently focusing on financial innovation and digital currencies in emerging markets.
 
