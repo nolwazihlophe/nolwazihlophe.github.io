@@ -1,5 +1,5 @@
 <dl>
-<img src="NolwaziHlophe.jpg" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="280">
+<img src="20190213_114837.jpg" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="280">
 <p style="text-align: left;">
 </p>
 </dl>
