@@ -16,7 +16,7 @@ My research interests include financial inclusion and [financial innovation](htt
 3. D Levine, [David Levine's Cheap Advice](http://faculty.haas.berkeley.edu/levine/cheap_advice.html#dissertation)
 
 <dl>
-<a href="https://www.linkedin.com/in/nolwazi-hlophe-53428838"> 
+<a href="https://www.linkedin.com/in/nolwazi-hlophe"> 
 <img src="Linkedin-Circle-SM-Button.png" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" width="40" height="40">
 <p style="text-align: right;">
 </p>
