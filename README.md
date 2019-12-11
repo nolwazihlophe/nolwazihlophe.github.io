@@ -3,11 +3,11 @@
 <p style="text-align: left;">
 </p>
 </dl>
-I am a PhD student in Economics with the School of Economics, at the University of Cape Town under the supervision of [Prof Che Reza Daniels](https://sites.google.com/site/rezachedaniels/). I have obtained an MCom in Economics, in 2016, from the University of Pretoria. I previously worked for the [Central Bank of eSwatini](http://www.centralbank.org.sz/) in the Financial Stability Unit and the FinTech Unit. I am currently a Senior Research Analayst with [Cenfri](https://cenfri.org/) within the Risk, Remittances and Integrity programme.
+I am a Senior Research Analayst with [Cenfri](https://cenfri.org/) within the Risk, Remittances and Integrity programme. I have obtained an MCom in Economics, in 2016, from the University of Pretoria. I previously worked for the [Central Bank of eSwatini](http://www.centralbank.org.sz/) in the Financial Stability Unit and the FinTech Unit.
 
-My research interests include financial inclusion and [financial innovation](http://www.finlab.org.za). I am currently focusing on financial innovation and digital currencies in emerging markets.
+My research interests include [financial innovation](http://www.finlab.org.za), financial inclusion, central banks and economic growth.
 
-[Download CV](https://www.dropbox.com/s/j7phm95k0sego35/Nolwazi_CV.pdf?dl=0)
+[Download CV](https://www.dropbox.com/s/bgarvk4pace6wza/Nolwazi_CV.pdf?dl=0)
 
 #### Useful links:
 
