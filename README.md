@@ -9,7 +9,7 @@ My research interests include financial innovation, financial inclusion, central
 
 
 
-[Download CV](https://www.dropbox.com/s/bgarvk4pace6wza/Nolwazi_CV.pdf?dl=0)
+[Download CV](https://www.dropbox.com/s/nkzv1ouppfga8gl/NolwaziHlophe_CV.pdf?dl=0)
 
 #### Useful links:
 
