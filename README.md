@@ -22,13 +22,9 @@ My research interests include financial regulation, financial innovation, financ
 
 <dl>
 <a href="https://www.linkedin.com/in/nolwazi-hlophe"> 
-<img src="Linkedin-Circle-SM-Button.png" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" width="40" height="40">
+<img src="Linkedin-Circle-SM-Button.png" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" width="30" height="30">
 <p style="text-align: left;">
 </p>
 </a>
 </dl>
-
-
-Personal email: [nolwazihlophe@gmail.com](mailto:nolwazihlophe@gmail.com)
-
-Work email: [nolwazi@digitalfrontiers.org](mailto:nolwazi@digitalfrontiers.org) 
+Personal email: [nolwazihlophe@gmail.com](mailto:nolwazihlophe@gmail.com) | Work email: [nolwazi@digitalfrontiers.org](mailto:nolwazi@digitalfrontiers.org) 
