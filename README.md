@@ -3,7 +3,7 @@
 <p style="text-align: left;">
 </p>
 </dl>
-I am the Regulatory Program Lead with [Digital Frontiers Institute](https://www.digitalfrontiersinstitute.org/the-institute/). I have obtained an MCom in Economics, in 2016, from the University of Pretoria. I previously worked for [Cenfri](https://cenfri.org/) within the Risk, Remittances and Integrity programme as a Senior Research Analayst and the [Central Bank of Eswatini](http://www.centralbank.org.sz/) in the Financial Stability Unit and the FinTech Unit.
+I am the Regulatory Program Lead with [Digital Frontiers Institute](https://www.digitalfrontiersinstitute.org/the-institute/). I obtained an MCom in Economics from the University of Pretoria in 2016. I previously worked for [Cenfri](https://cenfri.org/) within the Risk, Remittances and Integrity programme as a Senior Research Analayst and the [Central Bank of Eswatini](http://www.centralbank.org.sz/) in the Financial Stability Unit and the FinTech Unit.
 
 My research interests include financial regulation, financial innovation, financial inclusion and economic growth.
 
