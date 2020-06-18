@@ -1,3 +1,4 @@
+#### About me
 <dl>
 <img src="Nolwazi.jpg" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="200">
 <p style="text-align: left;">
@@ -10,7 +11,7 @@ My research interests include financial regulation, financial innovation, financ
 
 [Download CV](https://www.dropbox.com/s/nkzv1ouppfga8gl/NolwaziHlophe_CV.pdf?dl=0)
 
-#### Research contributions:
+#### Research contributions
 
 1. Central Bank of Eswatini (2019), [CBDC Diagnostic: Motivations for a CBDC in Eswatini](https://www.centralbank.org.sz/fintech/cbdc/CBE-Cenfri%20CBDC%20Diagnostic_Phase1%20(002).pdf)
 2. Cooper, B., Esser, A., Hlophe, N., Ferreira, M. & Janse van Vuuren, P. (2019), [Diagnostic study of the Zambian payments system](https://cenfri.org/publications/diagnostic-study-of-the-zambian-payments-system/)
@@ -24,5 +25,5 @@ My research interests include financial regulation, financial innovation, financ
 </a>
 </dl>
 
-##### Contact: 
+##### Contact
 [nolwazihlophe@gmail.com](mailto:nolwazihlophe@gmail.com)
