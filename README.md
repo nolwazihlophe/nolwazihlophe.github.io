@@ -27,4 +27,5 @@ My research interests include financial regulation, financial innovation, financ
 
 #### Contact
 Personal email: [nolwazihlophe@gmail.com](mailto:nolwazihlophe@gmail.com)
+
 Work email: [nolwazi@digitalfrontiers.org](mailto:nolwazi@digitalfrontiers.org) 
