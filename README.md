@@ -10,11 +10,11 @@ My research interests include financial regulation, financial innovation, financ
 
 [Download CV](https://www.dropbox.com/s/nkzv1ouppfga8gl/NolwaziHlophe_CV.pdf?dl=0)
 
-#### Useful links:
+#### Research contributions:
 
-1. J. Cochrane, [Writing Tips for Ph. D. Students](https://www.dropbox.com/s/71fd3btjs8vass0/phd_paper_writing.pdf?dl=0)
-2. Z. Shaw, [Learn Python the Hard Way](https://www.dropbox.com/s/gnzy1gv37xa533u/Learn%20Python%20the%20Hard%20Way.pdf?dl=0)
-3. D Levine, [David Levine's Cheap Advice](http://faculty.haas.berkeley.edu/levine/cheap_advice.html#dissertation)
+1. Central Bank of Eswatini (2019), [CBDC Diagnostic](https://www.centralbank.org.sz/fintech/cbdc/CBE-Cenfri%20CBDC%20Diagnostic_Phase1%20(002).pdf): Motivations for a CBDC in Eswatini
+2. Cooper, B., Esser, A., Hlophe, N., Ferreira, M. & Janse van Vuuren, P. (2019), [Diagnostic study of the Zambian payments system](https://cenfri.org/publications/diagnostic-study-of-the-zambian-payments-system/)
+3. Cooper, B., Munoz Perez, L., Esser, A., Allen, M., Hlophe, N. & Ferreira, M. (2019), [An analysis of ID proxy initiatives across the globe](https://cenfri.org/publications/an-analysis-of-id-proxy-initiatives-across-the-globe/)
 
 <dl>
 <a href="https://www.linkedin.com/in/nolwazi-hlophe"> 
