@@ -12,7 +12,7 @@ My research interests include financial regulation, financial innovation, financ
 
 #### Research contributions:
 
-1. Central Bank of Eswatini (2019), [CBDC Diagnostic](https://www.centralbank.org.sz/fintech/cbdc/CBE-Cenfri%20CBDC%20Diagnostic_Phase1%20(002).pdf): Motivations for a CBDC in Eswatini
+1. Central Bank of Eswatini (2019), [CBDC Diagnostic: Motivations for a CBDC in Eswatini](https://www.centralbank.org.sz/fintech/cbdc/CBE-Cenfri%20CBDC%20Diagnostic_Phase1%20(002).pdf)
 2. Cooper, B., Esser, A., Hlophe, N., Ferreira, M. & Janse van Vuuren, P. (2019), [Diagnostic study of the Zambian payments system](https://cenfri.org/publications/diagnostic-study-of-the-zambian-payments-system/)
 3. Cooper, B., Munoz Perez, L., Esser, A., Allen, M., Hlophe, N. & Ferreira, M. (2019), [An analysis of ID proxy initiatives across the globe](https://cenfri.org/publications/an-analysis-of-id-proxy-initiatives-across-the-globe/)
 
