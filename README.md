@@ -17,6 +17,9 @@ My research interests include financial regulation, financial innovation, financ
 2. Cooper, B., Esser, A., Hlophe, N., Ferreira, M. & Janse van Vuuren, P. (2019), [Diagnostic study of the Zambian payments system](https://cenfri.org/publications/diagnostic-study-of-the-zambian-payments-system/)
 3. Cooper, B., Munoz Perez, L., Esser, A., Allen, M., Hlophe, N. & Ferreira, M. (2019), [An analysis of ID proxy initiatives across the globe](https://cenfri.org/publications/an-analysis-of-id-proxy-initiatives-across-the-globe/)
 
+
+#### Contact
+
 <dl>
 <a href="https://www.linkedin.com/in/nolwazi-hlophe"> 
 <img src="Linkedin-Circle-SM-Button.png" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" width="40" height="40">
@@ -25,7 +28,7 @@ My research interests include financial regulation, financial innovation, financ
 </a>
 </dl>
 
-#### Contact
+
 Personal email: [nolwazihlophe@gmail.com](mailto:nolwazihlophe@gmail.com)
 
 Work email: [nolwazi@digitalfrontiers.org](mailto:nolwazi@digitalfrontiers.org) 
