@@ -4,10 +4,10 @@
 <p style="text-align: left;">
 </p>
 </dl>
-I am the Regulatory Program Lead with [Digital Frontiers Institute](https://www.digitalfrontiersinstitute.org/the-institute/). I obtained an MCom in Economics from the University of Pretoria in 2016. I previously worked for [Cenfri](https://cenfri.org/) within the Risk, Remittances and Integrity programme as a Senior Researcher and the [Central Bank of Eswatini](http://www.centralbank.org.sz/) in the Financial Stability Unit and the FinTech Unit.
+I am the Deputy Director Financial Regulation and Supervision with [Digital Frontiers Institute](https://www.digitalfrontiersinstitute.org/the-institute/). 
+I obtained an MCom in Economics from the University of Pretoria in 2016. I previously worked for [Cenfri](https://cenfri.org/) within the Risk, Remittances and Integrity programme as a Senior Researcher and the [Central Bank of Eswatini](http://www.centralbank.org.sz/) in the Financial Stability Unit and the FinTech Unit.
 
-My research interests include financial regulation, financial innovation, financial inclusion and economic growth.
-
+I have a great passion for capacity building thereby contributing to the development of agile and innovative financial systems. My research interests include financial regulation, financial innovation, financial inclusion and economic growth.
 
 [Download CV](https://www.dropbox.com/s/nkzv1ouppfga8gl/NolwaziHlophe_CV.pdf?dl=0)
 
