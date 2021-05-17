@@ -11,15 +11,15 @@ I am the Deputy Director Financial Regulation and Supervision with [Digital Fron
 I have a great passion for capacity building thereby contributing to the development of agile and innovative financial systems. My research interests include financial regulation, financial innovation, financial inclusion and economic growth.
 ### [**Download CV**](https://www.dropbox.com/s/adyje70ohuctg09/NolwaziHlophe_CV.pdf?dl=0)
 ### **Publications**
-1. Hlophe, N (2021), Central bank digital currency design and technology considerations for the eSwatini context, forthcoming 
-2. Hlophe, N (2021), Is Capacity Building a Necessary Requirement for enhanced and forward-looking regulatory change?, forthcoming
-3. Hlophe, N (2021), [Regulatory Influence: The Imperative for Sustainability Through Innovation in Emerging Markets](https://regtechafrica.com/regetechafrica-magazine/) 
-4. Central Bank of Eswatini (2019), [CBDC Diagnostic: Motivations for a CBDC in Eswatini](https://www.centralbank.org.sz/fintech/cbdc/CBE-Cenfri%20CBDC%20Diagnostic_Phase1%20(002).pdf)
-5. Cenfri (2019), [Diagnostic study of the Zambian payments system](https://cenfri.org/publications/diagnostic-study-of-the-zambian-payments-system/)
-6. Cenfri (2019), [An analysis of ID proxy initiatives across the globe](https://cenfri.org/publications/an-analysis-of-id-proxy-initiatives-across-the-globe/)
-7. Hlophe, N (2019), [Regtech and The Central Bank](https://www.centralbank.org.sz/media/newsletter/docs/CENTRATALK_20180206.pdf)
-8. Central Bank of Eswatini (2018), [CBE Fintech Regulatory Sandbox](https://www.centralbank.org.sz/fintech/sandbox/)
-9. Hlophe, N (2018), [Does financial development mean financial inclusion?. A causal analysis for Eswatini](https://www.african-review.com/view-paper.php?serial=20191102135807-759399)
+1. Hlophe, N (2021), **Central bank digital currency design and technology considerations for the eSwatini context**, forthcoming 
+2. Hlophe, N (2021), **Is Capacity Building a Necessary Requirement for enhanced and forward-looking regulatory change?**, forthcoming
+3. Hlophe, N (2021), [**Regulatory Influence: The Imperative for Sustainability Through Innovation in Emerging Markets**](https://regtechafrica.com/regetechafrica-magazine/) 
+4. Central Bank of Eswatini (2019), [**CBDC Diagnostic: Motivations for a CBDC in Eswatini**](https://www.centralbank.org.sz/fintech/cbdc/CBE-Cenfri%20CBDC%20Diagnostic_Phase1%20(002).pdf)
+5. Cenfri (2019), [**Diagnostic study of the Zambian payments system**](https://cenfri.org/publications/diagnostic-study-of-the-zambian-payments-system/)
+6. Cenfri (2019), [**An analysis of ID proxy initiatives across the globe**](https://cenfri.org/publications/an-analysis-of-id-proxy-initiatives-across-the-globe/)
+7. Hlophe, N (2019), [**Regtech and The Central Bank**](https://www.centralbank.org.sz/media/newsletter/docs/CENTRATALK_20180206.pdf)
+8. Central Bank of Eswatini (2018), [**CBE Fintech Regulatory Sandbox**](https://www.centralbank.org.sz/fintech/sandbox/)
+9. Hlophe, N (2018), [**Does financial development mean financial inclusion?. A causal analysis for Eswatini**](https://www.african-review.com/view-paper.php?serial=20191102135807-759399)
 
 ### **Conference Presentations**
 
