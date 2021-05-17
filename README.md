@@ -29,11 +29,9 @@ I have a great passion for capacity building thereby contributing to the develop
 4.	**Consultative meeting on central bank-issued digital currencies**: CBDCs, Benefits & Potential Risks
 5.	**UCT online course: Blockchain and Digital Currency**: The Future of Money Guest Lecturer – CBDC and financial inclusion 
 6.  **World Digital Economic Council & FinTech4Good**: The CBDC Forum III – CBDC Development in Africa: Country Case Studies Panel 
-
 #### 2019
 1. **Africa Global Payment Summit**: Supply-side barriers to remittances in Sub-Saharan Africa
-
-##### 2018
+#### 2018
 1. **Launch of the Fintech Challenge**: What is the Fintech Challenge about and who can apply
 2. **Swaziland Economic Conference**: Does financial development mean financial inclusion?. A causal analysis for Eswatini
 
