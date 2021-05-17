@@ -1,6 +1,6 @@
 ### **About me**
 <dl>
-<img src="NolwaziHlophe_1.jpg" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="200">
+<img src="NolwaziHlophe_1.jpg" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="150">
 <p style="text-align: left;">
 </p>
 </dl>
@@ -9,10 +9,9 @@ I am the Deputy Director Financial Regulation and Supervision with [Digital Fron
 
 I have a great passion for capacity building thereby contributing to the development of agile and innovative financial systems. My research interests include financial regulation, financial innovation, financial inclusion and economic growth.
 
-[Download CV](https://www.dropbox.com/s/adyje70ohuctg09/NolwaziHlophe_CV.pdf?dl=0)
+[**Download CV**](https://www.dropbox.com/s/adyje70ohuctg09/NolwaziHlophe_CV.pdf?dl=0)
 
 ### **Publications**
-
 1. Hlophe, N (2021), Central bank digital currency design and technology considerations for the eSwatini context, forthcoming 
 2. Hlophe, N (2021), Is Capacity Building a Necessary Requirement for enhanced and forward-looking regulatory change?, forthcoming
 3. Hlophe, N (2021), [Regulatory Influence: The Imperative for Sustainability Through Innovation in Emerging Markets](https://regtechafrica.com/regetechafrica-magazine/) 
@@ -24,7 +23,6 @@ I have a great passion for capacity building thereby contributing to the develop
 9. Hlophe, N (2018), [Does financial development mean financial inclusion?. A causal analysis for Eswatini](https://www.african-review.com/view-paper.php?serial=20191102135807-759399)
 
 ### **Conference Presentations**
-
 #### 2020
 1. **Cryptocurrency and Blockchain Course Closure**: FSD Mozambique – DFS issues faced by financial regulators
 2.	**Ethiopia  4th CIDM Alumni Zoom Meeting**: Current DFS issues faced by regulators
@@ -41,7 +39,6 @@ I have a great passion for capacity building thereby contributing to the develop
 2. **Swaziland Economic Conference**: Does financial development mean financial inclusion?. A causal analysis for Eswatini
 
 ### **Contact**
-
 <dl>
 <a href="https://www.linkedin.com/in/nolwazi-hlophe"> 
 <img src="Linkedin-Circle-SM-Button.png" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" width="30" height="30">
