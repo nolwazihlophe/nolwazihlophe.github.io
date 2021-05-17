@@ -6,6 +6,7 @@
 </dl>
 I am the Deputy Director Financial Regulation and Supervision with [Digital Frontiers](https://digitalfrontiers.org/). I obtained an MCom in Economics from the University of Pretoria in 2016. I previously worked for [Cenfri](https://cenfri.org/) within the Risk, Remittances and Integrity programme as a Senior Researcher and the [Central Bank of Eswatini](http://www.centralbank.org.sz/) in the Financial Stability Unit as a Macroprudential Analyst and the Manager of the FinTech Unit.
 
+
 I have a great passion for capacity building thereby contributing to the development of agile and innovative financial systems. My research interests include financial regulation, financial innovation, financial inclusion and economic growth.
 
 [Download CV](https://www.dropbox.com/s/adyje70ohuctg09/NolwaziHlophe_CV.pdf?dl=0)
