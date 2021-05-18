@@ -8,7 +8,8 @@ I am the Deputy Director Financial Regulation and Supervision with [Digital Fron
 
 
 
-I have a great passion for capacity building thereby contributing to the development of agile and innovative financial systems. My research interests include financial regulation, financial innovation, financial inclusion and economic growth.
+I have a great passion for capacity building, which contributes to the development of agile and innovative financial systems. My research interests include financial regulation, financial innovation, financial inclusion and economic growth.
+
 ### [**Download CV**](https://www.dropbox.com/s/adyje70ohuctg09/NolwaziHlophe_CV.pdf?dl=0)
 ### **Publications**
 1. Hlophe, N (2021), **Central bank digital currency design and technology considerations for the eSwatini context**, forthcoming 
