@@ -19,11 +19,11 @@ I have a great passion for capacity building, which contributes to the developme
 4. Central Bank of Eswatini (2019), [**CBDC Diagnostic: Motivations for a CBDC in Eswatini**](https://www.centralbank.org.sz/fintech/cbdc/CBE-Cenfri%20CBDC%20Diagnostic_Phase1%20(002).pdf)
 5. Cenfri (2019), [**Diagnostic study of the Zambian payments system**](https://cenfri.org/publications/diagnostic-study-of-the-zambian-payments-system/)
 6. Cenfri (2019), [**An analysis of ID proxy initiatives across the globe**](https://cenfri.org/publications/an-analysis-of-id-proxy-initiatives-across-the-globe/)
-7. Hlophe, N (2019), [**Regtech and The Central Bank**](https://www.centralbank.org.sz/media/newsletter/docs/CENTRATALK_20180206.pdf)
-8. Central Bank of Eswatini (2018), [**CBE Fintech Regulatory Sandbox**](https://www.centralbank.org.sz/fintech/sandbox/)
+7. Hlophe, N (2019), [**RegTech: how it works, its applications and how it benefits regulators**](https://www.centralbank.org.sz/media/newsletter/docs/CENTRATALK_20180206.pdf)
+8. Central Bank of Eswatini (2018), [**CBE Fintech Regulatory Sandbox Guidelines**](https://www.centralbank.org.sz/fintech/sandbox/)
 9. Hlophe, N (2018), [**Does financial development mean financial inclusion?. A causal analysis for Eswatini**](https://www.african-review.com/view-paper.php?serial=20191102135807-759399)
 
-### **Presentations, Podcasts and Webinars**
+### **Presentations, Podcasts and Webinars** 
 
 1. **RegTech Women**: RegTech Revealed Episode 13
 2. **3rd Africa Bank 4.0 Summit-SADC Region**: Financial Inclusion Regulations in the Sub-Saharan Africa Region
