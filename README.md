@@ -11,6 +11,7 @@ I am the Deputy Director Financial Regulation and Supervision with [Digital Fron
 I have a great passion for capacity building, which contributes to the development of agile and innovative financial systems. My research interests include financial regulation, financial innovation, financial inclusion and economic growth.
 
 ### [**Download CV**](https://www.dropbox.com/s/adyje70ohuctg09/NolwaziHlophe_CV.pdf?dl=0)
+
 ### **Publications**
 1. Hlophe, N (2021), **Central bank digital currency design and technology considerations for the eSwatini context**, forthcoming 
 2. Hlophe, N (2021), [**Is Capacity Building a Necessary Requirement for enhanced and forward-looking regulatory change?**](https://issuu.com/digitalbankerafrica/docs/digital_banker_africa_spring_2021)
@@ -22,17 +23,19 @@ I have a great passion for capacity building, which contributes to the developme
 8. Central Bank of Eswatini (2018), [**CBE Fintech Regulatory Sandbox**](https://www.centralbank.org.sz/fintech/sandbox/)
 9. Hlophe, N (2018), [**Does financial development mean financial inclusion?. A causal analysis for Eswatini**](https://www.african-review.com/view-paper.php?serial=20191102135807-759399)
 
-### **Presentations**
+### **Presentations, Podcasts and Webinars**
 
-#### 2018-2020
-1. **World Digital Economic Council & FinTech4Good**: The CBDC Forum III – CBDC Development in Africa: Country Case Studies Panel
-2. **Digital Identity Week 2020**: eSwatini case study
-3. **Cryptocurrency and Blockchain Course Closure**: FSD Mozambique – DFS issues faced by financial regulators
-4. **Ethiopia  4th CIDM Alumni Zoom Meeting**: Current DFS issues faced by regulators
-5. **Africa Global Payment Summit**: Supply-side barriers to remittances in Sub-Saharan Africa
-6. **Consultative meeting on central bank-issued digital currencies**: CBDCs, Benefits & Potential Risks
-7. **Launch of the Fintech Challenge**: What is the Fintech Challenge about and who can apply
-8. **Swaziland Economic Conference**: Does financial development mean financial inclusion?. A causal analysis for Eswatini
+1. **RegTech Women**: RegTech Revealed Episode 13
+2. **Digital Frontiers Institute**: Are Stablecoins the answer?
+3. **Digital Frontiers Institute**: Financial Regulation and Supervision – are they the same or different?
+4. **World Digital Economic Council & FinTech4Good**: The CBDC Forum III – CBDC Development in Africa: Country Case Studies Panel
+5. **Digital Identity Week 2020**: eSwatini case study
+6. **Cryptocurrency and Blockchain Course Closure**: FSD Mozambique – DFS issues faced by financial regulators
+7. **Ethiopia  4th CIDM Alumni Zoom Meeting**: Current DFS issues faced by regulators
+8. **Africa Global Payment Summit**: Supply-side barriers to remittances in Sub-Saharan Africa
+9. **Consultative meeting on central bank-issued digital currencies**: CBDCs, Benefits & Potential Risks
+10. **Launch of the Fintech Challenge**: What is the Fintech Challenge about and who can apply
+11. **Swaziland Economic Conference**: Does financial development mean financial inclusion?. A causal analysis for Eswatini
 
 ### **Contact**
 <dl>
