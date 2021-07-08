@@ -26,16 +26,17 @@ I have a great passion for capacity building, which contributes to the developme
 ### **Presentations, Podcasts and Webinars**
 
 1. **RegTech Women**: RegTech Revealed Episode 13
-2. **Digital Frontiers Institute**: Are Stablecoins the answer?
-3. **Digital Frontiers Institute**: Financial Regulation and Supervision – are they the same or different?
-4. **World Digital Economic Council & FinTech4Good**: The CBDC Forum III – CBDC Development in Africa: Country Case Studies Panel
-5. **Digital Identity Week 2020**: eSwatini case study
-6. **Cryptocurrency and Blockchain Course Closure**: FSD Mozambique – DFS issues faced by financial regulators
-7. **Ethiopia  4th CIDM Alumni Zoom Meeting**: Current DFS issues faced by regulators
-8. **Africa Global Payment Summit**: Supply-side barriers to remittances in Sub-Saharan Africa
-9. **Consultative meeting on central bank-issued digital currencies**: CBDCs, Benefits & Potential Risks
-10. **Launch of the Fintech Challenge**: What is the Fintech Challenge about and who can apply
-11. **Swaziland Economic Conference**: Does financial development mean financial inclusion?. A causal analysis for Eswatini
+2. **3rd Africa Bank 4.0 Summit-SADC Region**: Financial Inclusion Regulations in the Sub-Saharan Africa Region
+3. **Digital Frontiers Institute**: Are Stablecoins the answer?
+4. **Digital Frontiers Institute**: Financial Regulation and Supervision – are they the same or different?
+5. **World Digital Economic Council & FinTech4Good**: The CBDC Forum III – CBDC Development in Africa: Country Case Studies Panel
+6. **Digital Identity Week 2020**: eSwatini case study
+7. **Cryptocurrency and Blockchain Course Closure**: FSD Mozambique – DFS issues faced by financial regulators
+8. **Ethiopia  4th CIDM Alumni Zoom Meeting**: Current DFS issues faced by regulators
+9. **Africa Global Payment Summit**: Supply-side barriers to remittances in Sub-Saharan Africa
+10. **Consultative meeting on central bank-issued digital currencies**: CBDCs, Benefits & Potential Risks
+11. **Launch of the Fintech Challenge**: What is the Fintech Challenge about and who can apply
+12. **Swaziland Economic Conference**: Does financial development mean financial inclusion?. A causal analysis for Eswatini
 
 ### **Contact**
 <dl>
