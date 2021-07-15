@@ -8,7 +8,7 @@ I am the Deputy Director Financial Regulation and Supervision with [Digital Fron
 
 
 
-I have a great passion for capacity building, which contributes to the development of agile and innovative financial systems. My research interests include financial regulation, financial innovation, financial inclusion and economic growth.
+I have a great passion for capacity building, which contributes to the development of agile and innovative financial systems. My research interests include financial regulation and supervision, financial innovation and financial inclusion.
 
 ### [**Download CV**](https://www.dropbox.com/s/adyje70ohuctg09/NolwaziHlophe_CV.pdf?dl=0)
 
@@ -25,18 +25,21 @@ I have a great passion for capacity building, which contributes to the developme
 
 ### **Presentations, Podcasts and Webinars** 
 
-1. **RegTech Women**: RegTech Revealed Episode 13
-2. **3rd Africa Bank 4.0 Summit-SADC Region**: Financial Inclusion Regulations in the Sub-Saharan Africa Region
-3. **Digital Frontiers Institute**: Are Stablecoins the answer?
-4. **Digital Frontiers Institute**: Financial Regulation and Supervision – are they the same or different?
-5. **World Digital Economic Council & FinTech4Good**: The CBDC Forum III – CBDC Development in Africa: Country Case Studies Panel
-6. **Digital Identity Week 2020**: eSwatini case study
-7. **Cryptocurrency and Blockchain Course Closure**: FSD Mozambique – DFS issues faced by financial regulators
-8. **Ethiopia  4th CIDM Alumni Zoom Meeting**: Current DFS issues faced by regulators
-9. **Africa Global Payment Summit**: Supply-side barriers to remittances in Sub-Saharan Africa
-10. **Consultative meeting on central bank-issued digital currencies**: CBDCs, Benefits & Potential Risks
-11. **Launch of the Fintech Challenge**: What is the Fintech Challenge about and who can apply
-12. **Swaziland Economic Conference**: Does financial development mean financial inclusion?. A causal analysis for Eswatini
+1. **Cenfri**: Final convening: Digital Governance and Digital Financial Services 
+2. **Chang Gap**: Working Group #4 - RegTech Adoption - Role of the Regulator
+3. **Cenfri**: Digital meetup: Digital Currencies and Illicit Financial Flows
+4. **RegTech Women**: RegTech Revealed Episode 13
+5. **3rd Africa Bank 4.0 Summit-SADC Region**: Financial Inclusion Regulations in the Sub-Saharan Africa Region
+6. **Digital Frontiers Institute**: Are Stablecoins the answer?
+7. **Digital Frontiers Institute**: Financial Regulation and Supervision – are they the same or different?
+8. **World Digital Economic Council & FinTech4Good**: The CBDC Forum III – CBDC Development in Africa: Country Case Studies Panel
+9. **Digital Identity Week 2020**: eSwatini case study
+10. **Cryptocurrency and Blockchain Course Closure**: FSD Mozambique – DFS issues faced by financial regulators
+11. **Ethiopia  4th CIDM Alumni Zoom Meeting**: Current DFS issues faced by regulators
+12. **Africa Global Payment Summit**: Supply-side barriers to remittances in Sub-Saharan Africa
+13. **Consultative meeting on central bank-issued digital currencies**: CBDCs, Benefits & Potential Risks
+14. **Launch of the Fintech Challenge**: What is the Fintech Challenge about and who can apply
+15. **Swaziland Economic Conference**: Does financial development mean financial inclusion?. A causal analysis for Eswatini
 
 ### **Contact**
 <dl>
