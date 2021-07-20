@@ -17,7 +17,7 @@ I have a great passion for capacity building, which contributes to the developme
 <p style="text-align: left;">
 </p>
 </dl>
-I'm so excited to announce that we have recently launched the first course under the umbrella of [Digital Financial Inclusion Supervision](https://dfis.digitalfrontiersinstitute.org/) courses in partnership with [Toronto Centre](https://www.torontocentre.org/) and [CGAP](https://www.cgap.org/). These courses are exclusively for financial policymakers, regulators and supervisors! The next cohort of the first course towards certification starts on the 10th September 2021, so please keep your eye out because applications will be opening up soon and I look forward to seeing you in our online classroom!
+I'm so excited to announce that [Digital Frontiers Institute](https://digitalfrontiersinstitute.org/) have recently launched the first course under the umbrella of [Digital Financial Inclusion Supervision](https://dfis.digitalfrontiersinstitute.org/) courses in partnership with [Toronto Centre](https://www.torontocentre.org/) and [CGAP](https://www.cgap.org/) with me as the Program Manager. These courses are exclusively for financial policymakers, regulators and supervisors! The next cohort of the first course towards certification starts on Friday, 10th September 2021, so please keep your eye out because applications will be opening up soon and I look forward to seeing you in our online classroom!
 
 
 
