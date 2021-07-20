@@ -13,7 +13,7 @@ I have a great passion for capacity building, which contributes to the developme
 
 
 <dl>
-<img src="LwaziMabhengu_01.jpg" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="200">
+<img src="20210720_063354.jpg" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="90">
 <p style="text-align: left;">
 </p>
 </dl>
