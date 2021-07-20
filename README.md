@@ -13,11 +13,11 @@ I have a great passion for capacity building, which contributes to the developme
 
 
 <dl>
-<img src="20210720_063354.jpg" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="90">
+<img src="20210720_063354.jpg" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="50">
 <p style="text-align: left;">
 </p>
 </dl>
-I'm so excited to announce that [Digital Frontiers Institute](https://digitalfrontiersinstitute.org/) have recently launched the first course under the umbrella of [Digital Financial Inclusion Supervision](https://dfis.digitalfrontiersinstitute.org/) courses in partnership with [Toronto Centre](https://www.torontocentre.org/) and [CGAP](https://www.cgap.org/) with me as the Program Manager. These courses are exclusively for financial policymakers, regulators and supervisors! The next cohort of the first course towards certification starts on Friday, 10th September 2021, so please keep your eye out because applications will be opening up soon and I look forward to seeing you in our online classroom!
+I'm excited to announce that [Digital Frontiers Institute](https://digitalfrontiersinstitute.org/) have recently launched the first course under the umbrella of [Digital Financial Inclusion Supervision](https://dfis.digitalfrontiersinstitute.org/) courses in partnership with [Toronto Centre](https://www.torontocentre.org/) and [CGAP](https://www.cgap.org/) with me as the Program Manager. These courses are exclusively for financial policymakers, regulators and supervisors! The next cohort of the first course towards certification starts on Friday, 10th September 2021, so please keep your eye out because applications will be opening up soon and I look forward to seeing you in our online classroom!
 
 
 
@@ -41,15 +41,15 @@ I'm so excited to announce that [Digital Frontiers Institute](https://digitalfro
 1. **Digital Frontiers Institute**: CBDC in Africa (forthcoming)
 2. **CashCap**: Digital Identity and Regulation of Digital Financial Services Workshops
 3. **Cenfri**: Final convening: Digital Governance and Digital Financial Services 
-4. **Chang Gap**: Working Group #4 - RegTech Adoption - Role of the Regulator
+4. **Chang Gap**: Working Group #4 - RegTech Adoption: Role of the Regulator
 5. **Cenfri**: Digital meetup: Digital Currencies and Illicit Financial Flows
 6. **RegTech Women**: RegTech Revealed Episode 13
 7. **3rd Africa Bank 4.0 Summit-SADC Region**: Financial Inclusion Regulations in the Sub-Saharan Africa Region
 8. **Digital Frontiers Institute**: Are Stablecoins the answer?
-9. **Digital Frontiers Institute**: Financial Regulation and Supervision – are they the same or different?
-10. **World Digital Economic Council & FinTech4Good**: The CBDC Forum III – CBDC Development in Africa: Country Case Studies Panel
+9. **Digital Frontiers Institute**: Financial Regulation and Supervision: are they the same or different?
+10. **World Digital Economic Council & FinTech4Good**: The CBDC Forum III: CBDC Development in Africa: Country Case Studies Panel
 11. **Digital Identity Week 2020**: eSwatini case study
-12. **Cryptocurrency and Blockchain Course Closure**: FSD Mozambique – DFS issues faced by financial regulators
+12. **Cryptocurrency and Blockchain Course Closure**: FSD Mozambique: DFS issues faced by financial regulators
 13. **Ethiopia 4th CIDM Alumni Zoom Meeting**: Current DFS issues faced by regulators
 14. **Africa Global Payment Summit**: Supply-side barriers to remittances in Sub-Saharan Africa
 15. **Consultative meeting on central bank-issued digital currencies**: CBDCs, Benefits & Potential Risks
