@@ -8,7 +8,10 @@ I am the Deputy Director Financial Regulation and Supervision with [Digital Fron
 
 
 
-I have a great passion for capacity building, which contributes to the development of agile and innovative financial systems. My research interests include financial regulation and supervision, financial innovation and financial inclusion. I'm excited to have recently launched two courses under the umbrella of [Digital Financial Inclusion Supervision](https://dfis.digitalfrontiersinstitute.org/who-we-are/) that is exclusively for financial policymakers, regulators and supervisors! The next cohort of the first course towards certification starts on the 13th September 2021, so keep your eye out because applications will be opening up soon and I look forward to seeing you in the classroom!
+I have a great passion for capacity building, which contributes to the development of agile and innovative financial systems. My research interests include financial regulation and supervision, financial innovation and financial inclusion. 
+
+
+I'm excited to announce that we have recently launched the first course under the umbrella of [Digital Financial Inclusion Supervision](https://dfis.digitalfrontiersinstitute.org/) courses in partnership with [Toronto Centre](https://www.torontocentre.org/) and [CGAP](https://www.cgap.org/). These courses are exclusively for financial policymakers, regulators and supervisors! The next cohort of the first course towards certification starts on the 10th September 2021, so please keep your eye out because applications will be opening up soon and I look forward to seeing you in our online classroom!
 
 
 
