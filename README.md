@@ -6,14 +6,12 @@
 </dl>
 I am the Deputy Director Financial Regulation and Supervision with [Digital Frontiers](https://digitalfrontiers.org/). I obtained an MCom in Economics from the University of Pretoria in 2016. I previously worked for [Cenfri](https://cenfri.org/) within the Risk, Remittances and Integrity programme as a Senior Researcher and the [Central Bank of Eswatini](http://www.centralbank.org.sz/) in the Financial Stability Unit as a Macroprudential Analyst and the Manager of the FinTech Unit.
 
-
-
-I have a great passion for capacity building, which contributes to the development of agile and innovative financial systems. My research interests include financial regulation and supervision, financial innovation and financial inclusion.
+I have a great passion for capacity building, which contributes to the development of agile and innovative financial systems. My research interests include financial regulation and supervision, financial innovation and financial inclusion. I'm excited to have recently launched two courses under the umbrella of [Digital Financial Inclusion Supervision](https://dfis.digitalfrontiersinstitute.org/who-we-are/) that is exclusively for financial policymakers, regulators and supervisors! The next cohort of the first course towards certification starts on the 13th September 2021, so keep your eye out because applications will be opening up soon and I look forward to seeing you in the classroom!
 
 ### [**Download CV**](https://www.dropbox.com/s/adyje70ohuctg09/NolwaziHlophe_CV.pdf?dl=0)
 
 ### **Publications**
-1. Hlophe, N (2021), **Central bank digital currency design and technology considerations for the eSwatini context**, forthcoming 
+1. Hlophe, N (2021), **Central bank digital currency design and technology considerations for the eSwatini context** (forthcoming)
 2. Hlophe, N (2021), [**Is Capacity Building a Necessary Requirement for enhanced and forward-looking regulatory change?**](https://issuu.com/digitalbankerafrica/docs/digital_banker_africa_spring_2021)
 3. Hlophe, N (2021), [**Regulatory Influence: The Imperative for Sustainability Through Innovation in Emerging Markets**](https://regtechafrica.com/regetechafrica-magazine/) 
 4. Central Bank of Eswatini (2019), [**CBDC Diagnostic: Motivations for a CBDC in Eswatini**](https://www.centralbank.org.sz/fintech/cbdc/CBE-Cenfri%20CBDC%20Diagnostic_Phase1%20(002).pdf)
