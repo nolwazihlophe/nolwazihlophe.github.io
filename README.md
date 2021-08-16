@@ -38,7 +38,7 @@ I'm excited to announce that [Digital Frontiers Institute](https://digitalfronti
 
 ### **Presentations, Podcasts and Webinars** 
 
-1. **Digital Frontiers Institute**: CBDC in Africa (forthcoming)
+1. **Digital Frontiers Institute**: CBDC in Africa
 2. **CashCap**: Digital Identity and Regulation of Digital Financial Services Workshops
 3. **Cenfri**: Final convening: Digital Governance and Digital Financial Services 
 4. **Chang Gap**: Working Group #4 - RegTech Adoption: Role of the Regulator
