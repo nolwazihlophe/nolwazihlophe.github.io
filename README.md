@@ -23,7 +23,7 @@ I'm excited to announce that [Digital Frontiers Institute](https://digitalfronti
 
 
 
-### [**Download CV**](https://www.dropbox.com/s/adyje70ohuctg09/NolwaziHlophe_CV.pdf?dl=0)
+### [**Download CV**](https://www.dropbox.com/s/20hzmthsxn6jvya/NolwaziHlophe_CV.pdf?dl=0)
 
 
 ### **Publications**
@@ -40,24 +40,24 @@ I'm excited to announce that [Digital Frontiers Institute](https://digitalfronti
 
 ### **Presentations, Podcasts and Webinars** 
 
-1. **5th Africa Bank 4.0 Summit - West Africa**: Regulating and supervising new business models in West Africa towards financial inclusion
-2. **Digital Frontiers Institute**: CBDC in Africa
-3. **CashCap**: Digital Identity and Regulation of Digital Financial Services Workshops
-4. **Cenfri**: Final convening: Digital Governance and Digital Financial Services 
-5. **Chang Gap**: Working Group #4 - RegTech Adoption: Role of the Regulator
-6. **Cenfri**: Digital meetup: Digital Currencies and Illicit Financial Flows
-7. **RegTech Women**: RegTech Revealed Episode 13
-8. **3rd Africa Bank 4.0 Summit - SADC Region**: Financial Inclusion Regulations in the Sub-Saharan Africa Region
-9. **Digital Frontiers Institute**: Are Stablecoins the answer?
-10. **Digital Frontiers Institute**: Financial Regulation and Supervision: are they the same or different?
-11. **World Digital Economic Council & FinTech4Good**: The CBDC Forum III: CBDC Development in Africa: Country Case Studies Panel
-12. **Digital Identity Week 2020**: eSwatini case study
-13. **Cryptocurrency and Blockchain Course Closure**: FSD Mozambique: DFS issues faced by financial regulators
-14. **Ethiopia 4th CIDM Alumni Zoom Meeting**: Current DFS issues faced by regulators
-15. **Africa Global Payment Summit**: Supply-side barriers to remittances in Sub-Saharan Africa
-16. **Consultative meeting on central bank-issued digital currencies**: CBDCs, Benefits & Potential Risks
-17. **Launch of the Fintech Challenge**: What is the Fintech Challenge about and who can apply
-18. **Swaziland Economic Conference**: Does financial development mean financial inclusion?. A causal analysis for Eswatini
+1. **5th Africa Bank 4.0 Summit - West Africa (2021)**: Regulating and supervising new business models in West Africa towards financial inclusion
+2. **Digital Frontiers Institute (2021)**: CBDC in Africa
+3. **CashCap (2021)**: Digital Identity and Regulation of Digital Financial Services Workshops
+4. **Cenfri (2021)**: Final convening: Digital Governance and Digital Financial Services 
+5. **Chang Gap (2021)**: Working Group #4 - RegTech Adoption: Role of the Regulator
+6. **Cenfri (2021)**: Digital meetup: Digital Currencies and Illicit Financial Flows
+7. **RegTech Women (2021)**: RegTech Revealed Episode 13
+8. **3rd Africa Bank 4.0 Summit - SADC Region (2021)**: Financial Inclusion Regulations in the Sub-Saharan Africa Region
+9. **Digital Frontiers Institute (2021)**: Are Stablecoins the answer?
+10. **Digital Frontiers Institute (2021)**: Financial Regulation and Supervision: are they the same or different?
+11. **World Digital Economic Council & FinTech4Good (2020)**: The CBDC Forum III: CBDC Development in Africa: Country Case Studies Panel
+12. **Digital Identity Week (2020)**: eSwatini case study
+13. **Cryptocurrency and Blockchain Course Closure (2020)**: FSD Mozambique: DFS issues faced by financial regulators
+14. **Ethiopia 4th CIDM Alumni Zoom Meeting (2020)**: Current DFS issues faced by regulators
+15. **Africa Global Payment Summit (2019)**: Supply-side barriers to remittances in Sub-Saharan Africa
+16. **Consultative meeting on central bank-issued digital currencies (2019)**: CBDCs, Benefits & Potential Risks
+17. **Launch of the Fintech Challenge (2018)**: What is the Fintech Challenge about and who can apply
+18. **Swaziland Economic Conference (2018)**: Does financial development mean financial inclusion?. A causal analysis for Eswatini
 
 
 ### **Contact**
