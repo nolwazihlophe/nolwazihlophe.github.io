@@ -11,7 +11,7 @@ I am the Deputy Director Financial Regulation and Supervision with <a href="http
 
 
 
-I have a great passion for capacity building, which contributes to the development of agile and innovative financial systems. My research interests include financial regulation and supervision, financial innovation and financial inclusion. 
+I have a great passion for capacity building, which, I believe, contributes to the development of innovative, inclusive and stable financial systems. My research interests include financial regulation and supervision, financial innovation and financial inclusion. 
 
 
 <dl>
@@ -23,7 +23,7 @@ I'm excited to announce that <a href="https://digitalfrontiersinstitute.org" tar
 
 
 
-### <a href="https://www.dropbox.com/s/20hzmthsxn6jvya/NolwaziHlophe_CV.pdf?dl=0" target="_bank">**Download CV**</a>
+### <a href="https://www.dropbox.com/s/gushinv99hm29xa/NolwaziHlophe.CV.pdf?dl=0" target="_bank">**Download CV**</a>
 
 
 ### **Publications**
