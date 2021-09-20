@@ -23,7 +23,7 @@ I'm excited to announce that <a href="https://digitalfrontiersinstitute.org" tar
 
 
 
-### <a href="https://www.dropbox.com/s/gushinv99hm29xa/NolwaziHlophe.CV.pdf?dl=0" target="_bank">**Download CV**</a>
+### <a href="https://www.dropbox.com/s/571bxco9dl1uxo7/NolwaziHlophe_CV.pdf?dl=0" target="_bank">**Download CV**</a>
 
 
 ### **Publications**
