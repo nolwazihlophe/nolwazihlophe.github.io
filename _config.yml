@@ -3,5 +3,3 @@ description: Deputy Director Financial Regulation & Supervision | Digital Fronti
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
-plugins:
- 	- jekyll-seo-tag
