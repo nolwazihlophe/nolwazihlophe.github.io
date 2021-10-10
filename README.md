@@ -11,7 +11,7 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 
 ### <a href="https://www.dropbox.com/s/571bxco9dl1uxo7/NolwaziHlophe_CV.pdf?dl=0" target="_blank">Download CV</a> 
 
-## Publications
+## **Publications**
 
 1. Hlophe, N. (2021) <a href="https://digitalbankerafrica.com/capacity-building-as-requirement-for-regulatory-change" target="_blank"> Is Capacity Building a Necessary Requirement for Enhanced and Forward-Looking Regulatory Change?</a>, Digital Banker Africa.
 2. Hlophe, N. (2021) <a href="https://issuu.com/regtechafrica/docs/regtechafrica_magazine__issuu_" target="_blank"> Regulatory Influence: The Imperative for Sustainability Through Innovation in Emerging Markets</a>, RegTech Africa.
@@ -22,7 +22,7 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 6. Hlophe, N. (2018) <a href="https://www.african-review.com/view-paper.php?serial=20191102135807-759399" target="_blank">Does financial development mean financial inclusion?</a>, African Review of Economics and Finance, 10(2), pp. 120-133.
 
 
-## Presentations, webinars and podcasts
+## **Presentations, webinars and podcasts**
 
 1. Digital Frontiers Institute (2021), CBDC Workshop: Emerging Market and Developing Economies, Forthcoming
 2. Digital Frontiers Institute (2021), <a href="https://www.youtube.com/watch?v=lIuOPOwPfeo&t=1s" target="_blank">DFI Webinar series</a>: CBDCs in Africa
