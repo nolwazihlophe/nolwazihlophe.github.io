@@ -39,4 +39,4 @@ I have a great passion for capacity building, which I firmly believe contributes
 
 
 
-#### Contact details: <a href="mailto:nolwazi@digitalfrontiers.org">Digital Frontiers Email</a> | <a href="mailto:nolwazihlophe@gmail.com">Gmail</a> | <a href="https://www.linkedin.com/in/nolwazi-hlophe/">LinkedIn</a> | <a href="https://twitter.com/hlophe_nolwazi">Twitter</a>
+#### Contact me: <a href="mailto:nolwazi@digitalfrontiers.org">Digital Frontiers Email</a> | <a href="mailto:nolwazihlophe@gmail.com">Gmail</a> | <a href="https://www.linkedin.com/in/nolwazi-hlophe/">LinkedIn</a> | <a href="https://twitter.com/hlophe_nolwazi">Twitter</a>
