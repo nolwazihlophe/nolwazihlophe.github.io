@@ -38,7 +38,7 @@ I have a great passion for capacity building, which I firmly believe contributes
 
 <dl>
 <a href="https://www.linkedin.com/in/nolwazi-hlophe"> target="_blank"><img src="Linkedin-Circle-SM-Button.png" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="40">
-  <p style="text-align: left;"></a>
+<p style="text-align: left;"></a>
 </p>
 </dl>
 
