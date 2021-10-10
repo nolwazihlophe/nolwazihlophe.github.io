@@ -36,9 +36,9 @@ I have a great passion for capacity building, which I firmly believe contributes
 9. Central Bank of Eswatini (2018), <a href="https://www.separc.co.sz/2017/01/25/swaziland-economic-conference-2017" target="_blank">Eswatini Economic Conference (2017) </a>
 10. ESEPARC & Central Bank of Eswatini (2017), <a href="https://www.separc.co.sz/2017/01/25/swaziland-economic-conference-2017" target="_blank">Eswatini Economic Conference (2017) </a>: Does financial development mean financial inclusion?
 
-<a href="https://www.linkedin.com/in/nolwazi-hlophe">
+
 <img src="Linkedin-Circle-SM-Button.png" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="40">
-  <p style="text-align: left;">
-</p> </a>
+  <a href="https://www.linkedin.com/in/nolwazi-hlophe"></a><p style="text-align: left;">
+  </p> 
 
 #### Contact details: <a href="mailto:nolwazi@digitalfrontiers.org">Digital Frontiers</a> | <a href="mailto:nolwazihlophe@gmail.com">Gmail</a>
