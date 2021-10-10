@@ -25,7 +25,7 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 ## Presentations, webinars and podcasts
 
 1. Digital Frontiers Institute (2021), CBDC Workshop: Emerging Market and Developing Economies, Forthcoming
-2. Digital Frontiers Institute (2021), <a href="https://www.youtube.com/watch?v=lIuOPOwPfeo&t=1s" target="_blank">DFI Webinar series</a>: CBDC in Africa
+2. Digital Frontiers Institute (2021), <a href="https://www.youtube.com/watch?v=lIuOPOwPfeo&t=1s" target="_blank">DFI Webinar series</a>: CBDCs in Africa
 3. Digital Frontiers Insititute (2021), <a href="https://www.youtube.com/watch?v=Vs5RdRSQRA0&t=3s" target="_blank">DFI Podcast series</a>: Financial Regulation and Supervision: are they the same or different?
 4. UCT Online Course: Guest Lecturer, (2021), <a href="https://www.getsmarter.com/products/uct-blockchain-and-digital-currency-online-short-course" target="_blank">Blockchain and Digital Currency: The Future of Money </a>: CBDC and Financial Inclusion
 5. World Digital Economic Council & FinTech4Good (2021), <a href="https://www.blockchainfrontier.org" target="_blank">The CBDC Forum III </a>: CBDC Development in Africa: Country Case Studies Panel
