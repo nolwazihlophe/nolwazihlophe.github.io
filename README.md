@@ -37,8 +37,8 @@ I have a great passion for capacity building, which I firmly believe contributes
 10. ESEPARC & Central Bank of Eswatini (2017), <a href="https://www.separc.co.sz/2017/01/25/swaziland-economic-conference-2017" target="_blank">Eswatini Economic Conference (2017) </a>: Does financial development mean financial inclusion?
 
 <dl>
-<a href="https://www.linkedin.com/in/nolwazi-hlophe"> target="_blank"> <img src="Linkedin-Circle-SM-Button.png" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="40">
-  <p style="text-align: left;"></a>
+<a href="https://www.linkedin.com/in/nolwazi-hlophe"><img src="Linkedin-Circle-SM-Button.png" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="40">
+  <p style="text-align: left;">
 </p>
 </dl>
 
