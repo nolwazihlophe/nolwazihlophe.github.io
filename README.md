@@ -32,8 +32,7 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 6. Digital Frontiers Institute (2020), <a href="https://www.youtube.com/watch?v=St-ookudccw" target="_blank">Digital Identity Week 2020 </a>: Eswatini case study
 7. Cenfri (2019), <a href="https://custom.cvent.com/7A54328600294B08B7B30AE8172EB05A/files/event/f9fe7bdb987c477887c9c1b17e58f5ba/687257b3ca1e4e3cb142c7902531eed6.pdf" target="_blank">Africa Global Payment Summit</a>: Supply-side barriers to remittances
 8. Central Bank of Eswatini (2018), <a href="https://www.centralbank.org.sz/the-2018-cbe-fintech-challenge" target="_blank">FinTech Challenge</a>: Launch of FinTech Challenge
-9. Central Bank of Eswatini (2018), <a href="https://www.separc.co.sz/2017/01/25/swaziland-economic-conference-2017" target="_blank">Eswatini Economic Conference (2017) </a>
-10. ESEPARC & Central Bank of Eswatini (2017), <a href="https://www.separc.co.sz/2017/01/25/swaziland-economic-conference-2017" target="_blank">Eswatini Economic Conference (2017) </a>: Does financial development mean financial inclusion?
+9. ESEPARC & Central Bank of Eswatini (2017), <a href="https://www.separc.co.sz/2017/01/25/swaziland-economic-conference-2017" target="_blank">Eswatini Economic Conference (2017) </a>: Does financial development mean financial inclusion?
 
 
 
