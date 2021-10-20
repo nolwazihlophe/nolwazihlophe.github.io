@@ -13,20 +13,21 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 
 ## **Publications**
 
-1. Hlophe, N. (2021) <a href="https://digitalfrontiersinstitute.org/blog/2021/08/20/a-framework-for-effective-supervision-for-inclusive-dfs/" target="_blank"> A Framework for Effective Supervision for Inclusive DFS</a>, Digital Frontiers Institute.
-2. Hlophe, N. (2021) <a href="https://digitalbankerafrica.com/capacity-building-as-requirement-for-regulatory-change" target="_blank"> Is Capacity Building a Necessary Requirement for Enhanced and Forward-Looking Regulatory Change?</a>, Digital Banker Africa.
-3. Hlophe, N. (2021) <a href="https://issuu.com/regtechafrica/docs/regtechafrica_magazine__issuu_" target="_blank"> Regulatory Influence: The Imperative for Sustainability Through Innovation in Emerging Markets</a>, RegTech Africa.
-4. Cenfri & Central Bank of Eswatini (2020) <a href="https://www.centralbank.org.sz/cbdc" target="_blank"> Eswatini CBDC Diagnostic Study: Phase 1 findings</a>, Cenfri & Central Bank of Eswatini.
-5. Cooper, B.; Perez, L.; Esser, A.; Hlophe, N.; Ferreira, M.; Janse van Vuuren, P. (2019) <a href="https://cenfri.org/publications/diagnostic-study-of-the-zambian-payments-system" target="_blank"> Diagnostic study of the Zambian payments system</a>, Cenfri.
-6. Cooper, B.; Perez, L.; Esser, A.; Allen, M.; Hlophe, N.; Ferreira, M. (2019) <a href="https://cenfri.org/publications/an-analysis-of-id-proxy-initiatives-across-the-globe" target="_blank"> An analysis of ID proxy initiatives across the globe</a>, Cenfri.
-7. Hlophe, N. (2019) <a href="https://www.centralbank.org.sz/magazine/" target="_blank">RegTech: how it works, its applications and how it benefits regulators</a>, Central Bank of Eswatini. 
-8. Hlophe, N. (2018) <a href="https://www.african-review.com/view-paper.php?serial=20191102135807-759399" target="_blank">Does financial development mean financial inclusion?</a>, African Review of Economics and Finance, 10(2), pp. 120-133.
+1. Hlophe, N. (2021) <a href="https://digitalfrontiersinstitute.org/blog/2021/10/20/summary-of-cbdc-workshop-emerging-market-and-developing-economies/" target="_blank"> Summary of CBDC Workshop | Emerging Market and Developing Economies</a>, Digital Frontiers Institute.
+2. Hlophe, N. (2021) <a href="https://digitalfrontiersinstitute.org/blog/2021/08/20/a-framework-for-effective-supervision-for-inclusive-dfs/" target="_blank"> A Framework for Effective Supervision for Inclusive DFS</a>, Digital Frontiers Institute.
+3. Hlophe, N. (2021) <a href="https://digitalbankerafrica.com/capacity-building-as-requirement-for-regulatory-change" target="_blank"> Is Capacity Building a Necessary Requirement for Enhanced and Forward-Looking Regulatory Change?</a>, Digital Banker Africa.
+4. Hlophe, N. (2021) <a href="https://issuu.com/regtechafrica/docs/regtechafrica_magazine__issuu_" target="_blank"> Regulatory Influence: The Imperative for Sustainability Through Innovation in Emerging Markets</a>, RegTech Africa.
+5. Cenfri & Central Bank of Eswatini (2020) <a href="https://www.centralbank.org.sz/cbdc" target="_blank"> Eswatini CBDC Diagnostic Study: Phase 1 findings</a>, Cenfri & Central Bank of Eswatini.
+6. Cooper, B.; Perez, L.; Esser, A.; Hlophe, N.; Ferreira, M.; Janse van Vuuren, P. (2019) <a href="https://cenfri.org/publications/diagnostic-study-of-the-zambian-payments-system" target="_blank"> Diagnostic study of the Zambian payments system</a>, Cenfri.
+7. Cooper, B.; Perez, L.; Esser, A.; Allen, M.; Hlophe, N.; Ferreira, M. (2019) <a href="https://cenfri.org/publications/an-analysis-of-id-proxy-initiatives-across-the-globe" target="_blank"> An analysis of ID proxy initiatives across the globe</a>, Cenfri.
+8. Hlophe, N. (2019) <a href="https://www.centralbank.org.sz/magazine/" target="_blank">RegTech: how it works, its applications and how it benefits regulators</a>, Central Bank of Eswatini. 
+9. Hlophe, N. (2018) <a href="https://www.african-review.com/view-paper.php?serial=20191102135807-759399" target="_blank">Does financial development mean financial inclusion?</a>, African Review of Economics and Finance, 10(2), pp. 120-133.
 
 
 ## **Presentations, webinars and podcasts**
 
 1. Africa Bank 4.0 Summit (2021), <a href="https://africabanksummit.com/6th-edition-speakers/" target="_blank">6th Africa Bank 4.0 Summit – North Africa</a>: Forthcoming
-2. Digital Frontiers Institute (2021), CBDC Workshop: Emerging Market and Developing Economies, Forthcoming
+2. Digital Frontiers Institute (2021), CBDC Workshop: Emerging Market and Developing Economies
 3. Digital Frontiers Institute (2021), Digital Finance Practitioners Ghana Webinar series - The ECEDI; Current Update And How It’s Going To Impact Digital Financial Services In Ghana
 4. Digital Frontiers Institute (2021), <a href="https://www.youtube.com/watch?v=lIuOPOwPfeo&t=1s" target="_blank">DFI Webinar series</a>: CBDCs in Africa
 5. Africa Bank 4.0 Summit (2021), <a href="https://drive.google.com/file/d/1fQ1bpNXUl-l7IgMsQrnvNYnWTv2uj5OC/view" target="_blank">5th Africa Bank 4.0 Summit – West Africa</a>: Financial Inclusion Regulations in the Sub-Saharan Region
