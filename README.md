@@ -26,7 +26,7 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 
 ## **Presentations, webinars and podcasts**
 
-1. Africa Bank 4.0 Summit (2021), <a href="https://africabanksummit.com/6th-edition-speakers/" target="_blank">6th Africa Bank 4.0 Summit – North Africa</a>: Forthcoming
+1. Africa Bank 4.0 Summit (2021), <a href="https://africabanksummit.com/6th-edition-speakers/" target="_blank">6th Africa Bank 4.0 Summit – North Africa</a>
 2. Digital Frontiers Institute (2021), CBDC Workshop: Emerging Market and Developing Economies
 3. Digital Frontiers Institute (2021), Digital Finance Practitioners Ghana Webinar series - The ECEDI; Current Update And How It’s Going To Impact Digital Financial Services In Ghana
 4. Digital Frontiers Institute (2021), <a href="https://www.youtube.com/watch?v=lIuOPOwPfeo&t=1s" target="_blank">DFI Webinar series</a>: CBDCs in Africa
