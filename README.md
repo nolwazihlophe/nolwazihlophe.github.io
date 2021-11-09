@@ -9,7 +9,7 @@ I am the **Deputy Director Financial Regulation and Supervision** with <a href="
 
 I have a great passion for **capacity building**, which I firmly believe contributes to agile and **innovative financial systems** that are maintain their **monetary and financial stability**. My research interests include financial regulation, financial and gender inclusion, innovation in payment systems and digital currencies, such as CBDCs.
 
-### <a href="https://www.dropbox.com/s/571bxco9dl1uxo7/NolwaziHlophe_CV.pdf?dl=0" target="_blank">Download CV</a> 
+### <a href="https://www.dropbox.com/s/bvj3q2dn3mmipk1/Nolwazi%20Hlophe%20CV.pdf?dl=0" target="_blank">Download CV</a> 
 
 ## **Publications**
 
