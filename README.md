@@ -13,7 +13,7 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 
 ## **Publications**
 
-1. Hlophe, N. (2021), <a href="https://cbpn.currencyresearch.com/blog/2021/11/25/dfi-capacity-building-for-cbdcs" target='_blank' Capacity Building for the Central Bank Digital Currency Journey in Emerging Market and Developing Economies</a>, Central Bank Payments News,
+1. Hlophe, N. (2021), <a href="https://cbpn.currencyresearch.com/blog/2021/11/25/dfi-capacity-building-for-cbdcs/" target='_blank'> Capacity Building for the Central Bank Digital Currency Journey in Emerging Market and Developing Economies</a>, Central Bank Payments News,
 2. Hlophe, N. (2021) <a href="https://digitalfrontiersinstitute.org/blog/2021/10/20/summary-of-cbdc-workshop-emerging-market-and-developing-economies/" target="_blank"> Summary of CBDC Workshop | Emerging Market and Developing Economies</a>, Digital Frontiers Institute.
 3. Hlophe, N. (2021) <a href="https://digitalfrontiersinstitute.org/blog/2021/08/20/a-framework-for-effective-supervision-for-inclusive-dfs/" target="_blank"> A Framework for Effective Supervision for Inclusive DFS</a>, Digital Frontiers Institute.
 4. Hlophe, N. (2021) <a href="https://digitalbankerafrica.com/capacity-building-as-requirement-for-regulatory-change" target="_blank"> Is Capacity Building a Necessary Requirement for Enhanced and Forward-Looking Regulatory Change?</a>, Digital Banker Africa.
