@@ -28,7 +28,8 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 
 ## **Presentations, webinars and podcasts**
 
-1. 2nd Edition Fintech Africa Summit (2022),<a href="https://fintech-africasummit.com/#Register/" target="_blank">The Future Of Payments: Digital currencies for a Digital Future</a>
+1. Big Data Analytics Workshop, download here.
+2. 2nd Edition Fintech Africa Summit (2022),<a href="https://fintech-africasummit.com/#Register/" target="_blank">The Future Of Payments: Digital currencies for a Digital Future</a>
 2. Africa Bank 4.0 Summit (2021), <a href="https://africabanksummit.com/6th-edition-speakers/" target="_blank">6th Africa Bank 4.0 Summit – North Africa</a>
 3. Digital Frontiers Institute (2021), CBDC Workshop: Emerging Market and Developing Economies
 4. Digital Frontiers Institute (2021), Digital Finance Practitioners Ghana Webinar series - The ECEDI; Current Update And How It’s Going To Impact Digital Financial Services In Ghana
