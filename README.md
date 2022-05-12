@@ -5,9 +5,10 @@
 </dl> 
 ## **About me**
  
-I am the **Deputy Director Financial Regulation and Supervision** with <a href="https://digitalfrontiers.org" target="_bank">Digital Frontiers</a>. I obtained my MCom in Economics from the University of Pretoria in 2016. I previously worked for <a href="https://cenfri.org" target="_bank">Cenfri</a> as a **Senior Researcher** within the Risk, Remittances and Integrity Program and the <a href="https://www.centralbank.org.sz" target="_bank">The Central Bank of eSwatini</a> as a **Macroprudential Analyst** from which I moved on to **Manage** the **CBE Intelligence Hub**, which managed the activities of the newly established **Fintech Unit**.
+I am the **Deputy Director Financial Regulation and Supervision** with <a href="https://digitalfrontiers.org" target="_bank">Digital Frontiers</a>. I obtained my MCom in Economics from the University of Pretoria in 2016. I previously worked for <a href="https://cenfri.org" target="_bank">Cenfri</a> as a **Senior Researcher** within the Risk, Remittances and Integrity Program and the <a href="https://www.centralbank.org.sz" target="_bank">The Central Bank of eSwatini</a> as a **Macroprudential Analyst** from which I moved on to **Manage** the **CBE Intelligence Hub**, which managed the activities of the **Fintech Unit**, which was established in 2018. 
+I have experience and knowledge of payment systems, macroprudential and microprudential supervision as well as the use of financial regulation tools towards increased gender and financial inclusion.
 
-I have a great passion for **capacity building**, which I firmly believe contributes to agile and **innovative financial systems** that maintain their **monetary and financial stability**. My research interests include risk management, financial regulation, financial and gender inclusion, innovation in payment systems and digital currencies, such as CBDCs.
+I have a great passion for **capacity building**, which I firmly believe contributes to financial sector authorities making policy or regulatory reforms that are agile and enable **innovative financial systems** whilst maintain their **monetary and financial stability** mandate. My research interests include financial sector policymaking, regulation and supervision, financial and gender inclusion, innovation in payment systems and digital currencies, such as CBDCs as well as RegTech and SupTech.
 
 ### <a href="https://www.dropbox.com/s/bvj3q2dn3mmipk1/Nolwazi%20Hlophe%20CV.pdf?dl=0" target="_blank">Download CV</a> 
 
