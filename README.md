@@ -30,7 +30,7 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 
 ## **Presentations, webinars and podcasts**
 
-1. Mobile for Identity Management and Inclusive ID4D (2022), <a href="https://youtu.be/lTAWAhHsq3E/" target="_blank">ID4Africa</a>: Mobile Risks and Mitigation of the Dark Side
+1. Mobile for Identity Management and Inclusive ID4D (2022), <a href="https://youtu.be/lTAWAhHsq3E/" target="_blank">Mobile Risks and Mitigation of the Dark Side</a>: ID4Africa
 2. Big Data Analytics Workshop (2022), <a href="https://digitalfrontiersinstitute.org/big-data-analytics-workshop-2022-summary/" target="_blank">Big Data Analytics Workshop 2022 – Summary
 3. 2nd Edition Fintech Africa Summit (2022), <a href="https://fintech-africasummit.com/#Register/" target="_blank">The Future Of Payments: Digital currencies</a>
 4. Africa Bank 4.0 Summit (2021), <a href="https://africabanksummit.com/6th-edition-speakers/" target="_blank">6th Africa Bank 4.0 Summit – North Africa</a>
