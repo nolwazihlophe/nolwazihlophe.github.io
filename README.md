@@ -14,7 +14,7 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 
 ## **Publications**
 
-1. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/big-data-analytics-workshop-2022-summary/" target="_blank"> Big Data Analytics Workshop 2022 – Summary | Résumé.
+1. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/big-data-analytics-workshop-2022-summary/" target="_blank"> Big Data Analytics Workshop 2022 – Summary | Résumé</a>, Digital Frontiers Institute 
 2. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/blog/2022/02/21/blockchain-and-the-future-of-finance/" target="_blank"> Blockchain and the future of finance</a>, Digital Frontiers Institute.
 3. Hlophe, N. (2021) <a href="https://cbpn.currencyresearch.com/blog/2021/11/25/dfi-capacity-building-for-cbdcs/" target="_blank"> Capacity Building for the Central Bank Digital Currency Journey in Emerging Market and Developing Economies</a>, Central Bank Payments News.
 4. Hlophe, N. (2021) <a href="https://digitalfrontiersinstitute.org/blog/2021/10/20/summary-of-cbdc-workshop-emerging-market-and-developing-economies/" target="_blank"> Summary of CBDC Workshop | Emerging Market and Developing Economies</a>, Digital Frontiers Institute.
