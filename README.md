@@ -83,6 +83,7 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 #### Egypt:
 1.  Central Bank of Egypt's Regulatory Sandbox Framework, 2019
 
+
 ### Contact me
  
 <p style="text-align: centre;">
