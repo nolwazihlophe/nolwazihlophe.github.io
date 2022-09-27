@@ -3,6 +3,7 @@
 <p style="text-align: left;">
 </p>
 </dl> 
+
 ## About me
  
 I am the **Deputy Director: Financial Regulation and Supervision** with <a href="https://digitalfrontiers.org" target="_bank">Digital Frontiers</a> and I have recently been recognized by <a href="https://africanshapers.com/en/60-african-women-experts-in-fintech/" target="_bank">African Shapers</a> as one of the Top 60 African Women who are Fintech Experts. I obtained my MCom in Economics from the University of Pretoria in 2016. I previously worked for <a href="https://cenfri.org" target="_bank">Cenfri</a> as a **Senior Researcher** within the Risk, Remittances and Integrity Program and the <a href="https://www.centralbank.org.sz" target="_bank">The Central Bank of eSwatini</a> as a **Macroprudential Analyst** from which I moved on to **Manage** the **CBE Intelligence Hub**, which managed the **Fintech Unit**, which was established in 2018. 
