@@ -48,10 +48,28 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 15. Central Bank of Eswatini (2018), <a href="https://www.centralbank.org.sz/the-2018-cbe-fintech-challenge" target="_blank">FinTech Challenge</a>: Launch of FinTech Challenge
 16. ESEPARC & Central Bank of Eswatini (2017), <a href="https://www.separc.co.sz/2017/01/25/swaziland-economic-conference-2017" target="_blank">Eswatini Economic Conference (2017) </a>: Does financial development mean financial inclusion?
  
-## Presentations, webinars and podcasts
- 
- 
+## Legislative Knowledge
 
+1. The Republic of South Africa:
+   a. Financial Sector Regulation Act No. 9 of 2017
+   b. Financial Intelligence Act No. 38 of 2001, Financial Intelligence Centre Amendment Act, 2017
+   c. National Payment System Act No. 78 of 1998
+      i. SARB Directive No. 1 of 2022 Conduct within the National Payment System in Respect of the Financial Action Task Force Recommendations for Electronic Funds Transfers
+      ii. SARB Directive No. 1 of 2007 Directive for conduct within the National Payment System: In respect of Payments to Third Persons
+      iii. SARB Directive No. 2 of 2007 Conduct within the National Payment System in Respect of System Operators 
+   d. Protection of Personal Information Act No. 4 of 2013
+   e. Promotion of Access to Information Act No. 2 of 2000
+   f. Cybercrimes Act No. 19 of 2020
+   g. Consumer Protection Act No. 68 of 2008
+   h. SARB Framework for Monitoring Financial Stability, 2018
+2. The Kingdom of Eswatini:
+3. Malawi:
+4. Zambia:
+5. Kenya:
+6. Nigeria:
+7. Ghana: 
+8. Egypt:
+9. Ethiopia:
 
 ### Contact me
  
