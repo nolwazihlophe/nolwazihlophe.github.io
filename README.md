@@ -80,9 +80,8 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 3. Guidelines for Application and Authorisation of Payment Service Providers, 2017
 4. Payment Systems (E-Money) Regulations, 2019
 
-#### Zambia:
-
 #### Egypt:
+1.  Central Bank of Egypt's Regulatory Sandbox Framework, 2019
 
 ### Contact me
  
