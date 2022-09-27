@@ -50,35 +50,39 @@ I have a great passion for **capacity building**, which I firmly believe contrib
  
 ## Legislative Knowledge
 
-#### 1. The Republic of South Africa:
-   a. Financial Sector Regulation Act No. 9 of 2017
-   b. Financial Intelligence Act No. 38 of 2001, Financial Intelligence Centre Amendment Act, 2017
-   c. National Payment System Act No. 78 of 1998
-      i. SARB Directive No. 1 of 2022 Conduct within the National Payment System in Respect of the Financial Action Task Force Recommendations for Electronic Funds Transfers
-      ii. SARB Directive No. 1 of 2007 Directive for conduct within the National Payment System: In respect of Payments to Third Persons
-      iii. SARB Directive No. 2 of 2007 Conduct within the National Payment System in Respect of System Operators 
-   d. Protection of Personal Information Act No. 4 of 2013
-   e. Promotion of Access to Information Act No. 2 of 2000
-   f. Cybercrimes Act No. 19 of 2020
-   g. Consumer Protection Act No. 68 of 2008
-   h. SARB Framework for Monitoring Financial Stability, 2018
-#### 2. The Kingdom of Eswatini:
- a. The Financial Institutions Act No. 6 of 2005
- b. The Money Laundering and Financing Terrorism (Prevention) Act, 2011
-  i. Guidelines for the Submission of an Application for Authorisation to Conduct the Business of an Authorised Dealer in Foreign Exchange with Limited Authority (“ADLA”), 2008
- c. The National Clearing and Settlement Systems Act No. 17 of 2011
-  i. Practice Note for Mobile Money Service Providers, 2019
-  ii. National Payment & Settlement Systems Oversight Policy Framework, 2019
- d. Financial Technology Regulatory Sandbox Guidelines, 2020
- e. The Data Protection Act No. 5 of 2022
- f. The Computer Crime and Cybercrime Act No. 6 of 2022
-#### 3. Malawi:
-#### 4. Zambia:
-#### 5. Kenya:
-#### 6. Nigeria:
-#### 7. Ghana: 
-#### 8. Egypt:
-#### 9. Ethiopia:
+#### The Republic of South Africa:
+1. Financial Sector Regulation Act No. 9 of 2017
+2. Financial Intelligence Act No. 38 of 2001, Financial Intelligence Centre Amendment Act, 2017
+3. National Payment System Act No. 78 of 1998
+ - SARB Directive No. 1 of 2022 Conduct within the National Payment System in Respect of the Financial Action Task Force Recommendations for Electronic Funds Transfers
+ - SARB Directive No. 1 of 2007 Directive for conduct within the National Payment System: In respect of Payments to Third Persons
+ - SARB Directive No. 2 of 2007 Conduct within the National Payment System in Respect of System Operators 
+4. Protection of Personal Information Act No. 4 of 2013
+5. Promotion of Access to Information Act No. 2 of 2000
+6. Cybercrimes Act No. 19 of 2020
+7. Consumer Protection Act No. 68 of 2008
+8. SARB Framework for Monitoring Financial Stability, 2018
+
+#### The Kingdom of Eswatini:
+1.The Financial Institutions Act No. 6 of 2005
+2. The Money Laundering and Financing Terrorism (Prevention) Act, 2011
+ - Guidelines for the Submission of an Application for Authorisation to Conduct the Business of an Authorised Dealer in Foreign Exchange with Limited Authority (“ADLA”), 2008
+3. The National Clearing and Settlement Systems Act No. 17 of 2011
+ - Practice Note for Mobile Money Service Providers, 2019
+ - National Payment & Settlement Systems Oversight Policy Framework, 2019
+4. Financial Technology Regulatory Sandbox Guidelines, 2020
+5. The Data Protection Act No. 5 of 2022
+6. The Computer Crime and Cybercrime Act No. 6 of 2022
+
+#### Malawi:
+
+#### Zambia:
+
+#### Kenya:
+
+#### Uganda:
+
+#### Egypt:
 
 ### Contact me
  
