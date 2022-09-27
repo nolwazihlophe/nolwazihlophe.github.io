@@ -50,7 +50,7 @@ I have a great passion for **capacity building**, which I firmly believe contrib
  
 ## Legislative Knowledge
 
-1. The Republic of South Africa:
+#### 1. The Republic of South Africa:
    a. Financial Sector Regulation Act No. 9 of 2017
    b. Financial Intelligence Act No. 38 of 2001, Financial Intelligence Centre Amendment Act, 2017
    c. National Payment System Act No. 78 of 1998
@@ -62,14 +62,23 @@ I have a great passion for **capacity building**, which I firmly believe contrib
    f. Cybercrimes Act No. 19 of 2020
    g. Consumer Protection Act No. 68 of 2008
    h. SARB Framework for Monitoring Financial Stability, 2018
-2. The Kingdom of Eswatini:
-3. Malawi:
-4. Zambia:
-5. Kenya:
-6. Nigeria:
-7. Ghana: 
-8. Egypt:
-9. Ethiopia:
+#### 2. The Kingdom of Eswatini:
+ a. The Financial Institutions Act No. 6 of 2005
+ b. The Money Laundering and Financing Terrorism (Prevention) Act, 2011
+  i. Guidelines for the Submission of an Application for Authorisation to Conduct the Business of an Authorised Dealer in Foreign Exchange with Limited Authority (“ADLA”), 2008
+ c. The National Clearing and Settlement Systems Act No. 17 of 2011
+  i. Practice Note for Mobile Money Service Providers, 2019
+  ii. National Payment & Settlement Systems Oversight Policy Framework, 2019
+ d. Financial Technology Regulatory Sandbox Guidelines, 2020
+ e. The Data Protection Act No. 5 of 2022
+ f. The Computer Crime and Cybercrime Act No. 6 of 2022
+#### 3. Malawi:
+#### 4. Zambia:
+#### 5. Kenya:
+#### 6. Nigeria:
+#### 7. Ghana: 
+#### 8. Egypt:
+#### 9. Ethiopia:
 
 ### Contact me
  
