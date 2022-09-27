@@ -75,12 +75,12 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 6. The Computer Crime and Cybercrime Act No. 6 of 2022
 
 #### Malawi:
+1. Payment Systems Act No. 15 of 2016
+2. Payment Systems (Interoperability of Retail Payment Systems) Directive, 2017
+3. Guidelines for Application and Authorisation of Payment Service Providers, 2017
+4. Payment Systems (E-Money) Regulations, 2019
 
 #### Zambia:
-
-#### Kenya:
-
-#### Uganda:
 
 #### Egypt:
 
