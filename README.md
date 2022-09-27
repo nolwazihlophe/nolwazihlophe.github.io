@@ -3,7 +3,7 @@
 <p style="text-align: left;">
 </p>
 </dl> 
-## **About me**
+## About me
  
 I am the **Deputy Director: Financial Regulation and Supervision** with <a href="https://digitalfrontiers.org" target="_bank">Digital Frontiers</a> and I have recently been recognized by <a href="https://africanshapers.com/en/60-african-women-experts-in-fintech/" target="_bank">African Shapers</a> as one of the Top 60 African Women who are Fintech Experts. I obtained my MCom in Economics from the University of Pretoria in 2016. I previously worked for <a href="https://cenfri.org" target="_bank">Cenfri</a> as a **Senior Researcher** within the Risk, Remittances and Integrity Program and the <a href="https://www.centralbank.org.sz" target="_bank">The Central Bank of eSwatini</a> as a **Macroprudential Analyst** from which I moved on to **Manage** the **CBE Intelligence Hub**, which managed the **Fintech Unit**, which was established in 2018. 
 I have experience and knowledge of payment systems, macroprudential and microprudential supervision as well as the use of financial regulation tools towards increased gender and financial inclusion.
@@ -12,7 +12,7 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 
 <a href="2022 Nolwazi Hlophe CV.pdf">Download My CV</a> 
 
-## **Publications**
+## Publications
 
 1. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/big-data-analytics-workshop-2022-summary/" target="_blank"> Big Data Analytics Workshop 2022 – Summary | Résumé</a>, Digital Frontiers Institute 
 2. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/blog/2022/02/21/blockchain-and-the-future-of-finance/" target="_blank"> Blockchain and the future of finance</a>, Digital Frontiers Institute.
@@ -28,7 +28,7 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 12. Hlophe, N. (2018) <a href="https://www.african-review.com/view-paper.php?serial=20191102135807-759399" target="_blank">Does financial development mean financial inclusion?</a>, African Review of Economics and Finance, 10(2), pp. 120-133.
 
 
-## **Presentations, webinars and podcasts**
+## Presentations, webinars and podcasts
 
 1. Mobile for Identity Management and Inclusive ID4D (2022), <a href="https://youtu.be/lTAWAhHsq3E/" target="_blank">Mobile Risks and Mitigation of the Dark Side</a>: ID4Africa
 2. Big Data Analytics Workshop (2022), <a href="https://digitalfrontiersinstitute.org/big-data-analytics-workshop-2022-summary/" target="_blank">Big Data Analytics Workshop 2022 – Summary
@@ -47,9 +47,21 @@ I have a great passion for **capacity building**, which I firmly believe contrib
 15. Central Bank of Eswatini (2018), <a href="https://www.centralbank.org.sz/the-2018-cbe-fintech-challenge" target="_blank">FinTech Challenge</a>: Launch of FinTech Challenge
 16. ESEPARC & Central Bank of Eswatini (2017), <a href="https://www.separc.co.sz/2017/01/25/swaziland-economic-conference-2017" target="_blank">Eswatini Economic Conference (2017) </a>: Does financial development mean financial inclusion?
  
-## **Presentations, webinars and podcasts** 
+## Presentations, webinars and podcasts
  
  
 
 
-#### Contact me: <a href="mailto:nolwazi@digitalfrontiers.org">Digital Frontiers Email</a> | <a href="mailto:nolwazihlophe@gmail.com">Gmail</a> | <a href="https://www.linkedin.com/in/nolwazi-hlophe/">LinkedIn</a> | <a href="https://twitter.com/hlophe_nolwazi">Twitter</a>
+### Contact me
+ 
+<p style="text-align: centre;">
+<a href="https://www.linkedin.com/in/nolwazi-hlophe/" target="_bank">
+<img src="LinkedIn.png" height="35">
+</a>
+<a href="https://twitter.com/hlophe_nolwazi" target="_bank">
+<img src="Twitter.png" height="35">
+</a>
+<a href="mailto:nolwazihlophe@gmail.com">
+<img src="Email.png" height="35">
+</a>
+</p>
