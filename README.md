@@ -11,7 +11,7 @@ I have experience and knowledge of payment systems, macroprudential and micropru
 
 I have a great passion for **capacity building**, which I firmly believe contributes to financial sector authorities making policy or regulatory reforms that are agile and enable **innovative financial systems** whilst maintain their **monetary and financial stability** mandate. My research interests include financial sector policymaking, regulation and supervision, financial and gender inclusion, innovation in payment systems and digital currencies, such as CBDCs as well as RegTech and SupTech.
 
-<a href="NolwaziHlophe_Resume.pdf">Download CV</a> 
+<a href="NolwaziHlophe_Resume.PDF">Download CV</a> 
 
 ## Publications
 
