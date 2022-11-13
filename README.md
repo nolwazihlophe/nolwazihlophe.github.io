@@ -44,7 +44,7 @@ ENFJ: Extroverted Intuitive Feeling Judging
 8. Digital Frontiers Institute (2021), <a href="https://www.youtube.com/watch?v=lIuOPOwPfeo&t=1s" target="_blank">CBDCs in Africa</a>
 9. Africa Bank 4.0 Summit (2021), <a href="https://drive.google.com/file/d/1fQ1bpNXUl-l7IgMsQrnvNYnWTv2uj5OC/view" target="_blank">5th Africa Bank 4.0 Summit – West Africa</a>: Financial Inclusion Regulations in the Sub-Saharan Region
 10. Africa Bank 4.0 Summit (2021), <a href="https://drive.google.com/file/d/1fQ1bpNXUl-l7IgMsQrnvNYnWTv2uj5OC/view" target="_blank">3rd Africa Bank 4.0 Summit – SADC Region</a>: Regulating and supervising new business models in West Africa towards Financial Inclusion
-11. Digital Frontiers Insititute (2021), <a href="https://www.youtube.com/watch?v=Vs5RdRSQRA0&t=3s" target="_blank">DFI Podcast series</a>: Financial Regulation and Supervision: are they the same or different?
+11. Digital Frontiers Insititute (2021), <a href="https://www.youtube.com/watch?v=Vs5RdRSQRA0&t=3s" target="_blank">Financial Regulation and Supervision: are they the same or different?</a>
 12. UCT Online Course: Guest Lecturer, (2021), <a href="https://www.getsmarter.com/products/uct-blockchain-and-digital-currency-online-short-course" target="_blank">Blockchain and Digital Currency: The Future of Money </a>: CBDC and Financial Inclusion
 13. World Digital Economic Council & FinTech4Good (2021), <a href="https://www.blockchainfrontier.org" target="_blank">The CBDC Forum III </a>: CBDC Development in Africa: Country Case Studies Panel
 14. Digital Frontiers Institute (2020), <a href="https://www.youtube.com/watch?v=St-ookudccw" target="_blank">Digital Identity Week 2020 </a>: Eswatini case study
