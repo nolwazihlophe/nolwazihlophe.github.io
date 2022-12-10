@@ -13,7 +13,7 @@ Throughout my years of experience, I developed and sharpened my knowledge and sk
 My personality profile (MBTI) is:
 **ENFJ**: **Extroverted Intuitive Feeling Judging**
 
-<a href="NolwaziHlophe_Resume.PDF">Download CV</a> 
+<a href="NolwaziHlophe_Resume.pdf">Download CV</a> 
 
 ## Publications
 
@@ -34,23 +34,24 @@ My personality profile (MBTI) is:
 
 ## Presentations, webinars and podcasts
 
-1. Digital Frontiers Institute (2022), <a href="https://youtu.be/-Vt6AbKbj4Q" target="_blank">The Nexus Between the Rise in Cyber Risks and Effective Data Privacy Program Management</a>
-2. Mobile for Identity Management and Inclusive ID4D (2022), <a href="https://youtu.be/lTAWAhHsq3E/" target="_blank">Mobile Risks and Mitigation of the Dark Side</a>: ID4Africa
-3. Big Data Analytics Workshop (2022), <a href="https://digitalfrontiersinstitute.org/big-data-analytics-workshop-2022-summary/" target="_blank">Big Data Analytics Workshop 2022 – Summary
-4. 2nd Edition Fintech Africa Summit (2022), <a href="https://fintech-africasummit.com/#Register/" target="_blank">The Future Of Payments: Digital currencies</a>
-5. Africa Bank 4.0 Summit (2021), <a href="https://africabanksummit.com/6th-edition-speakers/" target="_blank">6th Africa Bank 4.0 Summit – North Africa</a>
-6. Digital Frontiers Institute (2021), CBDC Workshop: Emerging Market and Developing Economies
-7. Digital Frontiers Institute (2021), Digital Finance Practitioners Ghana Webinar series - The ECEDI; Current Update And How It’s Going To Impact Digital Financial Services In Ghana
-8. Digital Frontiers Institute (2021), <a href="https://www.youtube.com/watch?v=lIuOPOwPfeo&t=1s" target="_blank">CBDCs in Africa</a>
-9. Africa Bank 4.0 Summit (2021), <a href="https://drive.google.com/file/d/1fQ1bpNXUl-l7IgMsQrnvNYnWTv2uj5OC/view" target="_blank">5th Africa Bank 4.0 Summit – West Africa</a>: Financial Inclusion Regulations in the Sub-Saharan Region
-10. Africa Bank 4.0 Summit (2021), <a href="https://drive.google.com/file/d/1fQ1bpNXUl-l7IgMsQrnvNYnWTv2uj5OC/view" target="_blank">3rd Africa Bank 4.0 Summit – SADC Region</a>: Regulating and supervising new business models in West Africa towards Financial Inclusion
-11. Digital Frontiers Insititute (2021), <a href="https://www.youtube.com/watch?v=Vs5RdRSQRA0&t=3s" target="_blank">Financial Regulation and Supervision: are they the same or different?</a>
-12. UCT Online Course: Guest Lecturer, (2021), <a href="https://www.getsmarter.com/products/uct-blockchain-and-digital-currency-online-short-course" target="_blank">Blockchain and Digital Currency: The Future of Money </a>: CBDC and Financial Inclusion
-13. World Digital Economic Council & FinTech4Good (2021), <a href="https://www.blockchainfrontier.org" target="_blank">The CBDC Forum III </a>: CBDC Development in Africa: Country Case Studies Panel
-14. Digital Frontiers Institute (2020), <a href="https://www.youtube.com/watch?v=St-ookudccw" target="_blank">Digital Identity Week 2020 </a>: Eswatini case study
-15. Cenfri (2019), <a href="https://custom.cvent.com/7A54328600294B08B7B30AE8172EB05A/files/event/f9fe7bdb987c477887c9c1b17e58f5ba/687257b3ca1e4e3cb142c7902531eed6.pdf" target="_blank">Africa Global Payment Summit</a>: Supply-side barriers to remittances
-16. Central Bank of Eswatini (2018), <a href="https://www.centralbank.org.sz/the-2018-cbe-fintech-challenge" target="_blank">FinTech Challenge</a>: Launch of FinTech Challenge
-17. ESEPARC & Central Bank of Eswatini (2017), <a href="https://www.separc.co.sz/2017/01/25/swaziland-economic-conference-2017" target="_blank">Eswatini Economic Conference (2017) </a>: Does financial development mean financial inclusion?
+1. African Blockchain Institute (2022), <a href="https://www.youtube.com/watch?v=78mir9Lb6LU" target="_blank">Exploring CBDCs potentials in facilitating the Pan African Payment & Settlement System in Africa</a>
+2. Digital Frontiers Institute (2022), <a href="https://youtu.be/-Vt6AbKbj4Q" target="_blank">The Nexus Between the Rise in Cyber Risks and Effective Data Privacy Program Management</a>
+3. Mobile for Identity Management and Inclusive ID4D (2022), <a href="https://youtu.be/lTAWAhHsq3E/" target="_blank">Mobile Risks and Mitigation of the Dark Side</a>: ID4Africa
+4. Big Data Analytics Workshop (2022), <a href="https://digitalfrontiersinstitute.org/big-data-analytics-workshop-2022-summary/" target="_blank">Big Data Analytics Workshop 2022 – Summary
+5. 2nd Edition Fintech Africa Summit (2022), <a href="https://fintech-africasummit.com/#Register/" target="_blank">The Future Of Payments: Digital currencies</a>
+6. Africa Bank 4.0 Summit (2021), <a href="https://africabanksummit.com/6th-edition-speakers/" target="_blank">6th Africa Bank 4.0 Summit – North Africa</a>
+7. Digital Frontiers Institute (2021), CBDC Workshop: Emerging Market and Developing Economies
+8. Digital Frontiers Institute (2021), Digital Finance Practitioners Ghana Webinar series - The ECEDI; Current Update And How It’s Going To Impact Digital Financial Services In Ghana
+9. Digital Frontiers Institute (2021), <a href="https://www.youtube.com/watch?v=lIuOPOwPfeo&t=1s" target="_blank">CBDCs in Africa</a>
+10. Africa Bank 4.0 Summit (2021), <a href="https://drive.google.com/file/d/1fQ1bpNXUl-l7IgMsQrnvNYnWTv2uj5OC/view" target="_blank">5th Africa Bank 4.0 Summit – West Africa</a>: Financial Inclusion Regulations in the Sub-Saharan Region
+11. Africa Bank 4.0 Summit (2021), <a href="https://drive.google.com/file/d/1fQ1bpNXUl-l7IgMsQrnvNYnWTv2uj5OC/view" target="_blank">3rd Africa Bank 4.0 Summit – SADC Region</a>: Regulating and supervising new business models in West Africa towards Financial Inclusion
+12. Digital Frontiers Insititute (2021), <a href="https://www.youtube.com/watch?v=Vs5RdRSQRA0&t=3s" target="_blank">Financial Regulation and Supervision: are they the same or different?</a>
+13. UCT Online Course: Guest Lecturer, (2021), <a href="https://www.getsmarter.com/products/uct-blockchain-and-digital-currency-online-short-course" target="_blank">Blockchain and Digital Currency: The Future of Money </a>: CBDC and Financial Inclusion
+14. World Digital Economic Council & FinTech4Good (2021), <a href="https://www.blockchainfrontier.org" target="_blank">The CBDC Forum III </a>: CBDC Development in Africa: Country Case Studies Panel
+15. Digital Frontiers Institute (2020), <a href="https://www.youtube.com/watch?v=St-ookudccw" target="_blank">Digital Identity Week 2020 </a>: Eswatini case study
+16. Cenfri (2019), <a href="https://custom.cvent.com/7A54328600294B08B7B30AE8172EB05A/files/event/f9fe7bdb987c477887c9c1b17e58f5ba/687257b3ca1e4e3cb142c7902531eed6.pdf" target="_blank">Africa Global Payment Summit</a>: Supply-side barriers to remittances
+17. Central Bank of Eswatini (2018), <a href="https://www.centralbank.org.sz/the-2018-cbe-fintech-challenge" target="_blank">FinTech Challenge</a>: Launch of FinTech Challenge
+18. ESEPARC & Central Bank of Eswatini (2017), <a href="https://www.separc.co.sz/2017/01/25/swaziland-economic-conference-2017" target="_blank">Eswatini Economic Conference (2017) </a>: Does financial development mean financial inclusion?
 
 
 ## Regulatory Lead Experience
