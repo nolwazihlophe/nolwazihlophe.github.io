@@ -13,7 +13,7 @@ Throughout my years of experience, I developed and sharpened my knowledge and sk
 My personality profile (MBTI) is:
 **ENFJ**: **Extroverted Intuitive Feeling Judging**
 
-<a href="NolwaziHlophe_Resume.pdf">Download CV</a> 
+<a href="Nolwazi Hlophe_Resume.pdf">Download CV</a> 
 
 ## Publications
 
