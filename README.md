@@ -17,19 +17,20 @@ My personality profile (MBTI) is:
 
 ## Publications
 
-1. Hlophe, N. (2022) <a href="https://issuu.com/digitalbankerafrica/docs/digital_banker_africa_autumn_2022/42" target="_blank"> I am not Data. How can Low-and-Middle Income Economies Develop Effective Data Privacy and Protection Laws in the Digital Age?</a>, Digital Banker Africa.
-2. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/big-data-analytics-workshop-2022-summary/" target="_blank"> Big Data Analytics Workshop 2022 – Summary | Résumé</a>, Digital Frontiers Institute.
-3. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/blockchain-and-the-future-of-finance/" target="_blank"> Blockchain and the future of finance</a>, Digital Frontiers Institute.
-4. Hlophe, N. (2021) <a href="https://cbpn.currencyresearch.com/blog/2021/11/25/dfi-capacity-building-for-cbdcs/" target="_blank"> Capacity Building for the Central Bank Digital Currency Journey in Emerging Market and Developing Economies</a>, Central Bank Payments News.
-5. Hlophe, N. (2021) <a href="https://digitalfrontiersinstitute.org/summary-of-cbdc-workshop-emerging-market-and-developing-economies/" target="_blank"> Summary of CBDC Workshop | Emerging Market and Developing Economies</a>, Digital Frontiers Institute.
-6. Hlophe, N. (2021) <a href="https://digitalfrontiersinstitute.org/a-framework-for-effective-supervision-for-inclusive-dfs/" target="_blank"> A Framework for Effective Supervision for Inclusive DFS</a>, Digital Frontiers Institute.
-7. Hlophe, N. (2021) <a href="https://digitalbankerafrica.com/capacity-building-as-requirement-for-regulatory-change" target="_blank"> Is Capacity Building a Necessary Requirement for Enhanced and Forward-Looking Regulatory Change?</a>, Digital Banker Africa.
-8. Hlophe, N. (2021) <a href="https://issuu.com/regtechafrica/docs/regtechafrica_magazine__issuu_" target="_blank"> Regulatory Influence: The Imperative for Sustainability Through Innovation in Emerging Markets</a>, RegTech Africa.
-9. Cenfri & Central Bank of Eswatini (2020) <a href="https://www.centralbank.org.sz/cbdc" target="_blank"> Eswatini CBDC Diagnostic Study: Phase 1 findings</a>, Cenfri & Central Bank of Eswatini.
-10. Cooper, B.; Perez, L.; Esser, A.; Hlophe, N.; Ferreira, M.; Janse van Vuuren, P. (2019) <a href="https://cenfri.org/publications/diagnostic-study-of-the-zambian-payments-system" target="_blank"> Diagnostic study of the Zambian payments system</a>, Cenfri.
-11. Cooper, B.; Perez, L.; Esser, A.; Allen, M.; Hlophe, N.; Ferreira, M. (2019) <a href="https://cenfri.org/publications/an-analysis-of-id-proxy-initiatives-across-the-globe" target="_blank"> An analysis of ID proxy initiatives across the globe</a>, Cenfri.
-12. Hlophe, N. (2019) <a href="https://.www.centralbank.org.sz/magazine/" target="_blank">RegTech: how it works, its applications and how it benefits regulators</a>, Central Bank of Eswatini. 
-13. Hlophe, N. (2018) <a href="https://www.african-review.com/view-paper.php?serial=20191102135807-759399" target="_blank">Does financial development mean financial inclusion?</a>, African Review of Economics and Finance, 10(2), pp. 120-133.
+1. Hlophe, N. (2023) <a href="https://www.linkedin.com/pulse/digital-transformation-spelled-people-nolwazi-hlophe-she-her-/" target="_blank"> Digital Transformation is Spelled People</a>
+2. Hlophe, N. (2022) <a href="https://issuu.com/digitalbankerafrica/docs/digital_banker_africa_autumn_2022/42" target="_blank"> I am not Data. How can Low-and-Middle Income Economies Develop Effective Data Privacy and Protection Laws in the Digital Age?</a>, Digital Banker Africa.
+3. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/big-data-analytics-workshop-2022-summary/" target="_blank"> Big Data Analytics Workshop 2022 – Summary | Résumé</a>, Digital Frontiers Institute.
+4. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/blockchain-and-the-future-of-finance/" target="_blank"> Blockchain and the future of finance</a>, Digital Frontiers Institute.
+5. Hlophe, N. (2021) <a href="https://cbpn.currencyresearch.com/blog/2021/11/25/dfi-capacity-building-for-cbdcs/" target="_blank"> Capacity Building for the Central Bank Digital Currency Journey in Emerging Market and Developing Economies</a>, Central Bank Payments News.
+6. Hlophe, N. (2021) <a href="https://digitalfrontiersinstitute.org/summary-of-cbdc-workshop-emerging-market-and-developing-economies/" target="_blank"> Summary of CBDC Workshop | Emerging Market and Developing Economies</a>, Digital Frontiers Institute.
+7. Hlophe, N. (2021) <a href="https://digitalfrontiersinstitute.org/a-framework-for-effective-supervision-for-inclusive-dfs/" target="_blank"> A Framework for Effective Supervision for Inclusive DFS</a>, Digital Frontiers Institute.
+8. Hlophe, N. (2021) <a href="https://digitalbankerafrica.com/capacity-building-as-requirement-for-regulatory-change" target="_blank"> Is Capacity Building a Necessary Requirement for Enhanced and Forward-Looking Regulatory Change?</a>, Digital Banker Africa.
+9. Hlophe, N. (2021) <a href="https://issuu.com/regtechafrica/docs/regtechafrica_magazine__issuu_" target="_blank"> Regulatory Influence: The Imperative for Sustainability Through Innovation in Emerging Markets</a>, RegTech Africa.
+10. Cenfri & Central Bank of Eswatini (2020) <a href="https://www.centralbank.org.sz/cbdc" target="_blank"> Eswatini CBDC Diagnostic Study: Phase 1 findings</a>, Cenfri & Central Bank of Eswatini.
+11. Cooper, B.; Perez, L.; Esser, A.; Hlophe, N.; Ferreira, M.; Janse van Vuuren, P. (2019) <a href="https://cenfri.org/publications/diagnostic-study-of-the-zambian-payments-system" target="_blank"> Diagnostic study of the Zambian payments system</a>, Cenfri.
+12. Cooper, B.; Perez, L.; Esser, A.; Allen, M.; Hlophe, N.; Ferreira, M. (2019) <a href="https://cenfri.org/publications/an-analysis-of-id-proxy-initiatives-across-the-globe" target="_blank"> An analysis of ID proxy initiatives across the globe</a>, Cenfri.
+13. Hlophe, N. (2019) <a href="https://.www.centralbank.org.sz/magazine/" target="_blank">RegTech: how it works, its applications and how it benefits regulators</a>, Central Bank of Eswatini. 
+14. Hlophe, N. (2018) <a href="https://www.african-review.com/view-paper.php?serial=20191102135807-759399" target="_blank">Does financial development mean financial inclusion?</a>, African Review of Economics and Finance, 10(2), pp. 120-133.
 
 
 ## Presentations, webinars and podcasts
