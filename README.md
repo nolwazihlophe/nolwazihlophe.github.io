@@ -117,16 +117,22 @@ Enneagram: **2** and MBTI: **Extroverted Intuitive Feeling Judging (ENFJ)**
 <thead>
 <td>National Payment System Act No. 78 of 1998
  
+ 
  - SARB Directive No. 1 of 2022 Conduct within the National Payment System in Respect of the Financial Action Task Force Recommendations for Electronic Funds Transfers
  
+ 
  - SARB Directive No. 1 of 2007 Directive for conduct within the National Payment System: In respect of Payments to Third Persons
+ 
  
  - SARB Directive No. 2 of 2007 Conduct within the National Payment System in Respect of System Operators</td>
 <td>The National Clearing and Settlement Systems Act No. 17 of 2011
  
+ 
  - Practice Note for Mobile Money Service Providers, 2019
  
+ 
  - National Payment & Settlement Systems Oversight Policy Framework, 2019
+ 
  
  - Guidelines for the Submission of an Application for Authorisation to Conduct the Business of an Authorised Dealer in Foreign Exchange with Limited Authority (“ADLA”), 2008</td>
 <td>Payment Systems (E-Money) Regulations, 2019</td>
