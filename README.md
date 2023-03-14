@@ -97,7 +97,6 @@ My personality profile (Enneagram) is: **2**
 <td>Cybercrimes Act No. 19 of 2020</td>
 <td>Financial Technology Regulatory Sandbox Guidelines, 2020</td>
 <td>Guidelines for Application and Authorisation of Payment Service Providers, 2017</td>
-<td>Central Bank of Egypt's Regulatory Sandbox Framework, 2019</td>
 </tr>
 </thead>
 </tbody>
@@ -107,7 +106,6 @@ My personality profile (Enneagram) is: **2**
 <td>Protection of Personal Information Act No. 4 of 2013</td>
 <td>The Data Protection Act No. 5 of 2022</td>
 <td>Payment Systems Act No. 15 of 2016</td>
-<td>Central Bank of Egypt's Regulatory Sandbox Framework, 2019</td>
 </tr>
 </thead>
 </tbody>
