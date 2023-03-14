@@ -10,7 +10,7 @@ I am the **Deputy Director Financial Regulation and Supervision** with <a href="
 
 Throughout my years of experience, I developed and sharpened my knowledge and skills in anti-money laundering compliance, digital identity, cybersecurity and cybercrime legislation and its application, data privacy and protection legislation and its application, data management, relationship management, leadership and technical proposal writing towards fundraising. Additionally, I have experience and understanding of instant and inclusive payment systems and national payment systems, central bank digital currencies, proportional macroprudential and microprudential supervision as well as the use of financial regulatory tools towards increased gender, digital and financial inclusion.
 
-My personality profile (Enneagram): **2** | (MBTI): **Extroverted Intuitive Feeling Judging (ENFJ)**
+Enneagram: **2** | MBTI: **Extroverted Intuitive Feeling Judging (ENFJ)**
 
 <a href="Nolwazi Hlophe_Resume.pdf" target="_blank">Download CV</a> 
 
