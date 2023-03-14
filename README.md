@@ -56,7 +56,7 @@ My personality profile (Enneagram) is: **2**
 
 ## Regulatory Lead Experience
 
-1. **Digital Financial Inclusion Supervision (DFIS) Program**, <a href="https://dfis.digitalfrontiersinstitute.org/" target="_blank">Digital Financial Inclusion Supervision Program</a>, <a href="https://dfis.digitalfrontiersinstitute.org/who-we-are/" target="_blank">The DFIS Program Team</a>: Digital Frontiers Institute
+1. **Digital Financial Inclusion Supervision (DFIS) Program**, <a href="https://dfis.digitalfrontiersinstitute.org/" target="_blank">Digital Financial Inclusion Supervision Program</a>, <a href="https://dfis.digitalfrontiersinstitute.org/who-we-are/" target="_blank">The DFIS Program Manager</a>: Digital Frontiers Institute
 2. **Certified Digital Finance Practitioner (CDFP) Program**, <a href="https://cdfp.digitalfrontiersinstitute.org/who-we-are/" target="_blank">Certified Digital Finance Practitioner Faculty</a>: Digital Frontiers Institute
 3. **Instant and Inclusive Payment Systems (IIPS) Program**, <a href="https://iipscertification.org/" target="_blank">IIPS SMEs</a>: Digital Frontiers Institute
 
