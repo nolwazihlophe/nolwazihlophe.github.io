@@ -88,6 +88,7 @@ My personality profile (Enneagram) is: **2**
 <td>Promotion of Access to Information Act No. 2 of 2000</td>
 <td>The Computer Crime and Cybercrime Act No. 6 of 2022</td>
 <td>Payment Systems (Interoperability of Retail Payment Systems) Directive, 2017</td>
+<td></td>
 </thead>
 </tr>
 </tbody>
@@ -97,6 +98,7 @@ My personality profile (Enneagram) is: **2**
 <td>Cybercrimes Act No. 19 of 2020</td>
 <td>Financial Technology Regulatory Sandbox Guidelines, 2020</td>
 <td>Guidelines for Application and Authorisation of Payment Service Providers, 2017</td>
+<td></td>
 </thead>
 </tr>
 </tbody>
@@ -106,6 +108,7 @@ My personality profile (Enneagram) is: **2**
 <td>Protection of Personal Information Act No. 4 of 2013</td>
 <td>The Data Protection Act No. 5 of 2022</td>
 <td>Payment Systems Act No. 15 of 2016</td>
+<td></td>
 </thead>
 </tr>
 </tbody>
@@ -127,6 +130,7 @@ My personality profile (Enneagram) is: **2**
  
  - Guidelines for the Submission of an Application for Authorisation to Conduct the Business of an Authorised Dealer in Foreign Exchange with Limited Authority (“ADLA”), 2008</td>
 <td>Payment Systems (E-Money) Regulations, 2019</td>
+<td></td>
 </thead>
 </tr>
 </tbody>
