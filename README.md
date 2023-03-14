@@ -111,6 +111,7 @@ My personality profile (Enneagram) is: **2**
 </tbody>
 <tbody>
 <tr>
+<thead>
 <td>National Payment System Act No. 78 of 1998
  
  - SARB Directive No. 1 of 2022 Conduct within the National Payment System in Respect of the Financial Action Task Force Recommendations for Electronic Funds Transfers
@@ -126,6 +127,7 @@ My personality profile (Enneagram) is: **2**
  
  - Guidelines for the Submission of an Application for Authorisation to Conduct the Business of an Authorised Dealer in Foreign Exchange with Limited Authority (“ADLA”), 2008</td>
 <td>Payment Systems (E-Money) Regulations, 2019</td>
+</thead>
 </tr>
 </tbody>
 </table>
