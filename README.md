@@ -10,13 +10,13 @@ I am the **Deputy Director Financial Regulation and Supervision** with <a href="
 
 Throughout my years of experience, I developed and sharpened my knowledge and skills in anti-money laundering compliance, digital identity, cybersecurity and cybercrime legislation and its application, data privacy and protection legislation and its application, data management, relationship management, leadership and technical proposal writing towards fundraising. Additionally, I have experience and understanding of instant and inclusive payment systems and national payment systems, central bank digital currencies, proportional macroprudential and microprudential supervision as well as the use of financial regulatory tools towards increased gender, digital and financial inclusion.
 
-Enneagram: **2** and MBTI: **Extroverted Intuitive Feeling Judging (ENFJ)**
+Enneagram: **2**
 
 <a href="Nolwazi Hlophe_Resume_2023.pdf" target="_blank">Download CV</a> 
 
 ## Publications
 
-1. Nolwazi Hlophe on Medium, <a href="https://medium.com/@nolwazihlophe" target="_blank"> here</a>
+1. <a href="https://medium.com/@nolwazihlophe" target="_blank"> Nolwazi Hlophe on Medium</a>
 2. Hlophe, N. (2022) <a href="https://issuu.com/digitalbankerafrica/docs/digital_banker_africa_autumn_2022/42" target="_blank"> I am not Data. How can Low-and-Middle Income Economies Develop Effective Data Privacy and Protection Laws in the Digital Age?</a>, Digital Banker Africa.
 3. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/big-data-analytics-workshop-2022-summary/" target="_blank"> Big Data Analytics Workshop 2022 – Summary | Résumé</a>, Digital Frontiers Institute.
 4. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/blockchain-and-the-future-of-finance/" target="_blank"> Blockchain and the future of finance</a>, Digital Frontiers Institute.
