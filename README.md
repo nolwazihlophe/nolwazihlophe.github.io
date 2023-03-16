@@ -16,7 +16,7 @@ Enneagram: **2**
 
 ## Publications
 
-1. Nolwazi Hlophe, <a href="https://www.linkedin.com/newsletters/looking-back-to-see-the-future-6986431366787682304" target="_blank"> Looking back to see the future </a>. LinkedIn Newsletter
+1. Nolwazi Hlophe, <a href="https://www.linkedin.com/newsletters/looking-back-to-see-the-future-6986431366787682304" target="_blank"> Looking back to see the future </a>, LinkedIn Newsletter
 2. Hlophe, N. (2022) <a href="https://issuu.com/digitalbankerafrica/docs/digital_banker_africa_autumn_2022/42" target="_blank"> I am not Data. How can Low-and-Middle Income Economies Develop Effective Data Privacy and Protection Laws in the Digital Age?</a>, Digital Banker Africa.
 3. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/big-data-analytics-workshop-2022-summary/" target="_blank"> Big Data Analytics Workshop 2022 – Summary | Résumé</a>, Digital Frontiers Institute.
 4. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/blockchain-and-the-future-of-finance/" target="_blank"> Blockchain and the future of finance</a>, Digital Frontiers Institute.
