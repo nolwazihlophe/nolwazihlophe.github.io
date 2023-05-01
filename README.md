@@ -14,18 +14,6 @@ Enneagram: **2**
 
 <a href="Nolwazi Hlophe_Resume_2023.pdf" target="_blank">Download CV</a> 
 
-* Component library for website building
-* Fully configurable Website
-* Pre-built pages
-* Pre-styled components
-* Blog
-* Category pages
-* Testimonials
-* Portfolio
-* Live editing with [CloudCannon](http://cloudcannon.com/)
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* Search engine optimisation
-
 ## Publications
 
 1. Nolwazi Hlophe, <a href="https://medium.com/@nolwazihlophe" target="_blank"> Medium Publications</a>
