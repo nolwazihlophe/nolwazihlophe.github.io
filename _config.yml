@@ -33,11 +33,11 @@ google_site_verification : "https://www.google.com/accounts"
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Nolwazi Hlophe"
+  avatar           : #Nolwazi.jpg"
+  bio              : "Passionate writer, justice seeker, driven by challenge to produce excellent work. I value relationships-alone you walk a mile; together we can walk much further! I have the priviledge of being a teacher and the honor of being a financial regulator. I am high in all of my endeavours as excellence is not an event, it is a daily labour of love."
+  location         : "Fourways, Johannesburg"
+  email            : "nolwazihlophe@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
