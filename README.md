@@ -12,7 +12,7 @@ Throughout my years of experience, I developed and sharpened my knowledge and sk
 
 Enneagram: **2**
 
-<a href="Nolwazi Hlophe CV.pdf" target="_blank">Download CV</a> 
+<a href="NolwaziHlopheCV.pdf" target="_blank">Download CV</a> 
 
 ## Publications
 
