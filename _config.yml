@@ -1,6 +1,7 @@
 title                    : "Nolwazi Hlophe"
 theme                    : jekyll-theme-cayman
 subtitle                 : "Senior Fintech Specialist"
-description              : "Financial Regulation | Payments | Fintech | Digital Economy | Market Conduct"
+description              : "Financial Regulation | DeFi | Fintech | Embedded Payments | Digital Economy | Market Conduct"
 url                      : "https://nolwazihlophe.github.io"
+show_downloads           : true
 
