@@ -10,8 +10,6 @@ I am the **Senior Specialist** within the Fintech Department of the <a href="htt
 
 Throughout my years of experience, I developed and sharpened my knowledge and skills in anti-money laundering compliance, digital identity, cybersecurity and cybercrime legislation and its application, data privacy and protection legislation and its application, data management, relationship management, leadership and technical proposal writing towards fundraising. Additionally, I have experience and understanding of instant and inclusive payment systems and national payment systems, central bank digital currencies, proportional macroprudential and microprudential supervision as well as the use of financial regulatory tools towards increased gender, digital and financial inclusion.
 
-Enneagram: **2**
-
 ## Publications
 
 1. Nolwazi Hlophe, <a href="https://medium.com/@nolwazihlophe" target="_blank"> Medium Publications</a>
