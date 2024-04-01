@@ -12,10 +12,10 @@ Throughout my years of experience, I developed and sharpened my knowledge and sk
 
 ## Publications
 
-1. Hlophe, N (2024), <a href="https://www.fsca.co.za/Documents/Presentation%20on%20AI%20in%20Finance%20and%20Consumer%20Protection%20FSCA%20Conference%20Day%201.pdf" target="_blank"> Artificial Intelligence in the Financial Sector and Emerging Consumer Protection Concerns</a>, FSCA
-2. Hlophe, N (2024), <a href="https://www.fsca.co.za/Regulatory%20Frameworks/Documents/2023.10.26_DeFi%20Presentation%20and%20Panel%20Discussion%201.pdf" target="_blank">Decentralised Finance Presentation and Panel Discussion</a>, FSCA
-3. Hlophe, N (2024), <a href="https://www.ifwg.co.za/Pages/The-nexus-between-generative-AI-and-open-finance.aspx" target="_blank">The Nexus Between Generative AI and Open Finance: The Next Frontier in Financial Innovation</a>, IFWG
-4. Nolwazi Hlophe, <a href="https://medium.com/@nolwazihlophe" target="_blank"> Medium Publications</a>
+1. Hlophe, N. (2024), <a href="https://www.fsca.co.za/Documents/Presentation%20on%20AI%20in%20Finance%20and%20Consumer%20Protection%20FSCA%20Conference%20Day%201.pdf" target="_blank"> Artificial Intelligence in the Financial Sector and Emerging Consumer Protection Concerns</a>, FSCA
+2. Hlophe, N. (2024), <a href="https://www.fsca.co.za/Regulatory%20Frameworks/Documents/2023.10.26_DeFi%20Presentation%20and%20Panel%20Discussion%201.pdf" target="_blank">Decentralised Finance Presentation and Panel Discussion</a>, FSCA
+3. Hlophe, N. (2024), <a href="https://www.ifwg.co.za/Pages/The-nexus-between-generative-AI-and-open-finance.aspx" target="_blank">The Nexus Between Generative AI and Open Finance: The Next Frontier in Financial Innovation</a>, IFWG
+4. Hlophe, N. (2023), <a href="https://medium.com/@nolwazihlophe" target="_blank"> Medium Publications</a>
 5. Hlophe, N. (2022) <a href="https://issuu.com/digitalbankerafrica/docs/digital_banker_africa_autumn_2022/42" target="_blank"> I am not Data. How can Low-and-Middle Income Economies Develop Effective Data Privacy and Protection Laws in the Digital Age?</a>, Digital Banker Africa.
 6. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/big-data-analytics-workshop-2022-summary/" target="_blank"> Big Data Analytics Workshop 2022 – Summary | Résumé</a>, Digital Frontiers Institute.
 7. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/blockchain-and-the-future-of-finance/" target="_blank"> Blockchain and the future of finance</a>, Digital Frontiers Institute.
@@ -29,25 +29,3 @@ Throughout my years of experience, I developed and sharpened my knowledge and sk
 15. Cooper, B.; Perez, L.; Esser, A.; Allen, M.; Hlophe, N.; Ferreira, M. (2019) <a href="https://cenfri.org/publications/an-analysis-of-id-proxy-initiatives-across-the-globe" target="_blank"> An analysis of ID proxy initiatives across the globe</a>, Cenfri.
 16. Hlophe, N. (2019) <a href="https://.www.centralbank.org.sz/magazine/" target="_blank">RegTech: how it works, its applications and how it benefits regulators</a>, Central Bank of Eswatini. 
 17. Hlophe, N. (2018) <a href="https://www.african-review.com/view-paper.php?serial=20191102135807-759399" target="_blank">Does financial development mean financial inclusion?</a>, African Review of Economics and Finance, 10(2), pp. 120-133.
-
-
-## Presentations, webinars and podcasts
-
-1. African Blockchain Institute (2022), <a href="https://www.youtube.com/watch?v=78mir9Lb6LU" target="_blank">Exploring CBDCs potentials in facilitating the Pan African Payment & Settlement System in Africa</a>
-2. Digital Frontiers Institute (2022), <a href="https://youtu.be/-Vt6AbKbj4Q" target="_blank">The Nexus Between the Rise in Cyber Risks and Effective Data Privacy Program Management</a>
-3. Mobile for Identity Management and Inclusive ID4D (2022), <a href="https://youtu.be/lTAWAhHsq3E/" target="_blank">Mobile Risks and Mitigation of the Dark Side</a>: ID4Africa
-4. Big Data Analytics Workshop (2022), <a href="https://digitalfrontiersinstitute.org/big-data-analytics-workshop-2022-summary/" target="_blank">Big Data Analytics Workshop 2022 – Summary
-5. 2nd Edition Fintech Africa Summit (2022), <a href="https://fintech-africasummit.com/#Register/" target="_blank">The Future Of Payments: Digital currencies</a>
-6. Africa Bank 4.0 Summit (2021), <a href="https://africabanksummit.com/6th-edition-speakers/" target="_blank">6th Africa Bank 4.0 Summit – North Africa</a>
-7. Digital Frontiers Institute (2021), CBDC Workshop: Emerging Market and Developing Economies
-8. Digital Frontiers Institute (2021), Digital Finance Practitioners Ghana Webinar series - The ECEDI; Current Update And How It’s Going To Impact Digital Financial Services In Ghana
-9. Digital Frontiers Institute (2021), <a href="https://www.youtube.com/watch?v=lIuOPOwPfeo&t=1s" target="_blank">CBDCs in Africa</a>
-10. Africa Bank 4.0 Summit (2021), <a href="https://drive.google.com/file/d/1fQ1bpNXUl-l7IgMsQrnvNYnWTv2uj5OC/view" target="_blank">5th Africa Bank 4.0 Summit – West Africa</a>: Financial Inclusion Regulations in the Sub-Saharan Region
-11. Africa Bank 4.0 Summit (2021), <a href="https://drive.google.com/file/d/1fQ1bpNXUl-l7IgMsQrnvNYnWTv2uj5OC/view" target="_blank">3rd Africa Bank 4.0 Summit – SADC Region</a>: Regulating and supervising new business models in West Africa towards Financial Inclusion
-12. Digital Frontiers Insititute (2021), <a href="https://www.youtube.com/watch?v=Vs5RdRSQRA0&t=3s" target="_blank">Financial Regulation and Supervision: are they the same or different?</a>
-13. UCT Online Course: Guest Lecturer, (2021), <a href="https://www.getsmarter.com/products/uct-blockchain-and-digital-currency-online-short-course" target="_blank">Blockchain and Digital Currency: The Future of Money </a>: CBDC and Financial Inclusion
-14. World Digital Economic Council & FinTech4Good (2021), <a href="https://www.blockchainfrontier.org" target="_blank">The CBDC Forum III </a>: CBDC Development in Africa: Country Case Studies Panel
-15. Digital Frontiers Institute (2020), <a href="https://www.youtube.com/watch?v=St-ookudccw" target="_blank">Digital Identity Week 2020 </a>: Eswatini case study
-16. Cenfri (2019), <a href="https://custom.cvent.com/7A54328600294B08B7B30AE8172EB05A/files/event/f9fe7bdb987c477887c9c1b17e58f5ba/687257b3ca1e4e3cb142c7902531eed6.pdf" target="_blank">Africa Global Payment Summit</a>: Supply-side barriers to remittances
-17. Central Bank of Eswatini (2018), <a href="https://www.centralbank.org.sz/the-2018-cbe-fintech-challenge" target="_blank">FinTech Challenge</a>: Launch of FinTech Challenge
-18. ESEPARC & Central Bank of Eswatini (2017), <a href="https://www.ajol.info/index.php/aref/article/view/180365" target="_blank">Eswatini Economic Conference (2017) </a>: Does financial development mean financial inclusion? A causal analysis for Eswatini
