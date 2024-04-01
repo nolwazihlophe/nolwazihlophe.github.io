@@ -1,5 +1,5 @@
 <dl>
-<img src="NolwaziPICFSCA.jfif" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="150">
+<img src="NolwaziPICFSCA.jfif" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="100">
 <p style="text-align: left;">
 </p>
 </dl> 
