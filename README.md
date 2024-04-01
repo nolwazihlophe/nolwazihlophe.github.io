@@ -47,11 +47,4 @@ Throughout my years of experience, I developed and sharpened my knowledge and sk
 15. Digital Frontiers Institute (2020), <a href="https://www.youtube.com/watch?v=St-ookudccw" target="_blank">Digital Identity Week 2020 </a>: Eswatini case study
 16. Cenfri (2019), <a href="https://custom.cvent.com/7A54328600294B08B7B30AE8172EB05A/files/event/f9fe7bdb987c477887c9c1b17e58f5ba/687257b3ca1e4e3cb142c7902531eed6.pdf" target="_blank">Africa Global Payment Summit</a>: Supply-side barriers to remittances
 17. Central Bank of Eswatini (2018), <a href="https://www.centralbank.org.sz/the-2018-cbe-fintech-challenge" target="_blank">FinTech Challenge</a>: Launch of FinTech Challenge
-18. ESEPARC & Central Bank of Eswatini (2017), <a href="https://www.separc.co.sz/2017/01/25/swaziland-economic-conference-2017" target="_blank">Eswatini Economic Conference (2017) </a>: Does financial development mean financial inclusion?
-
-
-## Regulatory Lead Experience
-
-1. **Digital Financial Inclusion Supervision (DFIS) Program**, <a href="https://dfis.digitalfrontiersinstitute.org/" target="_blank">Digital Financial Inclusion Supervision Program</a>, <a href="https://dfis.digitalfrontiersinstitute.org/who-we-are/" target="_blank">The DFIS Program Manager</a>: Digital Frontiers Institute
-2. **Certified Digital Finance Practitioner (CDFP) Program**, <a href="https://cdfp.digitalfrontiersinstitute.org/who-we-are/" target="_blank">Certified Digital Finance Practitioner Faculty</a>: Digital Frontiers Institute
-3. **Instant and Inclusive Payment Systems (IIPS) Program**, <a href="https://iipscertification.org/" target="_blank">IIPS SMEs</a>: Digital Frontiers Institute
+18. ESEPARC & Central Bank of Eswatini (2017), <a href="https://www.ajol.info/index.php/aref/article/view/180365" target="_blank">Eswatini Economic Conference (2017) </a>: Does financial development mean financial inclusion? A causal analysis for Eswatini
