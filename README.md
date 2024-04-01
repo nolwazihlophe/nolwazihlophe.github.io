@@ -1,5 +1,5 @@
 <dl>
-<img src="NolPIC.png" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="125">
+<img src="NolPIC.png" style="border: 0pt none; margin-bottom: 1em; float: left; margin-right: 1em;" height="170">
 <p style="text-align: left;">
 </p>
 </dl> 
@@ -12,9 +12,9 @@ My passion is to advance financial inclusion, innovation, and stability in the r
 
 ## Publications
 
-1. Hlophe, N. (2024), <a href="https://www.fsca.co.za/Documents/Presentation%20on%20AI%20in%20Finance%20and%20Consumer%20Protection%20FSCA%20Conference%20Day%201.pdf" target="_blank"> Artificial Intelligence in the Financial Sector and Emerging Consumer Protection Concerns</a>, FSCA.
-2. Hlophe, N. (2024), <a href="https://www.fsca.co.za/Regulatory%20Frameworks/Documents/2023.10.26_DeFi%20Presentation%20and%20Panel%20Discussion%201.pdf" target="_blank">Decentralised Finance Presentation and Panel Discussion</a>, FSCA.
-3. Hlophe, N. (2024), <a href="https://www.ifwg.co.za/Pages/The-nexus-between-generative-AI-and-open-finance.aspx" target="_blank">The Nexus Between Generative AI and Open Finance: The Next Frontier in Financial Innovation</a>, IFWG.
+1. Hlophe, N. (2024), <a href="https://www.fsca.co.za/Documents/Presentation%20on%20AI%20in%20Finance%20and%20Consumer%20Protection%20FSCA%20Conference%20Day%201.pdf" target="_blank"> Artificial Intelligence in the Financial Sector and Emerging Consumer Protection Concerns</a>, Financial Sector Conduct Authority.
+2. Hlophe, N. (2024), <a href="https://www.fsca.co.za/Regulatory%20Frameworks/Documents/2023.10.26_DeFi%20Presentation%20and%20Panel%20Discussion%201.pdf" target="_blank">Decentralised Finance Presentation and Panel Discussion</a>, Financial Sector Conduct Authority.
+3. Hlophe, N. (2024), <a href="https://www.ifwg.co.za/Pages/The-nexus-between-generative-AI-and-open-finance.aspx" target="_blank">The Nexus Between Generative AI and Open Finance: The Next Frontier in Financial Innovation</a>, Intergovernmental Fintech Working Group.
 4. Hlophe, N. (2023), <a href="https://medium.com/@nolwazihlophe" target="_blank"> Medium Publications</a>.
 5. Hlophe, N. (2022) <a href="https://issuu.com/digitalbankerafrica/docs/digital_banker_africa_autumn_2022/42" target="_blank"> I am not Data. How can Low-and-Middle Income Economies Develop Effective Data Privacy and Protection Laws in the Digital Age?</a>, Digital Banker Africa.
 6. Hlophe, N. (2022) <a href="https://digitalfrontiersinstitute.org/big-data-analytics-workshop-2022-summary/" target="_blank"> Big Data Analytics Workshop 2022 – Summary | Résumé</a>, Digital Frontiers Institute.
