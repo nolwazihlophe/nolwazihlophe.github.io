@@ -3,5 +3,5 @@ theme                    : jekyll-theme-cayman
 subtitle                 : "Senior Fintech Specialist"
 description              : "Financial Regulation | DeFi | Fintech | Embedded Payments | Digital Economy | Market Conduct"
 url                      : "https://nolwazihlophe.github.io"
-show_downloads           : true
+show_downloads           : false
 
