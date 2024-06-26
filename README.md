@@ -12,7 +12,7 @@ My passion is to advance financial inclusion, innovation, and stability in the r
 
 ## Publications
 
-1. Hlophe, N. (2024), <a href="https://www.ifwg.co.za/Pages/The-Future-of-Finance.aspx" target="_blank"> The Future of Finance: The Synergy Between Quantum Machine Learning and Artificial Intelligence</a>, Financial Sector Conduct Authority.
+1. Hlophe, N. (2024), <a href="https://www.ifwg.co.za/Pages/The-Future-of-Finance.aspx" target="_blank"> The Future of Finance: The Synergy Between Quantum Machine Learning and Artificial Intelligence</a>, Intergovernmental Fintech Working Group.
 2. Hlophe, N. (2024), <a href="https://www.fsca.co.za/Documents/Presentation%20on%20AI%20in%20Finance%20and%20Consumer%20Protection%20FSCA%20Conference%20Day%201.pdf" target="_blank"> Artificial Intelligence in the Financial Sector and Emerging Consumer Protection Concerns</a>, Financial Sector Conduct Authority.
 3. Hlophe, N. (2024), <a href="https://www.fsca.co.za/Regulatory%20Frameworks/Documents/2023.10.26_DeFi%20Presentation%20and%20Panel%20Discussion%201.pdf" target="_blank">Decentralised Finance Presentation and Panel Discussion</a>, Financial Sector Conduct Authority.
 4. Hlophe, N. and Sabilika, K. (2024), <a href="https://www.ifwg.co.za/Pages/The-nexus-between-generative-AI-and-open-finance.aspx" target="_blank">The Nexus Between Generative AI and Open Finance: The Next Frontier in Financial Innovation</a>, Intergovernmental Fintech Working Group.
