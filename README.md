@@ -10,6 +10,8 @@ I have over eight years of experience in financial regulation and supervision, a
 
 My passion is to advance financial inclusion, innovation, and stability in the region, and I have contributed to several research and policy initiatives in this field. For instance, I was the first Project Manager of the CBE Intelligence Hub at the <a href="https://www.centralbank.org.sz/" target="_blank">Central Bank of Eswatini</a>, where I defined the strategy and guidelines for the Fintech Unit and the Regulatory Sandbox in 2018. I have also been named among the 60 African Women Experts in Fintech by <a href="https://africanshapers.com/en/60-african-women-experts-in-fintech/" target="_blank">Africa Shapers</a> 2022. In addition, I have developed and sharpened my skills in anti-money laundering compliance, digital identity, cybersecurity, data privacy and protection, data management, relationship management, leadership, and technical proposal writing. I am also a Class Teacher for several online Economics courses at <a href="https://2u.com/" target="_blank">2U</a>, where I plan and host bi-weekly teaching calls and engage with students on the online campus.
 
+You can download my CV here <input type="Nolwazi Hlophe_CV">
+
 ## Publications
 
 1. Hlophe, N. (2024), <a href="https://www.ifwg.co.za/Pages/The-Future-of-Finance.aspx" target="_blank"> The Future of Finance: The Synergy Between Quantum Machine Learning and Artificial Intelligence</a>, Intergovernmental Fintech Working Group.
