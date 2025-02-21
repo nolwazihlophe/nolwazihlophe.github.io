@@ -14,7 +14,7 @@ My passion is to advance financial inclusion, innovation, and stability in the r
 
 1. Hlophe, N. (2025), <a href="https://www.ifwg.co.za/Pages/Decentralised-finance-and-data-privacy.aspx" target="_blank"> Decentralised finance and data privacy: what’s the story?</a>, Intergovernmental Fintech Working Group.
 2. Rahulani, A.; Hlophe, N. (2024), <a href="https://www.fsca.co.za/Regulatory%20Frameworks/Documents/Market%20Study%20-%20Decentralised%20Finance%20in%20South%20Africa.pdf" target="_blank"> Market Study - Decentralised Finance in South Africa</a>, Financial Sector Conduct Authority (FSCA).
-3. Hlophe, N. (2024), <a href="https://digitalbankerafrica.com/you-are-the-training-data/" target="_blank"> You are the training data</a> Digital Banker Africa
+3. Hlophe, N. (2024), <a href="https://digitalbankerafrica.com/you-are-the-training-data/" target="_blank"> You are the training data</a>, Digital Banker Africa
 4. Hlophe, N. (2024), <a href="https://www.ifwg.co.za:443/Pages/AI-and-Blockchain-Shaping-the-Next-Generation-of-Finance.aspx" target="_blank"> AI and Blockchain: Shaping the Next Generation of Finance</a>, Intergovernmental Fintech Working Group.
 5. Hlophe, N. (2024), <a href="https://www.businesslive.co.za/bt/opinion/2024-09-22-nolwazi-hlophe-careful-with-my-data/" target="_blank"> Careful with my data!</a>, Business Times.
 6. Hlophe, N. (2024), <a href="https://www.ifwg.co.za/Pages/The-Future-of-Finance.aspx" target="_blank"> The Future of Finance: The Synergy Between Quantum Machine Learning and Artificial Intelligence</a>, Intergovernmental Fintech Working Group.
@@ -35,3 +35,10 @@ My passion is to advance financial inclusion, innovation, and stability in the r
 21. Cooper, B.; Perez, L.; Esser, A.; Allen, M.; Hlophe, N.; Ferreira, M. (2019) <a href="https://cenfri.org/publications/an-analysis-of-id-proxy-initiatives-across-the-globe" target="_blank"> An analysis of ID proxy initiatives across the globe</a>, Cenfri.
 22. Hlophe, N. (2019) <a href="https://.www.centralbank.org.sz/magazine/" target="_blank">RegTech: how it works, its applications and how it benefits regulators</a>, Central Bank of Eswatini. 
 23. Hlophe, N. (2018) <a href="https://www.african-review.com/view-paper.php?serial=20191102135807-759399" target="_blank">Does financial development mean financial inclusion?</a>, African Review of Economics and Finance, 10(2), pp. 120-133.
+
+## News Articles
+
+1. Nkhensani Nkhwashu (2025), <a href="https://www.itweb.co.za/article/ai-in-finance-needs-human-oversight/mQwkoM6YwjR73r9A" target="_blank"> AI in finance needs human oversight </a>, ITWeb
+2. Forward Pathway (2025), <a href="https://www.itweb.co.za/article/ai-in-finance-needs-human-oversight/mQwkoM6YwjR73r9A" target="_blank"> The Importance and Challenges of Human Oversight in AI Era </a>, Forward Pathway
+3. Teresa Leese (2025), <a href="https://seamlessxtra.com/interview-with-nolwazi-hlophe-senior-fintech-specialist-fsca/" target="_blank"> Interview with Nolwazi Hlophe, Senior Fintech Specialist | FSCA</a>, Seamless Xtra
+4. Gareth Stokes (2024), <a href="https://www.fanews.co.za/article/people-and-companies/12/events/1212/ai-could-scupper-the-best-laid-tcf-plans/39040" target="_blank"> AI could scupper the best-laid TCF plans </a>, FANews
