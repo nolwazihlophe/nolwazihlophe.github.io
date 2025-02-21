@@ -13,8 +13,7 @@ My passion is to advance financial inclusion, innovation, and stability in the r
 ## Publications
 
 1. Hlophe, N. (2025), <a href="https://www.ifwg.co.za/Pages/Decentralised-finance-and-data-privacy.aspx" target="_blank"> Decentralised finance and data privacy: what’s the story?</a>, Intergovernmental Fintech Working Group.
-
-2.Hlophe, N. (2024), <a href="https://www.fsca.co.za/Regulatory%20Frameworks/Documents/Market%20Study%20-%20Decentralised%20Finance%20in%20South%20Africa.pdf" target="_blank"> Market Study - Decentralised Finance in South Africa</a>, Financial Sector Conduct Authority (FSCA).
+2. Hlophe, N. (2024), <a href="https://www.fsca.co.za/Regulatory%20Frameworks/Documents/Market%20Study%20-%20Decentralised%20Finance%20in%20South%20Africa.pdf" target="_blank"> Market Study - Decentralised Finance in South Africa</a>, Financial Sector Conduct Authority (FSCA).
 3. Hlophe, N. (2024), <a href="https://www.ifwg.co.za:443/Pages/AI-and-Blockchain-Shaping-the-Next-Generation-of-Finance.aspx" target="_blank"> AI and Blockchain: Shaping the Next Generation of Finance</a>, Intergovernmental Fintech Working Group.
 4. Hlophe, N. (2024), <a href="https://www.businesslive.co.za/bt/opinion/2024-09-22-nolwazi-hlophe-careful-with-my-data/" target="_blank"> Careful with my data!</a>, Business Times.
 5. Hlophe, N. (2024), <a href="https://www.ifwg.co.za/Pages/The-Future-of-Finance.aspx" target="_blank"> The Future of Finance: The Synergy Between Quantum Machine Learning and Artificial Intelligence</a>, Intergovernmental Fintech Working Group.
