@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nolwazi Hlophe</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for smooth scrolling and a professional font */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Basic dark theme for the body with a deep green feel */
+        body {
+            @apply bg-gray-900 text-gray-100;
+        }
+
+        /* Styling for section headings */
+        .section-heading {
+            @apply text-3xl md:text-4xl font-bold mb-4;
+            color: black;
+        }
+    </style>
+</head>
+
+<body class="p-4 md:p-8">
+    <div class="container mx-auto max-w-4xl space-y-12">
+
+        <!-- Header Section -->
+        <header class="text-center py-12 rounded-lg shadow-xl border border-[#30f7be] bg-[#30f7be]">
+            <img src="https://raw.githubusercontent.com/nolwazihlophe/nolwazihlophe.github.io/main/IMG_9997.jpeg" alt="Nolwazi Hlophe's Profile Picture" class="w-32 h-32 md:w-48 md:h-48 rounded-full mx-auto mb-6 border-4 border-white shadow-lg object-cover">
+            <h1 class="text-5xl md:text-6xl font-extrabold text-black">
+                Nolwazi Hlophe
+            </h1>
+            <p class="mt-4 text-xl md:text-2xl font-light text-black">Fintech | Consumer Protection | Financial Inclusion</p>
+        </header>
+
+        <!-- Navigation Buttons -->
+        <nav class="flex flex-wrap justify-center gap-4 py-6">
+            <a href="#about" class="px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded-full shadow-lg transition-transform duration-300 transform hover:scale-105">
+                About Me
+            </a>
+            <a href="publications.html" class="px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded-full shadow-lg transition-transform duration-300 transform hover:scale-105">
+                Publications
+            </a>
+            <a href="news_articles.html" class="px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded-full shadow-lg transition-transform duration-300 transform hover:scale-105">
+                News Articles
+            </a>
+        </nav>
+
+        <!-- Main Content Sections -->
+        <main class="space-y-12">
+
+            <!-- About Me Section -->
+            <section id="about" class="p-8 rounded-lg shadow-xl border border-[#30f7be] bg-[#30f7be]">
+                <h2 class="section-heading">About Me</h2>
+                <p class="text-black text-lg">
+                    With over a decade of experience in financial regulation and supervision; I currently work as a Senior Fintech Specialist at <a href="https://www.fsca.co.za/Pages/Default.aspx" target="_blank" class="text-black hover:underline">FSCA</a> South Africa, the market conduct regulator of the financial services sector in South Africa. My role involves monitoring and analyzing emerging products, business models, and technologies in the industry. I lead research on artificial intelligence in the financial sector, open finance and decentralised finance. I am a member of the <a href="https://www.iaisweb.org/activities-topics/digital-innovation/" target="_blank" class="text-black hover:underline">IAIS Fintech Forum</a>.
+                </p>
+                <p class="text-black text-lg mt-4">
+                    My passion is to advance financial inclusion, innovation, and stability in the region, and I have contributed to several research and policy initiatives in this field. For instance, I was the first Project Manager of the CBE Intelligence Hub at the <a href="https://www.centralbank.org.sz/" target="_blank" class="text-black hover:underline">Central Bank of Eswatini</a>, where I defined the strategy and guidelines for the Fintech Unit and the Regulatory Sandbox in 2018. I have also been named among the 60 African Women Experts in Fintech by <a href="https://africanshapers.com/en/60-african-women-experts-in-fintech/" target="_blank" class="text-black hover:underline">Africa Shapers</a> 2022. In addition, I have developed and sharpened my skills in anti-money laundering compliance, digital identity, cybersecurity, data privacy and protection, relationship management, leadership, and technical proposal writing. I am also a Class Teacher for several online Economics courses at <a href="https://2u.com/" target="_blank" class="text-black hover:underline">2U</a>, where I plan and host bi-weekly teaching calls and engage with students on the online campus.
+                </p>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center py-8 text-gray-500">
+            <p>Built with &hearts; in HTML and Tailwind CSS.</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
