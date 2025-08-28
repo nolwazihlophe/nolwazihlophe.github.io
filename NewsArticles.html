@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nolwazi Hlophe - News Articles</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            @apply bg-gray-900 text-gray-100;
+        }
+        .section-heading {
+            @apply text-3xl md:text-4xl font-bold mb-4;
+            color: black;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+    <div class="container mx-auto max-w-4xl space-y-12">
+        <!-- Header -->
+        <header class="text-center py-12 rounded-lg shadow-xl border border-[#30f7be] bg-[#30f7be]">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-black">
+                News Articles
+            </h1>
+            <p class="mt-2 text-lg md:text-xl font-light italic text-black">News Articles Featured.</p>
+        </header>
+
+        <!-- Back Button -->
+        <a href="index.html" class="inline-block px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded-full shadow-lg transition-transform duration-300 transform hover:scale-105">
+            ← Back to Main Page
+        </a>
+
+        <!-- News Articles List -->
+        <section class="p-8 rounded-lg shadow-xl border border-[#30f7be] bg-[#30f7be]">
+            <ol class="list-decimal list-inside space-y-6 text-lg">
+                <li>
+                    <p class="text-black font-bold">
+                        Nkhensani Nkhwashu (2025). <a href="https://www.itweb.co.za/article/ai-in-finance-needs-human-oversight/mQwkoM6YwjR73r9A" target="_blank" class="text-black hover:underline">AI in finance needs human oversight</a>, ITWeb.
+                    </p>
+                </li>
+                <li>
+                    <p class="text-black font-bold">
+                        Forward Pathway (2025). <a href="https://www.itweb.co.za/article/ai-in-finance-needs-human-oversight/mQwkoM6YwjR73r9A" target="_blank" class="text-black hover:underline">The Importance and Challenges of Human Oversight in AI Era</a>, Forward Pathway.
+                    </p>
+                </li>
+                <li>
+                    <p class="text-black font-bold">
+                        Teresa Leese (2025). <a href="https://seamlessxtra.com/interview-with-nolwazi-hlophe-senior-fintech-specialist-fsca/" target="_blank" class="text-black hover:underline">Interview with Nolwazi Hlophe, Senior Fintech Specialist | FSCA</a>, Seamless Xtra.
+                    </p>
+                </li>
+                <li>
+                    <p class="text-black font-bold">
+                        Gareth Stokes (2024). <a href="https://www.fanews.co.za/article/people-and-companies/12/events/1212/ai-could-scupper-the-best-laid-tcf-plans/39040" target="_blank" class="text-black hover:underline">AI could scupper the best-laid TCF plans</a>, FANews.
+                    </p>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center py-8 text-gray-500">
+            <p>Built with &hearts; in HTML and Tailwind CSS.</p>
+        </footer>
+    </div>
+</body>
+</html>
