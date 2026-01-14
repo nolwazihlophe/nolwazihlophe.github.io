@@ -1,82 +1,304 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nolwazi Hlophe - Fintech | Consumer Protection | Financial Inclusion">
     <title>Nolwazi Hlophe</title>
     <link rel="icon" href="NH Logo.png" type="image/png">
-    <!-- Tailwind CSS CDN for styling -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0f172a', // Slate 900 - Matching the deep navy look
+                        secondary: '#334155', // Slate 700
+                        accent: '#06b6d4', // Cyan 500 - Preserving your preferred accent color
+                        surface: '#f8fafc', // Slate 50
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        /* Custom styles for smooth scrolling and a professional font */
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-
-        /* Applying the new Deep Navy Blue theme (bg-blue-950) */
-        body {
-            @apply bg-blue-950 text-white;
-        }
-
-        /* Styling for section headings */
-        .section-heading {
-            @apply text-3xl md:text-4xl font-bold mb-4;
-            color: white; 
+        body { font-family: 'Inter', sans-serif; }
+        .hero-overlay {
+            /* Using a dark professional overlay similar to Connection Advisory */
+            background: linear-gradient(rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.85)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
         }
     </style>
 </head>
+<body class="bg-surface text-slate-900 flex flex-col min-h-screen">
 
-<body class="p-4 md:p-8">
-    <div class="container mx-auto max-w-4xl space-y-12">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-sm transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="text-2xl font-bold text-primary tracking-tight">
+                        NH<span class="text-accent">.</span>
+                    </a>
+                </div>
 
-        <!-- Header Section - Updated for Blue/Cyan theme -->
-        <header class="text-center py-12 rounded-lg shadow-xl border border-cyan-400 bg-blue-900">
-            <img src="1. Nolwazi Hlophe.png" alt="Nolwazi Hlophe's Profile Picture" class="w-32 h-32 md:w-48 md:h-48 rounded-full mx-auto mb-6 border-4 border-white shadow-lg object-cover">
-            <h1 class="text-5xl md:text-6xl font-extrabold text-white">
-                Nolwazi Hlophe
-            </h1>
-            <!-- Accent text color changed to cyan-400 -->
-            <p class="mt-4 text-xl md:text-2xl font-light text-cyan-400">Fintech | Consumer Protection | Financial Inclusion</p>
-        </header>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">About Me</a>
+                    <a href="publications.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">Publications</a>
+                    <a href="news_articles.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">News Articles</a>
+                    <a href="#contact" class="bg-primary hover:bg-slate-800 text-white px-5 py-2.5 rounded-sm text-sm font-medium transition-all shadow-md">
+                        Get in Touch
+                    </a>
+                </div>
 
-        <!-- Navigation Buttons - Changed to use cyan accent color -->
-        <nav class="flex flex-wrap justify-center gap-4 py-6">
-            <a href="#about" class="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-semibold rounded-full shadow-lg transition-transform duration-300 transform hover:scale-105">
-                About Me
-            </a>
-            <a href="publications.html" class="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-semibold rounded-full shadow-lg transition-transform duration-300 transform hover:scale-105">
-                Publications
-            </a>
-            <a href="news_articles.html" class="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-semibold rounded-full shadow-lg transition-transform duration-300 transform hover:scale-105">
-                News Articles
-            </a>
-        </nav>
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-slate-600 hover:text-primary focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
 
-        <!-- Main Content Sections - Updated for Blue/Cyan theme -->
-        <main class="space-y-12">
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full shadow-lg">
+            <div class="px-4 pt-2 pb-6 space-y-1">
+                <a href="#about" class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-accent hover:bg-slate-50 rounded-md">About Me</a>
+                <a href="publications.html" class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-accent hover:bg-slate-50 rounded-md">Publications</a>
+                <a href="news_articles.html" class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-accent hover:bg-slate-50 rounded-md">News Articles</a>
+                <a href="#contact" class="block mt-4 text-center px-3 py-3 text-base font-medium bg-primary text-white rounded-md hover:bg-slate-800">Get in Touch</a>
+            </div>
+        </div>
+    </nav>
 
-            <!-- About Me Section -->
-            <section id="about" class="p-8 rounded-lg shadow-xl border border-cyan-400 bg-blue-900">
-                <p class="text-white text-lg">
-                    With over a decade of experience in financial regulation and supervision; I currently work as a Senior Fintech Specialist at <a href="https://www.fsca.co.za/Pages/Default.aspx" target="_blank" class="text-cyan-400 hover:underline">FSCA</a> South Africa, the market conduct regulator of the financial services sector in South Africa. My role involves monitoring and analyzing emerging products, business models, and technologies in the industry. I lead research on artificial intelligence in the financial sector, open finance and decentralised finance. I am a member of the <a href="https://www.iaisweb.org/activities-topics/digital-innovation/" target="_blank" class="text-cyan-400 hover:underline">IAIS Fintech Forum</a>. Additionally, I am the Deputy Chair of the Open Finance Integration Working Group (OPI-WG) of the <a href="https://www.ifwg.co.za/Pages/default.aspx" target="_blank" class="text-cyan-400 hover:underline">IFWG</a>
+    <!-- Hero Section -->
+    <section class="hero-overlay relative h-screen min-h-[600px] flex items-center justify-center text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-16 text-center md:text-left">
+            <div class="max-w-4xl">
+                <div class="inline-block px-3 py-1 mb-6 border border-cyan-500/30 rounded-full bg-cyan-900/20 backdrop-blur-md">
+                    <span class="text-xs font-bold tracking-wider uppercase text-cyan-400">Senior Fintech Specialist</span>
+                </div>
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 tracking-tight">
+                    Nolwazi Hlophe
+                </h1>
+                <p class="text-xl md:text-2xl text-slate-300 mb-4 font-light max-w-2xl leading-relaxed md:mr-auto">
+                    Fintech <span class="text-accent mx-2">•</span> Consumer Protection <span class="text-accent mx-2">•</span> Financial Inclusion
                 </p>
-                <p class="text-white text-lg mt-4">
-                    My passion is to advance financial inclusion, innovation, and stability in the region, and I have contributed to several research and policy initiatives in this field. For instance, I was the first Project Manager of the CBE Intelligence Hub at the <a href="https://www.centralbank.org.sz/" target="_blank" class="text-cyan-400 hover:underline">Central Bank of Eswatini</a>, where I defined the strategy and guidelines for the Fintech Unit and the Regulatory Sandbox in 2018. I have also been named among the 60 African Women Experts in Fintech by <a href="https://africanshapers.com/en/60-african-women-experts-in-fintech/" target="_blank" class="text-cyan-400 hover:underline">Africa Shapers</a> 2022. In addition, I have developed and sharpened my skills in anti-money laundering compliance, digital identity, cybersecurity, data privacy and protection, relationship management, leadership, and technical proposal writing. I am also a Class Teacher for several online Economics courses at <a href="https://2u.com/" target="_blank" class="text-cyan-400 hover:underline">2U</a>, where I plan and host bi-weekly teaching calls and engage with students on the online campus.
+                <p class="text-lg text-slate-400 mb-10 font-light max-w-2xl">
+                    Advancing financial inclusion, innovation, and stability across the region.
                 </p>
-            </section>
-        </main>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="#about" class="inline-flex justify-center items-center px-8 py-4 border border-transparent text-base font-medium rounded-sm text-primary bg-accent hover:bg-cyan-400 transition-all shadow-lg hover:shadow-cyan-500/20">
+                        Read Biography
+                    </a>
+                    <a href="publications.html" class="inline-flex justify-center items-center px-8 py-4 border border-slate-500 text-base font-medium rounded-sm text-white hover:bg-white/10 transition-all">
+                        View Publications
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Stats Strip -->
+        <div class="absolute bottom-0 w-full bg-white/5 backdrop-blur-sm border-t border-white/10 py-6 hidden md:block">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center text-sm text-slate-300">
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-landmark text-accent"></i>
+                    <span>Regulatory Strategy</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-robot text-accent"></i>
+                    <span>Artificial Intelligence</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-globe-africa text-accent"></i>
+                    <span>Regional Stability</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!-- Footer - Changed text color to subtle blue-200 -->
-        <footer class="text-center py-8 text-blue-200">
-            <p>Built with &hearts; in HTML and Tailwind CSS.</p>
-        </footer>
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-start">
+                <!-- Image Column -->
+                <div class="mb-12 lg:mb-0 relative sticky top-24">
+                    <div class="absolute -top-4 -left-4 w-24 h-24 bg-cyan-50 rounded-tl-3xl z-0"></div>
+                    <!-- Using onerror to show a placeholder if your specific local file isn't found in this preview -->
+                    <img src="1. Nolwazi Hlophe.png" 
+                         onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80'" 
+                         alt="Nolwazi Hlophe" 
+                         class="relative z-10 rounded-sm shadow-2xl w-full object-cover aspect-[4/5]">
+                    <div class="absolute -bottom-6 -right-6 bg-primary p-6 rounded-sm shadow-xl z-20 max-w-xs hidden md:block border-l-4 border-accent">
+                        <p class="text-white text-md italic">"Advancing financial inclusion, innovation, and stability."</p>
+                    </div>
+                </div>
+                
+                <!-- Content Column -->
+                <div>
+                    <h2 class="text-sm font-bold text-accent uppercase tracking-widest mb-3">About Me</h2>
+                    <h3 class="text-3xl md:text-4xl font-bold text-primary mb-8">Professional Profile</h3>
+                    
+                    <div class="prose prose-lg text-slate-600 leading-relaxed space-y-6">
+                        <p>
+                            With over a decade of experience in financial regulation and supervision; I currently work as a Senior Fintech Specialist at <a href="https://www.fsca.co.za/Pages/Default.aspx" target="_blank" class="text-accent font-semibold hover:text-cyan-600 transition-colors">FSCA South Africa</a>, the market conduct regulator of the financial services sector in South Africa. My role involves monitoring and analyzing emerging products, business models, and technologies in the industry.
+                        </p>
+                        <p>
+                            I lead research on artificial intelligence in the financial sector, open finance and decentralised finance. I am a member of the <a href="https://www.iaisweb.org/activities-topics/digital-innovation/" target="_blank" class="text-accent font-semibold hover:text-cyan-600 transition-colors">IAIS Fintech Forum</a>. Additionally, I am the Deputy Chair of the Open Finance Integration Working Group (OPI-WG) of the <a href="https://www.ifwg.co.za/Pages/default.aspx" target="_blank" class="text-accent font-semibold hover:text-cyan-600 transition-colors">IFWG</a>.
+                        </p>
+                        
+                        <div class="bg-slate-50 p-6 border-l-4 border-primary my-8 rounded-r-sm">
+                            <p class="text-slate-700 italic m-0">
+                                My passion is to advance financial inclusion, innovation, and stability in the region, and I have contributed to several research and policy initiatives in this field.
+                            </p>
+                        </div>
 
-    </div>
+                        <p>
+                            For instance, I was the first Project Manager of the CBE Intelligence Hub at the <a href="https://www.centralbank.org.sz/" target="_blank" class="text-accent font-semibold hover:text-cyan-600 transition-colors">Central Bank of Eswatini</a>, where I defined the strategy and guidelines for the Fintech Unit and the Regulatory Sandbox in 2018. I have also been named among the 60 African Women Experts in Fintech by <a href="https://africanshapers.com/en/60-african-women-experts-in-fintech/" target="_blank" class="text-accent font-semibold hover:text-cyan-600 transition-colors">Africa Shapers</a> 2022.
+                        </p>
+                        <p>
+                            In addition, I have developed and sharpened my skills in anti-money laundering compliance, digital identity, cybersecurity, data privacy and protection, relationship management, leadership, and technical proposal writing. I am also a Class Teacher for several online Economics courses at <a href="https://2u.com/" target="_blank" class="text-accent font-semibold hover:text-cyan-600 transition-colors">2U</a>, where I plan and host bi-weekly teaching calls and engage with students on the online campus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Highlights (Styled like Advisory Pillars) -->
+    <section class="py-24 bg-slate-50 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-sm font-bold text-accent uppercase tracking-widest mb-3">Expertise</h2>
+                <h3 class="text-3xl md:text-4xl font-bold text-primary mb-4">Strategic Impact</h3>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Pillar 1 -->
+                <div class="bg-white p-8 rounded-sm shadow-sm hover:shadow-xl transition-shadow border-t-4 border-accent group">
+                    <div class="w-12 h-12 bg-cyan-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-accent transition-colors">
+                        <i class="fas fa-building text-xl text-accent group-hover:text-white transition-colors"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-primary mb-3">Regulatory Supervision</h4>
+                    <p class="text-slate-600 mb-4">Senior Fintech Specialist at FSCA South Africa, leading research on AI, Open Finance, and DeFi market conduct.</p>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="bg-white p-8 rounded-sm shadow-sm hover:shadow-xl transition-shadow border-t-4 border-primary group">
+                    <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
+                        <i class="fas fa-lightbulb text-xl text-primary group-hover:text-white transition-colors"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-primary mb-3">Innovation Strategy</h4>
+                    <p class="text-slate-600 mb-4">Established the CBE Intelligence Hub and defined guidelines for the Regulatory Sandbox at the Central Bank of Eswatini.</p>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="bg-white p-8 rounded-sm shadow-sm hover:shadow-xl transition-shadow border-t-4 border-accent group">
+                    <div class="w-12 h-12 bg-cyan-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-accent transition-colors">
+                        <i class="fas fa-graduation-cap text-xl text-accent group-hover:text-white transition-colors"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-primary mb-3">Education & Leadership</h4>
+                    <p class="text-slate-600 mb-4">Class Teacher at 2U for Economics courses and recognized as one of the 60 African Women Experts in Fintech.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links (Replacing Insights) -->
+    <section id="work" class="py-24 bg-white border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-8">
+                <a href="publications.html" class="group relative overflow-hidden rounded-sm h-64 md:h-80 flex items-end p-8 bg-slate-900">
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity" alt="Publications">
+                    <div class="relative z-10">
+                        <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-accent transition-colors">Publications</h3>
+                        <p class="text-slate-300 mb-4">Read my latest research and policy papers.</p>
+                        <span class="inline-flex items-center text-accent font-semibold text-sm uppercase tracking-wider">
+                            View Archive <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                        </span>
+                    </div>
+                </a>
+
+                <a href="news_articles.html" class="group relative overflow-hidden rounded-sm h-64 md:h-80 flex items-end p-8 bg-slate-900">
+                    <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity" alt="News">
+                    <div class="relative z-10">
+                        <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-accent transition-colors">News Articles</h3>
+                        <p class="text-slate-300 mb-4">Latest features, interviews, and industry news.</p>
+                        <span class="inline-flex items-center text-accent font-semibold text-sm uppercase tracking-wider">
+                            Read Articles <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-primary text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <svg class="h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 C 20 0 50 0 100 100 Z" fill="white" />
+            </svg>
+        </div>
+                <div class="mt-12 lg:mt-0 bg-white p-8 rounded-sm shadow-2xl">
+                    <form action="https://formspree.io/f/xdaaoqvv" method="POST">
+                        <div class="mb-6">
+                            <label for="name" class="block text-sm font-medium text-slate-700 mb-2">Full Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-sm focus:ring-2 focus:ring-accent focus:border-accent text-slate-900" placeholder="John Doe" required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="block text-sm font-medium text-slate-700 mb-2">Email Address</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-sm focus:ring-2 focus:ring-accent focus:border-accent text-slate-900" placeholder="john@company.com" required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-sm font-medium text-slate-700 mb-2">Message</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-sm focus:ring-2 focus:ring-accent focus:border-accent text-slate-900" placeholder="How can we work together?" required></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary text-white font-bold py-4 rounded-sm hover:bg-slate-800 transition-colors shadow-lg">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-500 py-12 border-t border-slate-900 text-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="mb-4">Built with HTML and Tailwind CSS.</p>
+            <p class="text-xs">&copy; 2026 Nolwazi Hlophe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Sticky Navbar effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('shadow-md');
+                navbar.classList.remove('py-4');
+            } else {
+                navbar.classList.remove('shadow-md');
+                navbar.classList.add('py-4');
+            }
+        });
+    </script>
 </body>
-
 </html>
