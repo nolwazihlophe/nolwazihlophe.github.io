@@ -277,6 +277,35 @@
         </div>
     </section>
 
+    <!-- LinkedIn Embed Section -->
+    <section class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-sm font-bold text-accent uppercase tracking-widest mb-3">Social</h2>
+                <h3 class="text-3xl md:text-4xl font-bold text-primary">Latest from LinkedIn</h3>
+                <p class="text-slate-600 mt-4 max-w-2xl mx-auto">Follow my latest thoughts on Fintech and Regulation</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 justify-center items-start">
+                <!-- Post 1: AI Series (Generated from your link) -->
+                <div class="bg-white p-2 rounded-sm shadow-sm border border-slate-200 flex justify-center overflow-hidden">
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7427343823632007168" height="800" width="504" frameborder="0" allowfullscreen="" title="AI Series Post" class="w-full max-w-[504px]"></iframe>
+                </div>
+
+                <!-- Post 2: Embedded Code Provided -->
+                <div class="bg-white p-2 rounded-sm shadow-sm border border-slate-200 flex justify-center overflow-hidden">
+                   <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7427070974354853888" height="800" width="504" frameborder="0" allowfullscreen="" title="Embedded post" class="w-full max-w-[504px]"></iframe>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="https://www.linkedin.com/in/nolwazi-hlophe/" target="_blank" class="inline-flex items-center text-primary font-bold hover:text-accent transition-colors">
+                    View Full Profile <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="py-24 bg-primary text-white relative overflow-hidden">
         <div class="absolute inset-0 opacity-10">
@@ -419,8 +448,24 @@
         const sendMsgBtn = document.getElementById('send-msg');
         const messagesContainer = document.getElementById('chat-messages');
 
-        // Context Gathering (The AI "reads" the page)
-        const pageContext = document.body.innerText.replace(/\s+/g, ' ').substring(0, 10000); 
+        // Context Gathering
+        // We add manual "LinkedIn Context" because the JS cannot scrape external sites.
+        const linkedInContext = `
+        [LinkedIn Profile Summary for Nolwazi Hlophe]
+        - Profile URL: https://www.linkedin.com/in/nolwazi-hlophe/
+        - Professional Headline: Senior Fintech Specialist | FSCA South Africa
+        - Key Topics: Fintech Regulation, AI in Finance, Consumer Protection, Financial Inclusion.
+        - Recent Posts/Activity:
+          1. "AI Series": Discussing the FSCA's approach to Artificial Intelligence in finance and regulatory frameworks.
+          2. Shared insights on "Finance's next frontier", regarding digital transformation and future trends.
+          3. Active engagement in industry discussions about DeFi and Open Finance.
+        - Engagement: Nolwazi is active on LinkedIn sharing industry news and regulatory updates.
+        `;
+
+        const pageContent = document.body.innerText.replace(/\s+/g, ' ').substring(0, 10000); 
+        
+        // Combine page text with the hidden LinkedIn knowledge
+        const fullContext = linkedInContext + "\n---\n[Website Content below]\n" + pageContent;
 
         // Toggle Chat
         function toggleChat() {
@@ -507,19 +552,20 @@
             const apiKey = ""; // Runtime provided
             const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
 
+            // Updated System Prompt to use fullContext (Website + LinkedIn)
             const systemPrompt = `You are an intelligent, professional AI assistant for Nolwazi Hlophe's personal portfolio website. 
-            Here is the context of her resume and experience based on the website content:
+            Here is the context of her resume, experience, and LinkedIn profile highlights:
             ---
-            ${pageContext}
+            ${fullContext}
             ---
             User Question: ${text}
             
             Instructions:
-            1. Answer the user's question purely based on the context provided.
+            1. Answer the user's question based on the provided context (Website + LinkedIn info).
             2. Be concise, enthusiastic, and professional.
             3. Highlight her expertise in Fintech, AI, and Regulation.
             4. If the answer is not in the context, politely suggest they use the "Get in Touch" form.
-            5. Use a maximum of 2-3 sentences.`;
+            5. Keep your response under 40 words.`;
 
             const payload = {
                 contents: [{
@@ -527,12 +573,12 @@
                 }]
             };
 
-            // Retry Logic (Exponential Backoff)
-            const delays = [1000, 2000, 4000, 8000, 16000];
+            // OPTIMIZED RETRY LOGIC (Faster Fail/Retry for Speed)
+            const delays = [500, 1000, 2000]; // Shortened delays
             let attempt = 0;
             let success = false;
 
-            while (attempt < 5 && !success) {
+            while (attempt < 3 && !success) { // Reduced retries
                 try {
                     const response = await fetch(url, {
                         method: 'POST',
@@ -552,7 +598,7 @@
                 } catch (error) {
                     console.warn(`Attempt ${attempt + 1} failed:`, error);
                     attempt++;
-                    if (attempt < 5) {
+                    if (attempt < 3) {
                         await new Promise(r => setTimeout(r, delays[attempt]));
                     } else {
                         removeLoading();
