@@ -568,7 +568,7 @@
             <div class="p-6 overflow-y-auto bg-slate-50 flex-1">
                 <div id="ai-loading" class="flex flex-col items-center justify-center py-12">
                     <div class="w-16 h-16 border-4 border-slate-200 border-t-accent rounded-full animate-spin mb-4"></div>
-                    <p class="text-slate-600 font-medium">Analyzing 24 publications with Gemini AI...</p>
+                    <p class="text-slate-600 font-medium">Analyzing research timeline and impact...</p>
                 </div>
                 
                 <div id="ai-result" class="hidden prose prose-slate max-w-none">
@@ -586,7 +586,6 @@
     <!-- Footer -->
     <footer class="bg-slate-950 text-slate-500 py-12 border-t border-slate-900 text-center mt-auto">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <p class="mb-4">Built with HTML and Tailwind CSS.</p>
             <p class="text-xs">&copy; 2026 Nolwazi Hlophe. All rights reserved.</p>
         </div>
     </footer>
@@ -633,28 +632,32 @@
             aiResult.classList.add('hidden');
             aiResult.innerHTML = '';
 
-            // Gather Titles
-            const titles = Array.from(document.querySelectorAll('h3 a'))
-                                .map(a => a.innerText.replace(/[\n\r]+|[\s]{2,}/g, ' ').trim())
-                                .join('\n');
+            // Enhanced Data Gathering (Title, Year, Publisher)
+            const pubs = Array.from(document.querySelectorAll('#publications-list > div')).map(div => {
+                const year = div.querySelector('span')?.innerText || 'Unknown Year';
+                const title = div.querySelector('h3 a')?.innerText.replace(/[\n\r]+|[\s]{2,}/g, ' ').trim() || 'Unknown Title';
+                const publisher = div.querySelectorAll('p')[1]?.innerText || 'Unknown Publisher';
+                return `[${year}] ${title} (${publisher})`;
+            }).join('\n');
 
-            const apiKey = "AIzaSyA3g5vgRipZpAA7BeD8lojp7ZFEPzJJyaA"; // Runtime provided
+            const apiKey = "AIzaSyA3g5vgRipZpAA7BeD8lojp7ZFEPzJJyaA"; 
             const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
             
-            const systemPrompt = `You are a specialized academic AI analyst. 
-            Analyze the following list of research publications by Nolwazi Hlophe.
-            Identify the core themes, the progression of her research interests over time (from 2018 to 2025), and the key technologies she focuses on.
+            const systemPrompt = `You are a strategic career consultant analyzing the research portfolio of Nolwazi Hlophe.
             
-            Publication List:
-            ${titles}
+            Here is her chronological list of publications:
+            ${pubs}
             
-            Output Format:
-            Provide a response in simple HTML format (using <h4> for headings, <ul> for lists, and <p> for text).
-            1. <h4>🔬 Core Research Themes</h4>: A bulleted list of 3 major themes.
-            2. <h4>📈 Strategic Evolution</h4>: A short paragraph explaining how her work has evolved from general inclusion to specific AI/DeFi regulation.
-            3. <h4>🚀 Key Technologies</h4>: A list of technologies mentioned (e.g., AI, CBDC).
+            Instructions:
+            Create a concise, impressive Executive Summary of her research impact. Use simple HTML tags (<h4>, <ul>, <li>, <p>).
             
-            Keep it strictly under 150 words total.`;
+            Structure your response exactly like this:
+            1. <h4>🚀 Executive Narrative</h4>: One powerful sentence summarizing her journey from [Earliest Year] to [Latest Year].
+            2. <h4>🔬 Core Research Pillars</h4>: 3 bullet points with emojis summarizing her key themes.
+            3. <h4>📈 Strategic Evolution</h4>: A short paragraph explaining how her focus shifted (e.g., from general inclusion to specific AI/DeFi regulation).
+            4. <h4>🏛️ Industry Influence</h4>: Mention 3-4 key organizations she has published with (e.g., SARB, FSCA).
+            
+            Keep the tone professional, authoritative, and forward-looking. Max 200 words.`;
 
             const payload = {
                 contents: [{
@@ -662,8 +665,8 @@
                 }]
             };
 
-            // OPTIMIZED RETRY LOGIC (Faster Fail/Retry)
-            const delays = [500, 1000, 2000]; // Much shorter delays
+            // Retry Logic
+            const delays = [1000, 2000, 4000];
             let attempt = 0;
             let success = false;
 
