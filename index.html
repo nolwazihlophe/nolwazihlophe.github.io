@@ -52,6 +52,23 @@
             background-size: cover;
             background-position: center;
         }
+        /* Chat Widget Animations */
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(20px) scale(0.95); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        .chat-animate {
+            animation: slideIn 0.3s ease-out forwards;
+        }
+        .typing-dot {
+            animation: typing 1.4s infinite ease-in-out both;
+        }
+        .typing-dot:nth-child(1) { animation-delay: -0.32s; }
+        .typing-dot:nth-child(2) { animation-delay: -0.16s; }
+        @keyframes typing {
+            0%, 80%, 100% { transform: scale(0); }
+            40% { transform: scale(1); }
+        }
     </style>
 </head>
 <body class="bg-surface text-slate-900 flex flex-col min-h-screen">
@@ -325,8 +342,56 @@
         </div>
     </footer>
 
+    <!-- GEMINI AI CHAT WIDGET -->
+    <div id="ai-chat-widget" class="fixed bottom-6 right-6 z-50 font-sans">
+        <!-- Chat Window (Hidden by default) -->
+        <div id="chat-window" class="hidden bg-white w-80 sm:w-96 h-[500px] rounded-lg shadow-2xl border border-slate-200 flex flex-col mb-4 transition-all duration-300 transform origin-bottom-right scale-95 opacity-0">
+            <!-- Header -->
+            <div class="bg-primary text-white p-4 rounded-t-lg flex justify-between items-center shadow-sm">
+                <div class="flex items-center gap-2">
+                    <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                    <h3 class="font-bold text-sm">✨ Ask Nolwazi AI</h3>
+                </div>
+                <button id="close-chat" class="text-slate-300 hover:text-white transition-colors">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <!-- Messages Area -->
+            <div id="chat-messages" class="flex-1 p-4 overflow-y-auto text-sm space-y-4 bg-slate-50">
+                <!-- Welcome Message -->
+                <div class="flex gap-3">
+                    <div class="w-8 h-8 rounded-full bg-accent flex items-center justify-center text-white flex-shrink-0">
+                        <i class="fas fa-robot text-xs"></i>
+                    </div>
+                    <div class="bg-white border border-slate-100 p-3 rounded-lg rounded-tl-none shadow-sm text-slate-700">
+                        Hello! I'm Nolwazi's AI assistant. I've read her entire portfolio. Ask me anything about her experience with Fintech, AI regulation, or her research! ✨
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="p-3 border-t border-slate-200 bg-white rounded-b-lg">
+                <div class="flex gap-2 relative">
+                    <input type="text" id="chat-input" placeholder="Ask about her experience..." class="flex-1 border border-slate-300 rounded-full px-4 py-2 text-sm focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent pr-10">
+                    <button id="send-msg" class="bg-primary text-white w-9 h-9 rounded-full hover:bg-slate-800 transition-colors flex items-center justify-center absolute right-1 top-0.5 mt-px">
+                        <i class="fas fa-paper-plane text-xs"></i>
+                    </button>
+                </div>
+                <div class="text-center mt-2">
+                    <span class="text-[10px] text-slate-400">Powered by Gemini AI ✨</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Toggle Button -->
+        <button id="chat-toggle" class="bg-primary text-white w-16 h-16 rounded-full shadow-2xl hover:bg-slate-800 transition-all hover:scale-105 flex items-center justify-center text-2xl border-4 border-white">
+            <i class="fas fa-comment-dots"></i>
+        </button>
+    </div>
+
     <script>
-        // Mobile Menu Toggle
+        // --- MOBILE MENU ---
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
 
@@ -334,7 +399,7 @@
             menu.classList.toggle('hidden');
         });
 
-        // Sticky Navbar effect
+        // --- STICKY NAVBAR ---
         const navbar = document.getElementById('navbar');
         window.addEventListener('scroll', () => {
             if (window.scrollY > 50) {
@@ -345,6 +410,163 @@
                 navbar.classList.add('py-4');
             }
         });
+
+        // --- GEMINI AI CHATBOT LOGIC ---
+        const chatToggle = document.getElementById('chat-toggle');
+        const chatWindow = document.getElementById('chat-window');
+        const closeChat = document.getElementById('close-chat');
+        const chatInput = document.getElementById('chat-input');
+        const sendMsgBtn = document.getElementById('send-msg');
+        const messagesContainer = document.getElementById('chat-messages');
+
+        // Context Gathering (The AI "reads" the page)
+        const pageContext = document.body.innerText.replace(/\s+/g, ' ').substring(0, 10000); 
+
+        // Toggle Chat
+        function toggleChat() {
+            chatWindow.classList.toggle('hidden');
+            if (!chatWindow.classList.contains('hidden')) {
+                setTimeout(() => {
+                    chatWindow.classList.remove('scale-95', 'opacity-0');
+                    chatWindow.classList.add('scale-100', 'opacity-100');
+                    chatInput.focus();
+                }, 10);
+                chatToggle.classList.add('hidden');
+            } else {
+                chatWindow.classList.add('scale-95', 'opacity-0');
+                chatWindow.classList.remove('scale-100', 'opacity-100');
+                chatToggle.classList.remove('hidden');
+            }
+        }
+
+        chatToggle.addEventListener('click', toggleChat);
+        closeChat.addEventListener('click', toggleChat);
+
+        // Add User Message
+        function addUserMessage(text) {
+            const div = document.createElement('div');
+            div.className = 'flex gap-3 justify-end chat-animate';
+            div.innerHTML = `
+                <div class="bg-accent text-white p-3 rounded-lg rounded-tr-none shadow-sm max-w-[85%]">
+                    ${text}
+                </div>
+            `;
+            messagesContainer.appendChild(div);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        // Add AI Message
+        function addAIMessage(text) {
+            const div = document.createElement('div');
+            div.className = 'flex gap-3 chat-animate';
+            div.innerHTML = `
+                <div class="w-8 h-8 rounded-full bg-accent flex items-center justify-center text-white flex-shrink-0">
+                    <i class="fas fa-robot text-xs"></i>
+                </div>
+                <div class="bg-white border border-slate-100 p-3 rounded-lg rounded-tl-none shadow-sm text-slate-700 max-w-[85%]">
+                    ${text}
+                </div>
+            `;
+            messagesContainer.appendChild(div);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        // Add Loading Indicator
+        function addLoading() {
+            const div = document.createElement('div');
+            div.id = 'ai-loading';
+            div.className = 'flex gap-3 chat-animate';
+            div.innerHTML = `
+                <div class="w-8 h-8 rounded-full bg-accent flex items-center justify-center text-white flex-shrink-0">
+                    <i class="fas fa-robot text-xs"></i>
+                </div>
+                <div class="bg-white border border-slate-100 p-4 rounded-lg rounded-tl-none shadow-sm flex gap-1 items-center">
+                    <div class="w-2 h-2 bg-slate-400 rounded-full typing-dot"></div>
+                    <div class="w-2 h-2 bg-slate-400 rounded-full typing-dot"></div>
+                    <div class="w-2 h-2 bg-slate-400 rounded-full typing-dot"></div>
+                </div>
+            `;
+            messagesContainer.appendChild(div);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        function removeLoading() {
+            const loading = document.getElementById('ai-loading');
+            if (loading) loading.remove();
+        }
+
+        // Call Gemini API
+        async function handleSend() {
+            const text = chatInput.value.trim();
+            if (!text) return;
+
+            addUserMessage(text);
+            chatInput.value = '';
+            addLoading();
+
+            const apiKey = ""; // Runtime provided
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+
+            const systemPrompt = `You are an intelligent, professional AI assistant for Nolwazi Hlophe's personal portfolio website. 
+            Here is the context of her resume and experience based on the website content:
+            ---
+            ${pageContext}
+            ---
+            User Question: ${text}
+            
+            Instructions:
+            1. Answer the user's question purely based on the context provided.
+            2. Be concise, enthusiastic, and professional.
+            3. Highlight her expertise in Fintech, AI, and Regulation.
+            4. If the answer is not in the context, politely suggest they use the "Get in Touch" form.
+            5. Use a maximum of 2-3 sentences.`;
+
+            const payload = {
+                contents: [{
+                    parts: [{ text: systemPrompt }]
+                }]
+            };
+
+            // Retry Logic (Exponential Backoff)
+            const delays = [1000, 2000, 4000, 8000, 16000];
+            let attempt = 0;
+            let success = false;
+
+            while (attempt < 5 && !success) {
+                try {
+                    const response = await fetch(url, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
+
+                    const data = await response.json();
+                    const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || "I'm having trouble connecting right now. Please try again later.";
+                    
+                    removeLoading();
+                    addAIMessage(reply);
+                    success = true;
+
+                } catch (error) {
+                    console.warn(`Attempt ${attempt + 1} failed:`, error);
+                    attempt++;
+                    if (attempt < 5) {
+                        await new Promise(r => setTimeout(r, delays[attempt]));
+                    } else {
+                        removeLoading();
+                        addAIMessage("I'm currently experiencing high traffic. Please try again in a moment.");
+                    }
+                }
+            }
+        }
+
+        sendMsgBtn.addEventListener('click', handleSend);
+        chatInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') handleSend();
+        });
+
     </script>
 </body>
 </html>
