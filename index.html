@@ -449,7 +449,6 @@
         const messagesContainer = document.getElementById('chat-messages');
 
         // Context Gathering
-        // We add manual "LinkedIn Context" because the JS cannot scrape external sites.
         const linkedInContext = `
         [LinkedIn Profile Summary for Nolwazi Hlophe]
         - Profile URL: https://www.linkedin.com/in/nolwazi-hlophe/
@@ -550,9 +549,24 @@
             addLoading();
 
             const apiKey = ""; // Runtime provided
-            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+            
+            // --- INSTRUCTIONS FOR LIVE WEBSITE ---
+            // If you are hosting this on your own website (GitHub Pages), the 'apiKey' above will be empty.
+            // You must get a free API Key from https://aistudio.google.com/
+            // and paste it inside the quotes below:
+            const userProvidedKey = "AIzaSyA3g5vgRipZpAA7BeD8lojp7ZFEPzJJyaA"; 
+            
+            // Logic to select the key (Preview vs Live)
+            const activeKey = apiKey || userProvidedKey;
 
-            // Updated System Prompt to use fullContext (Website + LinkedIn)
+            if (!activeKey) {
+                removeLoading();
+                addAIMessage("⚠️ <strong>Configuration Error:</strong> API Key is missing.<br><br>To fix this on your live website, please edit the <code>index.html</code> file and paste your Google Gemini API key into the <code>userProvidedKey</code> variable.");
+                return;
+            }
+
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${activeKey}`;
+
             const systemPrompt = `You are an intelligent, professional AI assistant for Nolwazi Hlophe's personal portfolio website. 
             Here is the context of her resume, experience, and LinkedIn profile highlights:
             ---
@@ -573,18 +587,21 @@
                 }]
             };
 
-            // OPTIMIZED RETRY LOGIC (Faster Fail/Retry for Speed)
-            const delays = [500, 1000, 2000]; // Shortened delays
+            const delays = [500, 1000, 2000];
             let attempt = 0;
             let success = false;
 
-            while (attempt < 3 && !success) { // Reduced retries
+            while (attempt < 3 && !success) {
                 try {
                     const response = await fetch(url, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(payload)
                     });
+
+                    if (response.status === 400 || response.status === 403) {
+                         throw new Error("AUTH_ERROR");
+                    }
 
                     if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
 
@@ -596,13 +613,19 @@
                     success = true;
 
                 } catch (error) {
+                    if (error.message === "AUTH_ERROR") {
+                        removeLoading();
+                        addAIMessage("🔒 <strong>Authentication Error:</strong> The API Key is invalid or restricted. Please check your key configuration.");
+                        return; // Stop retrying
+                    }
+
                     console.warn(`Attempt ${attempt + 1} failed:`, error);
                     attempt++;
                     if (attempt < 3) {
                         await new Promise(r => setTimeout(r, delays[attempt]));
                     } else {
                         removeLoading();
-                        addAIMessage("I'm currently experiencing high traffic. Please try again in a moment.");
+                        addAIMessage("I'm currently experiencing high traffic or network issues. Please try again in a moment.");
                     }
                 }
             }
