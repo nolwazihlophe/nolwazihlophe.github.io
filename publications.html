@@ -654,7 +654,7 @@
             2. <h4>📈 Strategic Evolution</h4>: A short paragraph explaining how her work has evolved from general inclusion to specific AI/DeFi regulation.
             3. <h4>🚀 Key Technologies</h4>: A list of technologies mentioned (e.g., AI, CBDC).
             
-            Keep it professional, insightful, and concise.`;
+            Keep it strictly under 150 words total.`;
 
             const payload = {
                 contents: [{
@@ -662,12 +662,12 @@
                 }]
             };
 
-            // Retry Logic
-            const delays = [1000, 2000, 4000, 8000, 16000];
+            // OPTIMIZED RETRY LOGIC (Faster Fail/Retry)
+            const delays = [500, 1000, 2000]; // Much shorter delays
             let attempt = 0;
             let success = false;
 
-            while (attempt < 5 && !success) {
+            while (attempt < 3 && !success) {
                 try {
                     const response = await fetch(url, {
                         method: 'POST',
@@ -693,7 +693,7 @@
                 } catch (error) {
                     console.warn(`Attempt ${attempt + 1} failed:`, error);
                     attempt++;
-                    if (attempt < 5) {
+                    if (attempt < 3) {
                         await new Promise(r => setTimeout(r, delays[attempt]));
                     } else {
                         aiLoading.classList.add('hidden');
