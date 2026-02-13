@@ -119,8 +119,35 @@
 
             <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
 
-                <!-- Featured Video Article -->
-                <article class="flex flex-col bg-white border border-slate-100 rounded-sm shadow-sm hover:shadow-xl transition-all duration-300 group overflow-hidden md:col-span-2">
+                <!-- New Featured Video Article (Side by Side) -->
+                <article class="flex flex-col bg-white border border-slate-100 rounded-sm shadow-sm hover:shadow-xl transition-all duration-300 group overflow-hidden">
+                    <div class="relative w-full aspect-video bg-slate-900">
+                        <iframe 
+                            class="absolute inset-0 w-full h-full"
+                            src="https://www.youtube.com/embed/TbbwIn58E-Y" 
+                            title="YouTube Video"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <div class="flex items-center text-sm text-slate-400 mb-3">
+                            <i class="fas fa-video mr-2"></i> 2025
+                            <span class="mx-2">•</span>
+                            <span class="text-accent">Video Feature</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-primary mb-3">
+                            Connecting the Dots: G20, Global Finance and Blockchain's Promise in Africa
+                        </h3>
+                        <p class="text-slate-600">
+                            A compelling discussion on how global financial shifts, G20 policies, and blockchain technology are converging to reshape Africa's economic future.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Featured Video Article (Side by Side) -->
+                <article class="flex flex-col bg-white border border-slate-100 rounded-sm shadow-sm hover:shadow-xl transition-all duration-300 group overflow-hidden">
                     <div class="relative w-full aspect-video bg-slate-900">
                         <iframe 
                             class="absolute inset-0 w-full h-full"
