@@ -127,10 +127,33 @@
                 </button>
             </div>
 
-            <div class="text-sm text-slate-400 mb-6">24 Publications Listed</div>
+            <div class="text-sm text-slate-400 mb-6">23 Publications Listed</div>
 
             <!-- List Container -->
             <div class="space-y-6" id="publications-list">
+
+                <!-- Item 2026 (New) -->
+                <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
+                    <div class="flex-shrink-0">
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-cyan-50 text-accent font-bold text-sm ring-4 ring-white group-hover:bg-accent group-hover:text-white transition-colors">
+                            2026
+                        </span>
+                    </div>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-bold text-primary mb-2 group-hover:text-accent transition-colors">
+                            <a href="https://techfinancials.co.za/2026/04/07/keeping-the-pulse-in-the-machine-the-case-for-human-centric-ai-disclosures/" target="_blank">
+                                Keeping the pulse in the machine: The case for human-centric AI disclosures <i class="fas fa-external-link-alt text-xs ml-2 opacity-50"></i>
+                            </a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-2">Hlophe, N. and Dr. Johann Van Der Lith</p>
+                        <p class="text-xs text-slate-400 uppercase tracking-wide">TechFinancials</p>
+                    </div>
+                    <div class="mt-4 sm:mt-0 sm:self-center">
+                        <button class="explore-btn text-xs font-semibold text-accent border border-accent px-3 py-1 rounded hover:bg-accent hover:text-white transition-colors" data-title="Keeping the pulse in the machine: The case for human-centric AI disclosures">
+                            Explore
+                        </button>
+                    </div>
+                </div>
 
                 <!-- Item New -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
@@ -760,6 +783,24 @@
         // --- CURATED SUMMARIES DATABASE ---
         // High-quality, pre-analyzed content for key publications
         const curatedSummaries = {
+            "Keeping the pulse in the machine: The case for human-centric AI disclosures": `
+                <div class="space-y-4">
+                    <div class="bg-blue-50 p-4 rounded-sm border-l-4 border-accent">
+                        <h4 class="font-bold text-primary mb-1">📄 Executive Summary</h4>
+                        <p class="text-sm text-slate-700">An insightful piece in <em>TechFinancials</em> advocating for transparent, plain-language disclosures in AI-driven financial systems to ensure consumers understand how algorithms impact their financial lives.</p>
+                    </div>
+                    
+                    <h4 class="font-bold text-primary flex items-center gap-2"><i class="fas fa-eye text-accent"></i> Key Arguments</h4>
+                    <ul class="list-disc pl-5 space-y-2 text-slate-600 text-sm">
+                        <li><strong>Algorithmic Transparency:</strong> Calls for demystifying "black box" AI models so consumers know when and how an AI makes decisions about their credit or insurance.</li>
+                        <li><strong>Human-Centric Approach:</strong> Emphasizes that disclosures must be designed for human comprehension, not just legal compliance, preventing "consent fatigue."</li>
+                        <li><strong>Accountability:</strong> Reinforces that financial institutions must retain the "human pulse" in the loop, ensuring there is always recourse and human accountability for AI actions.</li>
+                    </ul>
+
+                    <h4 class="font-bold text-primary flex items-center gap-2"><i class="fas fa-heartbeat text-accent"></i> Why it Matters</h4>
+                    <p class="text-sm text-slate-600">As AI takes over more financial decision-making, ensuring that consumers are kept in the loop with clear, human-centric communication is vital for maintaining trust and market integrity.</p>
+                </div>
+            `,
             "Artificial Intelligence in the South African Financial Sector": `
                 <div class="space-y-4">
                     <div class="bg-blue-50 p-4 rounded-sm border-l-4 border-accent">
