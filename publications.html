@@ -22,10 +22,10 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: '#0f172a', // Slate 900
-                        secondary: '#334155', // Slate 700
-                        accent: '#06b6d4', // Cyan 500
-                        surface: '#f8fafc', // Slate 50
+                        primary: '#0f172a',
+                        secondary: '#334155',
+                        accent: '#06b6d4',
+                        surface: '#f8fafc',
                     },
                     fontFamily: {
                         sans: ['Inter', 'system-ui', 'sans-serif'],
@@ -42,7 +42,6 @@
             background-size: cover;
             background-position: center;
         }
-        /* Modal Animation */
         @keyframes fadeIn {
             from { opacity: 0; transform: scale(0.95); }
             to { opacity: 1; transform: scale(1); }
@@ -58,24 +57,22 @@
     <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-sm transition-all duration-300" id="navbar">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
                     <a href="index.html" class="text-2xl font-bold text-primary tracking-tight">
                         NH<span class="text-accent">.</span>
                     </a>
                 </div>
 
-                <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="index.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">About Me</a>
                     <a href="publications.html" class="text-sm font-medium text-accent transition-colors">Publications</a>
                     <a href="news_articles.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">Media</a>
+                    <a href="blog.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">Blog</a>
                     <a href="index.html#contact" class="bg-primary hover:bg-slate-800 text-white px-5 py-2.5 rounded-sm text-sm font-medium transition-all shadow-md">
                         Get in Touch
                     </a>
                 </div>
 
-                <!-- Mobile Menu Button -->
                 <div class="md:hidden flex items-center">
                     <button id="mobile-menu-btn" class="text-slate-600 hover:text-primary focus:outline-none">
                         <i class="fas fa-bars text-xl"></i>
@@ -90,6 +87,7 @@
                 <a href="index.html" class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-accent hover:bg-slate-50 rounded-md">About Me</a>
                 <a href="publications.html" class="block px-3 py-3 text-base font-medium text-accent bg-slate-50 rounded-md">Publications</a>
                 <a href="news_articles.html" class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-accent hover:bg-slate-50 rounded-md">Media</a>
+                <a href="blog.html" class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-accent hover:bg-slate-50 rounded-md">Blog</a>
                 <a href="index.html#contact" class="block mt-4 text-center px-3 py-3 text-base font-medium bg-primary text-white rounded-md hover:bg-slate-800">Get in Touch</a>
             </div>
         </div>
@@ -114,13 +112,11 @@
     <section class="py-24 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             
-            <!-- Controls Bar -->
             <div class="mb-12 flex flex-col md:flex-row justify-between items-center gap-4">
                 <a href="index.html" class="inline-flex items-center text-slate-500 hover:text-accent font-medium transition-colors">
                     <i class="fas fa-arrow-left mr-2"></i> Back to Home
                 </a>
                 
-                <!-- AI Button -->
                 <button id="analyze-btn" class="bg-primary hover:bg-slate-800 text-white px-5 py-3 rounded-sm shadow-md transition-all flex items-center gap-2 border border-slate-700 hover:border-accent">
                     <i class="fas fa-magic text-accent"></i>
                     <span>✨ Analyze Research Themes</span>
@@ -129,7 +125,6 @@
 
             <div class="text-sm text-slate-400 mb-6">23 Publications Listed</div>
 
-            <!-- List Container -->
             <div class="space-y-6" id="publications-list">
 
                 <!-- Item 2026 (New) -->
@@ -155,7 +150,7 @@
                     </div>
                 </div>
 
-                <!-- Item New -->
+                <!-- Item 2025 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-cyan-50 text-accent font-bold text-sm ring-4 ring-white group-hover:bg-accent group-hover:text-white transition-colors">
@@ -178,7 +173,7 @@
                     </div>
                 </div>
 
-                <!-- Item 1 -->
+                <!-- Item 2025 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-cyan-50 text-accent font-bold text-sm ring-4 ring-white group-hover:bg-accent group-hover:text-white transition-colors">
@@ -201,7 +196,7 @@
                     </div>
                 </div>
 
-                <!-- Item 2 -->
+                <!-- Item 2025 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-cyan-50 text-accent font-bold text-sm ring-4 ring-white group-hover:bg-accent group-hover:text-white transition-colors">
@@ -224,7 +219,7 @@
                     </div>
                 </div>
 
-                <!-- Item 3 -->
+                <!-- Item 2024 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-cyan-50 text-accent font-bold text-sm ring-4 ring-white group-hover:bg-accent group-hover:text-white transition-colors">
@@ -247,7 +242,7 @@
                     </div>
                 </div>
 
-                <!-- Item 4 -->
+                <!-- Item 2024 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-cyan-50 text-accent font-bold text-sm ring-4 ring-white group-hover:bg-accent group-hover:text-white transition-colors">
@@ -270,7 +265,7 @@
                     </div>
                 </div>
 
-                <!-- Item 5 -->
+                <!-- Item 2024 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-cyan-50 text-accent font-bold text-sm ring-4 ring-white group-hover:bg-accent group-hover:text-white transition-colors">
@@ -293,7 +288,7 @@
                     </div>
                 </div>
 
-                <!-- Item 6 -->
+                <!-- Item 2024 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-cyan-50 text-accent font-bold text-sm ring-4 ring-white group-hover:bg-accent group-hover:text-white transition-colors">
@@ -316,7 +311,7 @@
                     </div>
                 </div>
 
-                <!-- Item 8 -->
+                <!-- Item 2024 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-cyan-50 text-accent font-bold text-sm ring-4 ring-white group-hover:bg-accent group-hover:text-white transition-colors">
@@ -339,7 +334,7 @@
                     </div>
                 </div>
 
-                <!-- Item 9 -->
+                <!-- Item 2024 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-cyan-50 text-accent font-bold text-sm ring-4 ring-white group-hover:bg-accent group-hover:text-white transition-colors">
@@ -362,7 +357,7 @@
                     </div>
                 </div>
 
-                <!-- Item 10 -->
+                <!-- Item 2023 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-slate-100 text-slate-500 font-bold text-sm ring-4 ring-white group-hover:bg-primary group-hover:text-white transition-colors">
@@ -385,7 +380,7 @@
                     </div>
                 </div>
 
-                <!-- Item 11 -->
+                <!-- Item 2022 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-slate-100 text-slate-500 font-bold text-sm ring-4 ring-white group-hover:bg-primary group-hover:text-white transition-colors">
@@ -408,7 +403,7 @@
                     </div>
                 </div>
 
-                <!-- Item 12 -->
+                <!-- Item 2022 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-slate-100 text-slate-500 font-bold text-sm ring-4 ring-white group-hover:bg-primary group-hover:text-white transition-colors">
@@ -431,7 +426,7 @@
                     </div>
                 </div>
 
-                <!-- Item 13 -->
+                <!-- Item 2022 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-slate-100 text-slate-500 font-bold text-sm ring-4 ring-white group-hover:bg-primary group-hover:text-white transition-colors">
@@ -454,7 +449,7 @@
                     </div>
                 </div>
 
-                <!-- Item 14 -->
+                <!-- Item 2021 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-slate-100 text-slate-500 font-bold text-sm ring-4 ring-white group-hover:bg-primary group-hover:text-white transition-colors">
@@ -477,7 +472,7 @@
                     </div>
                 </div>
 
-                <!-- Item 15 -->
+                <!-- Item 2021 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-slate-100 text-slate-500 font-bold text-sm ring-4 ring-white group-hover:bg-primary group-hover:text-white transition-colors">
@@ -500,7 +495,7 @@
                     </div>
                 </div>
 
-                <!-- Item 16 -->
+                <!-- Item 2021 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-slate-100 text-slate-500 font-bold text-sm ring-4 ring-white group-hover:bg-primary group-hover:text-white transition-colors">
@@ -523,7 +518,7 @@
                     </div>
                 </div>
 
-                <!-- Item 17 -->
+                <!-- Item 2021 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-slate-100 text-slate-500 font-bold text-sm ring-4 ring-white group-hover:bg-primary group-hover:text-white transition-colors">
@@ -546,7 +541,7 @@
                     </div>
                 </div>
 
-                <!-- Item 19 -->
+                <!-- Item 2020 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-slate-100 text-slate-500 font-bold text-sm ring-4 ring-white group-hover:bg-primary group-hover:text-white transition-colors">
@@ -569,7 +564,7 @@
                     </div>
                 </div>
 
-                <!-- Item 20 -->
+                <!-- Item 2019 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-slate-100 text-slate-500 font-bold text-sm ring-4 ring-white group-hover:bg-primary group-hover:text-white transition-colors">
@@ -592,7 +587,7 @@
                     </div>
                 </div>
 
-                <!-- Item 21 -->
+                <!-- Item 2019 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-slate-100 text-slate-500 font-bold text-sm ring-4 ring-white group-hover:bg-primary group-hover:text-white transition-colors">
@@ -615,7 +610,7 @@
                     </div>
                 </div>
 
-                <!-- Item 22 -->
+                <!-- Item 2019 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-slate-100 text-slate-500 font-bold text-sm ring-4 ring-white group-hover:bg-primary group-hover:text-white transition-colors">
@@ -638,7 +633,7 @@
                     </div>
                 </div>
 
-                <!-- Item 23 -->
+                <!-- Item 2018 -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-slate-100 text-slate-500 font-bold text-sm ring-4 ring-white group-hover:bg-primary group-hover:text-white transition-colors">
@@ -668,7 +663,6 @@
     <!-- AI Analysis Modal -->
     <div id="ai-modal" class="fixed inset-0 bg-slate-900/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
         <div class="bg-white rounded-lg shadow-2xl w-full max-w-2xl max-h-[80vh] flex flex-col">
-            <!-- Modal Header -->
             <div class="bg-primary p-4 rounded-t-lg flex justify-between items-center text-white">
                 <h3 class="font-bold flex items-center gap-2">
                     <i class="fas fa-robot text-accent"></i> 
@@ -679,7 +673,6 @@
                 </button>
             </div>
             
-            <!-- Modal Body -->
             <div class="p-6 overflow-y-auto bg-slate-50 flex-1">
                 <div id="ai-loading" class="flex flex-col items-center justify-center py-12">
                     <div class="w-16 h-16 border-4 border-slate-200 border-t-accent rounded-full animate-spin mb-4"></div>
@@ -687,11 +680,9 @@
                 </div>
                 
                 <div id="ai-result" class="hidden prose prose-slate max-w-none">
-                    <!-- Result will be injected here -->
                 </div>
             </div>
             
-            <!-- Modal Footer -->
             <div class="p-4 border-t border-slate-200 bg-white rounded-b-lg flex justify-end">
                 <button id="close-modal-btn" class="px-4 py-2 bg-slate-200 text-slate-700 rounded-sm hover:bg-slate-300 transition-colors font-medium">Close</button>
             </div>
@@ -706,7 +697,6 @@
     </footer>
 
     <script>
-        // --- MOBILE MENU ---
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
 
@@ -714,7 +704,6 @@
             menu.classList.toggle('hidden');
         });
 
-        // --- STICKY NAVBAR ---
         const navbar = document.getElementById('navbar');
         window.addEventListener('scroll', () => {
             if (window.scrollY > 50) {
@@ -738,13 +727,12 @@
         const loadingText = document.getElementById('loading-text');
 
         // --- PRE-CALCULATED ANALYSIS (ENRICHED) ---
-        // Derived from full context of 21 publications + PDF content
         const portfolioAnalysis = `
             <div class="space-y-6">
                 <div class="bg-gradient-to-r from-primary to-slate-800 text-white p-6 rounded-sm shadow-md">
                     <h4 class="text-lg font-bold mb-2 flex items-center gap-2"><i class="fas fa-rocket text-accent"></i> Executive Narrative</h4>
                     <p class="text-sm font-light leading-relaxed">
-                        Nolwazi Hlophe’s research trajectory (2018–2025) articulates a strategic evolution from foundational financial inclusion mechanisms to the complex regulatory frontiers of Artificial Intelligence and Decentralized Finance (DeFi). Her work bridges the gap between empirical economic analysis and forward-looking policy frameworks, advocating for a "human-centric" digital transformation in African markets.
+                        Nolwazi Hlophe’s research trajectory (2018–2026) articulates a strategic evolution from foundational financial inclusion mechanisms to the complex regulatory frontiers of Artificial Intelligence and Decentralized Finance (DeFi). Her work bridges the gap between empirical economic analysis and forward-looking policy frameworks, advocating for a "human-centric" digital transformation in African markets.
                     </p>
                 </div>
 
@@ -767,13 +755,13 @@
                     <div>
                         <h4 class="text-md font-bold text-primary mb-2 flex items-center gap-2"><i class="fas fa-chart-line text-accent"></i> Strategic Evolution</h4>
                         <p class="text-sm text-slate-600 leading-relaxed bg-white p-3 rounded border border-slate-100">
-                            Starting with quantitative analyses of financial development in Eswatini (2018), Nolwazi’s focus shifted to the <em>infrastructure</em> of innovation. By 2021-2022, she was addressing the "Capacity Gap" in regulation (SupTech). Her most recent work (2024-2025) pivots to the <em>existential</em> challenges of the digital age: defining the economic value of human data in an AI world and regulating the "black box" of automated finance.
+                            Starting with quantitative analyses of financial development in Eswatini (2018), Nolwazi’s focus shifted to the <em>infrastructure</em> of innovation. By 2021-2022, she was addressing the "Capacity Gap" in regulation (SupTech). Her most recent work (2024-2026) pivots to the <em>existential</em> challenges of the digital age: defining the economic value of human data in an AI world, regulating the "black box" of automated finance, and championing transparent, human-centric disclosures.
                         </p>
                     </div>
                     <div>
                         <h4 class="text-md font-bold text-primary mb-2 flex items-center gap-2"><i class="fas fa-landmark text-accent"></i> Industry Influence</h4>
                         <p class="text-sm text-slate-600 leading-relaxed bg-white p-3 rounded border border-slate-100">
-                            Her policy insights have shaped conversations at the <strong>South African Reserve Bank (SARB)</strong>, <strong>FSCA</strong>, and the <strong>Intergovernmental Fintech Working Group (IFWG)</strong>, while her thought leadership features prominently in <strong>Digital Banker Africa</strong> and <strong>Cenfri</strong> diagnostics.
+                            Her policy insights have shaped conversations at the <strong>South African Reserve Bank (SARB)</strong>, <strong>FSCA</strong>, and the <strong>Intergovernmental Fintech Working Group (IFWG)</strong>, while her thought leadership features prominently in <strong>TechFinancials</strong>, <strong>Digital Banker Africa</strong> and <strong>Cenfri</strong> diagnostics.
                         </p>
                     </div>
                 </div>
@@ -781,7 +769,6 @@
         `;
 
         // --- CURATED SUMMARIES DATABASE ---
-        // High-quality, pre-analyzed content for key publications
         const curatedSummaries = {
             "Keeping the pulse in the machine: The case for human-centric AI disclosures": `
                 <div class="space-y-4">
@@ -1215,7 +1202,6 @@
             modalTitle.innerText = "AI Research Analysis";
             loadingText.innerText = "Analyzing research timeline and impact...";
 
-            // Simulate loading delay for better UX
             setTimeout(() => {
                 aiLoading.classList.add('hidden');
                 aiResult.innerHTML = portfolioAnalysis;
@@ -1229,19 +1215,15 @@
             btn.addEventListener('click', async (e) => {
                 const title = e.target.getAttribute('data-title');
                 
-                // Open Modal immediately
                 toggleModal();
                 modalTitle.innerText = "Publication Explorer";
                 
-                // CHECK: Do we have a curated summary?
                 if (curatedSummaries[title]) {
-                    // Use curated content (Instant load)
                     aiLoading.classList.add('hidden');
                     aiResult.innerHTML = curatedSummaries[title];
                     aiResult.classList.remove('hidden');
                     aiResult.classList.add('modal-animate');
                 } else {
-                    // Fallback to API for other papers
                     aiLoading.classList.remove('hidden');
                     aiResult.classList.add('hidden');
                     aiResult.innerHTML = '';
@@ -1255,12 +1237,11 @@
                     The user is interested in this specific publication title: "${title}" by Nolwazi Hlophe.
                     
                     Instructions:
-                    1. Provide a brief **Summary** of what a paper with this title is likely about, based on general knowledge of the topic (Fintech, AI, Regulation, Financial Inclusion).
-                    2. Explain **Why it matters** in the context of African financial markets or global regulation.
-                    3. Suggest 2-3 **Key Takeaways** a reader might expect.
+                    1. Provide a brief **Summary** of what a paper with this title is likely about.
+                    2. Explain **Why it matters**.
+                    3. Suggest 2-3 **Key Takeaways**.
                     
-                    Disclaimer: Start by briefly stating that this is an AI-generated preview based on the title.
-                    
+                    Disclaimer: Start by briefly stating that this is an AI-generated preview.
                     Format with simple HTML (<h4>, <p>, <ul>). Keep it under 150 words.`;
 
                     await callGemini(url, systemPrompt);
@@ -1275,7 +1256,6 @@
                     parts: [{ text: prompt }]
                 }]
             };
-
             const delays = [1000, 2000, 4000];
             let attempt = 0;
             let success = false;
@@ -1287,9 +1267,7 @@
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(payload)
                     });
-
                     if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
-
                     const data = await response.json();
                     const reply = data.candidates?.[0]?.content?.parts?.[0]?.text;
                     
@@ -1302,9 +1280,7 @@
                     } else {
                         throw new Error('No content returned');
                     }
-
                 } catch (error) {
-                    console.warn(`Attempt ${attempt + 1} failed:`, error);
                     attempt++;
                     if (attempt < 3) {
                         await new Promise(r => setTimeout(r, delays[attempt]));
