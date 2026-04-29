@@ -19,7 +19,6 @@
     <meta property="og:url" content="https://nolwazihlophe.github.io/">
     <meta property="og:title" content="Nolwazi Hlophe | Senior Fintech Specialist">
     <meta property="og:description" content="Fintech, Consumer Protection, and Financial Inclusion specialist at FSCA South Africa.">
-    <!-- IMPORTANT: Upload an image named 'preview.jpg' to your folder or change this link -->
     <meta property="og:image" content="https://nolwazihlophe.github.io/preview.jpg">
 
     <title>Nolwazi Hlophe</title>
@@ -31,10 +30,10 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: '#0f172a', // Slate 900 - Matching the deep navy look
-                        secondary: '#334155', // Slate 700
-                        accent: '#06b6d4', // Cyan 500 - Preserving your preferred accent color
-                        surface: '#f8fafc', // Slate 50
+                        primary: '#0f172a',
+                        secondary: '#334155',
+                        accent: '#06b6d4',
+                        surface: '#f8fafc',
                     },
                     fontFamily: {
                         sans: ['Inter', 'system-ui', 'sans-serif'],
@@ -47,22 +46,16 @@
     <style>
         body { font-family: 'Inter', sans-serif; }
         .hero-overlay {
-            /* Using a dark professional overlay similar to Connection Advisory */
             background: linear-gradient(rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.85)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
             background-size: cover;
             background-position: center;
         }
-        /* Chat Widget Animations */
         @keyframes slideIn {
             from { opacity: 0; transform: translateY(20px) scale(0.95); }
             to { opacity: 1; transform: translateY(0) scale(1); }
         }
-        .chat-animate {
-            animation: slideIn 0.3s ease-out forwards;
-        }
-        .typing-dot {
-            animation: typing 1.4s infinite ease-in-out both;
-        }
+        .chat-animate { animation: slideIn 0.3s ease-out forwards; }
+        .typing-dot { animation: typing 1.4s infinite ease-in-out both; }
         .typing-dot:nth-child(1) { animation-delay: -0.32s; }
         .typing-dot:nth-child(2) { animation-delay: -0.16s; }
         @keyframes typing {
@@ -77,24 +70,20 @@
     <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-sm transition-all duration-300" id="navbar">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
                     <a href="#" class="text-2xl font-bold text-primary tracking-tight">
                         NH<span class="text-accent">.</span>
                     </a>
                 </div>
-
-                <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#about" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">About Me</a>
                     <a href="publications.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">Publications</a>
                     <a href="news_articles.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">Media</a>
+                    <a href="blog.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">Blog</a>
                     <a href="#contact" class="bg-primary hover:bg-slate-800 text-white px-5 py-2.5 rounded-sm text-sm font-medium transition-all shadow-md">
                         Get in Touch
                     </a>
                 </div>
-
-                <!-- Mobile Menu Button -->
                 <div class="md:hidden flex items-center">
                     <button id="mobile-menu-btn" class="text-slate-600 hover:text-primary focus:outline-none">
                         <i class="fas fa-bars text-xl"></i>
@@ -109,6 +98,7 @@
                 <a href="#about" class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-accent hover:bg-slate-50 rounded-md">About Me</a>
                 <a href="publications.html" class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-accent hover:bg-slate-50 rounded-md">Publications</a>
                 <a href="news_articles.html" class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-accent hover:bg-slate-50 rounded-md">Media</a>
+                <a href="blog.html" class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-accent hover:bg-slate-50 rounded-md">Blog</a>
                 <a href="#contact" class="block mt-4 text-center px-3 py-3 text-base font-medium bg-primary text-white rounded-md hover:bg-slate-800">Get in Touch</a>
             </div>
         </div>
@@ -137,6 +127,9 @@
                     <a href="publications.html" class="inline-flex justify-center items-center px-8 py-4 border border-slate-500 text-base font-medium rounded-sm text-white hover:bg-white/10 transition-all">
                         View Publications
                     </a>
+                    <a href="#cv-section" class="inline-flex justify-center items-center px-8 py-4 border border-dashed border-slate-500 text-base font-medium rounded-sm text-white hover:bg-white/10 transition-all">
+                        <i class="fas fa-file-alt mr-2"></i> View CV
+                    </a>
                 </div>
             </div>
         </div>
@@ -164,11 +157,8 @@
     <section id="about" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-start">
-                <!-- Image Column -->
-                <!-- UPDATED: Replaced sticky with lg:sticky lg:top-24 to disable sticky on mobile -->
                 <div class="mb-12 lg:mb-0 relative lg:sticky lg:top-24 w-64 md:w-full max-w-md mx-auto lg:mx-0">
                     <div class="absolute -top-4 -left-4 w-24 h-24 bg-cyan-50 rounded-tl-3xl z-0"></div>
-                    <!-- Using onerror to show a placeholder if your specific local file isn't found in this preview -->
                     <img src="1. Nolwazi Hlophe.png" 
                          onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80'" 
                          alt="Nolwazi Hlophe" 
@@ -178,7 +168,6 @@
                     </div>
                 </div>
                 
-                <!-- Content Column -->
                 <div>
                     <h2 class="text-sm font-bold text-accent uppercase tracking-widest mb-3">About Me</h2>
                     <h3 class="text-3xl md:text-4xl font-bold text-primary mb-8">Professional Profile</h3>
@@ -209,8 +198,179 @@
         </div>
     </section>
 
-    <!-- Career Highlights (Styled like Advisory Pillars) -->
-    <section class="py-24 bg-slate-50 relative">
+    <!-- CV / Resume Section -->
+    <section id="cv-section" class="py-24 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-sm font-bold text-accent uppercase tracking-widest mb-3">Curriculum Vitae</h2>
+                <h3 class="text-3xl md:text-4xl font-bold text-primary mb-6">Professional Experience</h3>
+                <a href="1. Nolwazi Hlophe CV.pdf" target="_blank" class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-sm font-medium hover:bg-slate-800 transition-colors shadow-md">
+                    <i class="fas fa-download mr-2"></i> Download Full CV
+                </a>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-12">
+                
+                <!-- Left Column: Education, Skills, Volunteering -->
+                <div class="space-y-12">
+                    
+                    <!-- Contact Info (Brief) -->
+                    <div class="bg-white p-8 rounded-sm shadow-sm border border-slate-100">
+                        <h4 class="text-xl font-bold text-primary mb-6 border-b border-slate-100 pb-2">Contact Info</h4>
+                        <ul class="space-y-3 text-slate-600 text-sm">
+                            <li><i class="fas fa-envelope text-accent w-5"></i> nolwazihlophe@gmail.com</li>
+                            <li><i class="fas fa-globe text-accent w-5"></i> <a href="https://nolwazihlophe.github.io" class="hover:text-accent transition-colors">nolwazihlophe.github.io</a></li>
+                            <li><i class="fab fa-linkedin text-accent w-5"></i> <a href="https://linkedin.com/in/nolwazi-hlophe" class="hover:text-accent transition-colors">linkedin.com/in/nolwazi-hlophe</a></li>
+                            <li><i class="fas fa-phone text-accent w-5"></i> +2783 578 1026</li>
+                        </ul>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="bg-white p-8 rounded-sm shadow-sm border border-slate-100">
+                        <h4 class="text-xl font-bold text-primary mb-6 border-b border-slate-100 pb-2">Education</h4>
+                        <div class="space-y-6">
+                            <div>
+                                <h5 class="font-bold text-slate-800">MPhil Financial Technology</h5>
+                                <p class="text-sm text-slate-500">University of Cape Town (2025 - 2026)</p>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-slate-800">MCom Economics</h5>
+                                <p class="text-sm text-slate-500">University of Pretoria (2014 - 2016)</p>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-slate-800">CCBE-Project Management for Non-Project Managers</h5>
+                                <p class="text-sm text-slate-500">GIBS (2018)</p>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-slate-800">BCom (Hons) Economics</h5>
+                                <p class="text-sm text-slate-500">University of Pretoria (2013)</p>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-slate-800">BCom Econometrics</h5>
+                                <p class="text-sm text-slate-500">University of Pretoria (2008 - 2012)</p>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-slate-800">Digital Identity & Anti-Money Laundering Compliance Certificates</h5>
+                                <p class="text-sm text-slate-500">(2020)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="bg-white p-8 rounded-sm shadow-sm border border-slate-100">
+                        <h4 class="text-xl font-bold text-primary mb-6 border-b border-slate-100 pb-2">Skills</h4>
+                        <ul class="flex flex-wrap gap-2">
+                            <li class="px-3 py-1 bg-slate-100 text-slate-700 text-xs rounded-sm font-medium">Python</li>
+                            <li class="px-3 py-1 bg-slate-100 text-slate-700 text-xs rounded-sm font-medium">R</li>
+                            <li class="px-3 py-1 bg-slate-100 text-slate-700 text-xs rounded-sm font-medium">Git, GitHub</li>
+                            <li class="px-3 py-1 bg-slate-100 text-slate-700 text-xs rounded-sm font-medium">Solidity</li>
+                            <li class="px-3 py-1 bg-slate-100 text-slate-700 text-xs rounded-sm font-medium">Machine learning</li>
+                            <li class="px-3 py-1 bg-slate-100 text-slate-700 text-xs rounded-sm font-medium">Database management: MySQL, SQL</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right Column: Work Experience -->
+                <div class="lg:col-span-2 space-y-8">
+                    
+                    <div class="bg-white p-8 rounded-sm shadow-sm border-l-4 border-accent">
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
+                            <h4 class="text-xl font-bold text-primary">Senior Specialist: Fintech</h4>
+                            <span class="text-sm font-semibold text-accent bg-cyan-50 px-3 py-1 rounded-full mt-2 sm:mt-0">May 2023 - Present</span>
+                        </div>
+                        <p class="text-sm font-medium text-slate-500 mb-4">FSCA South Africa</p>
+                        <ul class="list-disc pl-5 space-y-2 text-slate-600 text-sm">
+                            <li><strong>Team Management:</strong> Lead and mentor team members ensuring growth and leadership development.</li>
+                            <li><strong>Project Leader:</strong> Artificial Intelligence in the Financial Sector, Open Finance, Decentralised Finance (DeFi), and Suptech.</li>
+                            <li><strong>Co-Lead:</strong> Regulatory Guidance Unit of the IFWG. Developed strategy, resolved queries, and reported to financial regulators.</li>
+                            <li><strong>Deputy Chairperson:</strong> Open Finance Integration Working Group (OPI WG) of the IFWG.</li>
+                            <li>Manage cases within the Regulatory Sandbox of the IFWG.</li>
+                            <li>Member of the IAIS Fintech Forum (AI, Monitoring, and Suptech workstreams).</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-sm shadow-sm border border-slate-100">
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
+                            <h4 class="text-xl font-bold text-primary">Class Teacher</h4>
+                            <span class="text-sm font-semibold text-slate-500 bg-slate-100 px-3 py-1 rounded-full mt-2 sm:mt-0">June 2022 - Present</span>
+                        </div>
+                        <p class="text-sm font-medium text-slate-500 mb-4">2U</p>
+                        <ul class="list-disc pl-5 space-y-2 text-slate-600 text-sm">
+                            <li>Prepare and lead live class calls for first and second-year courses: Introduction to Economics, Microeconomics, and Macroeconomics (BSc Economics degree, University of London / LSE).</li>
+                            <li>Record student attendance to live class calls for credits and respond to student queries via email.</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-sm shadow-sm border border-slate-100">
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
+                            <h4 class="text-xl font-bold text-primary">Deputy Director Financial Regulation and Supervision</h4>
+                            <span class="text-sm font-semibold text-slate-500 bg-slate-100 px-3 py-1 rounded-full mt-2 sm:mt-0">Dec 2020 - Apr 2023</span>
+                        </div>
+                        <p class="text-sm font-medium text-slate-500 mb-4">Digital Frontiers</p>
+                        <ul class="list-disc pl-5 space-y-2 text-slate-600 text-sm">
+                            <li><strong>Team Management:</strong> Led and mentored staff, ensuring leadership growth and KPI achievement.</li>
+                            <li><strong>Program Management:</strong> Managed DFIS, IIPS, and CDEP capacity-building programs.</li>
+                            <li><strong>Workshop Convener:</strong> Organized key workshops on CBDC, Big Data Analytics, and Green Finance.</li>
+                            <li><strong>Bespoke Workshops:</strong> Led workshops for NCC and MTN Eswatini FinCo, and facilitated internal Cybersecurity and Privacy training.</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-sm shadow-sm border border-slate-100">
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
+                            <h4 class="text-xl font-bold text-primary">Non-Executive Director of the Board</h4>
+                            <span class="text-sm font-semibold text-slate-500 bg-slate-100 px-3 py-1 rounded-full mt-2 sm:mt-0">Jan 2023 - Feb 2023</span>
+                        </div>
+                        <p class="text-sm font-medium text-slate-500 mb-4">Mukuru Financial Services Eswatini</p>
+                        <ul class="list-disc pl-5 space-y-2 text-slate-600 text-sm">
+                            <li>Compliance risk management and strategic direction.</li>
+                            <li>Attendance of quarterly Board Meetings and stakeholder relationship management.</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-sm shadow-sm border border-slate-100">
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
+                            <h4 class="text-xl font-bold text-primary">Regulatory Program Lead</h4>
+                            <span class="text-sm font-semibold text-slate-500 bg-slate-100 px-3 py-1 rounded-full mt-2 sm:mt-0">Apr 2020 - Dec 2020</span>
+                        </div>
+                        <p class="text-sm font-medium text-slate-500 mb-4">Digital Frontiers</p>
+                        <ul class="list-disc pl-5 space-y-2 text-slate-600 text-sm">
+                            <li>Managed programs across IIPS and CDFP, including courses on Instant Payments, AML Compliance, Regulation in DFS, and Digital Identity.</li>
+                            <li>Co-convener of Digital Identity Week 2020.</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-sm shadow-sm border border-slate-100">
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
+                            <h4 class="text-xl font-bold text-primary">Senior Research Analyst</h4>
+                            <span class="text-sm font-semibold text-slate-500 bg-slate-100 px-3 py-1 rounded-full mt-2 sm:mt-0">Jan 2019 - Mar 2020</span>
+                        </div>
+                        <p class="text-sm font-medium text-slate-500 mb-4">Cenfri</p>
+                        <ul class="list-disc pl-5 space-y-2 text-slate-600 text-sm">
+                            <li><strong>Project Management:</strong> Zambia Payments Diagnostic and Regulating for Innovation in Payments (Reserve Bank of Malawi).</li>
+                            <li>Drafted winning proposal for the Central Bank of Eswatini Phase 1 CBDC Project.</li>
+                            <li>Research outputs included Inclusive Integrity Toolkit and analysis of ID proxy initiatives.</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-sm shadow-sm border border-slate-100">
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
+                            <h4 class="text-xl font-bold text-primary">Project Manager, CBE Intelligence Hub Fintech Unit</h4>
+                            <span class="text-sm font-semibold text-slate-500 bg-slate-100 px-3 py-1 rounded-full mt-2 sm:mt-0">May 2018 - Dec 2018</span>
+                        </div>
+                        <p class="text-sm font-medium text-slate-500 mb-4">Central Bank of Eswatini</p>
+                        <ul class="list-disc pl-5 space-y-2 text-slate-600 text-sm">
+                            <li>Managed Fintech Challenge Eswatini.</li>
+                            <li>Drafted and launched Financial Technology Regulatory Sandbox Guidelines.</li>
+                            <li>Developed 3-year strategy and plan of activities for the Fintech Unit.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Highlights -->
+    <section class="py-24 bg-white relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <h2 class="text-sm font-bold text-accent uppercase tracking-widest mb-3">Expertise</h2>
@@ -218,27 +378,24 @@
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Pillar 1 -->
-                <div class="bg-white p-8 rounded-sm shadow-sm hover:shadow-xl transition-shadow border-t-4 border-accent group">
-                    <div class="w-12 h-12 bg-cyan-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-accent transition-colors">
+                <div class="bg-slate-50 p-8 rounded-sm shadow-sm hover:shadow-xl transition-shadow border-t-4 border-accent group">
+                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mb-6 group-hover:bg-accent transition-colors shadow-sm">
                         <i class="fas fa-building text-xl text-accent group-hover:text-white transition-colors"></i>
                     </div>
                     <h4 class="text-xl font-bold text-primary mb-3">Regulatory Supervision</h4>
                     <p class="text-slate-600 mb-4">Senior Fintech Specialist at FSCA South Africa, leading research on AI, Open Finance, and DeFi market conduct.</p>
                 </div>
 
-                <!-- Pillar 2 -->
-                <div class="bg-white p-8 rounded-sm shadow-sm hover:shadow-xl transition-shadow border-t-4 border-primary group">
-                    <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
+                <div class="bg-slate-50 p-8 rounded-sm shadow-sm hover:shadow-xl transition-shadow border-t-4 border-primary group">
+                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-colors shadow-sm">
                         <i class="fas fa-lightbulb text-xl text-primary group-hover:text-white transition-colors"></i>
                     </div>
                     <h4 class="text-xl font-bold text-primary mb-3">Innovation Strategy</h4>
                     <p class="text-slate-600 mb-4">Established the CBE Intelligence Hub and defined guidelines for the Regulatory Sandbox at the Central Bank of Eswatini.</p>
                 </div>
 
-                <!-- Pillar 3 -->
-                <div class="bg-white p-8 rounded-sm shadow-sm hover:shadow-xl transition-shadow border-t-4 border-accent group">
-                    <div class="w-12 h-12 bg-cyan-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-accent transition-colors">
+                <div class="bg-slate-50 p-8 rounded-sm shadow-sm hover:shadow-xl transition-shadow border-t-4 border-accent group">
+                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mb-6 group-hover:bg-accent transition-colors shadow-sm">
                         <i class="fas fa-graduation-cap text-xl text-accent group-hover:text-white transition-colors"></i>
                     </div>
                     <h4 class="text-xl font-bold text-primary mb-3">Education & Leadership</h4>
@@ -248,28 +405,36 @@
         </div>
     </section>
 
-    <!-- Quick Links (Replacing Insights) -->
-    <section id="work" class="py-24 bg-white border-t border-slate-100">
+    <!-- Quick Links -->
+    <section id="work" class="py-24 bg-slate-50 border-t border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-2 gap-8">
-                <a href="publications.html" class="group relative overflow-hidden rounded-sm h-64 md:h-80 flex items-end p-8 bg-slate-900">
+            <div class="grid md:grid-cols-3 gap-8">
+                <a href="publications.html" class="group relative overflow-hidden rounded-sm h-64 flex items-end p-8 bg-slate-900">
                     <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity" alt="Publications">
                     <div class="relative z-10">
                         <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-accent transition-colors">Publications</h3>
-                        <p class="text-slate-300 mb-4">Read my latest research and policy papers.</p>
                         <span class="inline-flex items-center text-accent font-semibold text-sm uppercase tracking-wider">
                             View Archive <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
                         </span>
                     </div>
                 </a>
 
-                <a href="news_articles.html" class="group relative overflow-hidden rounded-sm h-64 md:h-80 flex items-end p-8 bg-slate-900">
+                <a href="news_articles.html" class="group relative overflow-hidden rounded-sm h-64 flex items-end p-8 bg-slate-900">
                     <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity" alt="News">
                     <div class="relative z-10">
                         <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-accent transition-colors">Media</h3>
-                        <p class="text-slate-300 mb-4">Latest features, interviews, and industry news.</p>
                         <span class="inline-flex items-center text-accent font-semibold text-sm uppercase tracking-wider">
                             Read Articles <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                        </span>
+                    </div>
+                </a>
+
+                <a href="blog.html" class="group relative overflow-hidden rounded-sm h-64 flex items-end p-8 bg-slate-900">
+                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-30 transition-opacity" alt="Blog">
+                    <div class="relative z-10">
+                        <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-accent transition-colors">Blog</h3>
+                        <span class="inline-flex items-center text-accent font-semibold text-sm uppercase tracking-wider">
+                            Latest Thoughts <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
                         </span>
                     </div>
                 </a>
@@ -284,7 +449,6 @@
                 <path d="M0 100 C 20 0 50 0 100 100 Z" fill="white" />
             </svg>
         </div>
-
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="lg:grid lg:grid-cols-2 gap-16">
                 <div>
@@ -293,9 +457,7 @@
                     <p class="text-slate-300 text-lg mb-8">
                         I am always open to discussing research collaborations, speaking engagements, or advisory roles in the fintech space.
                     </p>
-                    
                     <div class="space-y-6">
-                        <!-- Updated LinkedIn Link -->
                         <a href="https://www.linkedin.com/in/nolwazi-hlophe/" class="flex items-center gap-4 text-slate-300 hover:text-white transition-colors group">
                             <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center group-hover:bg-accent transition-colors">
                                 <i class="fab fa-linkedin text-xl"></i>
@@ -304,7 +466,6 @@
                         </a>
                     </div>
                 </div>
-
                 <div class="mt-12 lg:mt-0 bg-white p-8 rounded-sm shadow-2xl">
                     <form action="https://formspree.io/f/xdaaoqvv" method="POST">
                         <div class="mb-6">
@@ -331,7 +492,6 @@
     <!-- Footer -->
     <footer class="bg-slate-950 text-slate-500 py-12 border-t border-slate-900 text-center">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <!-- Added Footer LinkedIn Icon Link -->
             <div class="flex justify-center space-x-6 mb-8">
                 <a href="https://www.linkedin.com/in/nolwazi-hlophe/" class="text-slate-400 hover:text-white transition-colors">
                     <span class="sr-only">LinkedIn</span>
@@ -344,9 +504,7 @@
 
     <!-- GEMINI AI CHAT WIDGET -->
     <div id="ai-chat-widget" class="fixed bottom-6 right-6 z-50 font-sans">
-        <!-- Chat Window (Hidden by default) -->
         <div id="chat-window" class="hidden bg-white w-80 sm:w-96 h-[500px] rounded-lg shadow-2xl border border-slate-200 flex flex-col mb-4 transition-all duration-300 transform origin-bottom-right scale-95 opacity-0">
-            <!-- Header -->
             <div class="bg-primary text-white p-4 rounded-t-lg flex justify-between items-center shadow-sm">
                 <div class="flex items-center gap-2">
                     <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
@@ -357,9 +515,7 @@
                 </button>
             </div>
             
-            <!-- Messages Area -->
             <div id="chat-messages" class="flex-1 p-4 overflow-y-auto text-sm space-y-4 bg-slate-50">
-                <!-- Welcome Message -->
                 <div class="flex gap-3">
                     <div class="w-8 h-8 rounded-full bg-accent flex items-center justify-center text-white flex-shrink-0">
                         <i class="fas fa-robot text-xs"></i>
@@ -370,7 +526,6 @@
                 </div>
             </div>
 
-            <!-- Input Area -->
             <div class="p-3 border-t border-slate-200 bg-white rounded-b-lg">
                 <div class="flex gap-2 relative">
                     <input type="text" id="chat-input" placeholder="Ask about her experience..." class="flex-1 border border-slate-300 rounded-full px-4 py-2 text-sm focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent pr-10">
@@ -384,22 +539,16 @@
             </div>
         </div>
 
-        <!-- Floating Toggle Button -->
         <button id="chat-toggle" class="bg-primary text-white w-16 h-16 rounded-full shadow-2xl hover:bg-slate-800 transition-all hover:scale-105 flex items-center justify-center text-2xl border-4 border-white">
             <i class="fas fa-comment-dots"></i>
         </button>
     </div>
 
     <script>
-        // --- MOBILE MENU ---
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => { menu.classList.toggle('hidden'); });
 
-        btn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
-        });
-
-        // --- STICKY NAVBAR ---
         const navbar = document.getElementById('navbar');
         window.addEventListener('scroll', () => {
             if (window.scrollY > 50) {
@@ -419,7 +568,6 @@
         const sendMsgBtn = document.getElementById('send-msg');
         const messagesContainer = document.getElementById('chat-messages');
 
-        // Context Gathering
         const linkedInContext = `
         [LinkedIn Profile Summary for Nolwazi Hlophe]
         - Profile URL: https://www.linkedin.com/in/nolwazi-hlophe/
@@ -433,11 +581,8 @@
         `;
 
         const pageContent = document.body.innerText.replace(/\s+/g, ' ').substring(0, 10000); 
-        
-        // Combine page text with the hidden LinkedIn knowledge
         const fullContext = linkedInContext + "\n---\n[Website Content below]\n" + pageContent;
 
-        // Toggle Chat
         function toggleChat() {
             chatWindow.classList.toggle('hidden');
             if (!chatWindow.classList.contains('hidden')) {
@@ -457,44 +602,31 @@
         chatToggle.addEventListener('click', toggleChat);
         closeChat.addEventListener('click', toggleChat);
 
-        // Add User Message
         function addUserMessage(text) {
             const div = document.createElement('div');
             div.className = 'flex gap-3 justify-end chat-animate';
-            div.innerHTML = `
-                <div class="bg-accent text-white p-3 rounded-lg rounded-tr-none shadow-sm max-w-[85%]">
-                    ${text}
-                </div>
-            `;
+            div.innerHTML = `<div class="bg-accent text-white p-3 rounded-lg rounded-tr-none shadow-sm max-w-[85%]">${text}</div>`;
             messagesContainer.appendChild(div);
             messagesContainer.scrollTop = messagesContainer.scrollHeight;
         }
 
-        // Add AI Message
         function addAIMessage(text) {
             const div = document.createElement('div');
             div.className = 'flex gap-3 chat-animate';
             div.innerHTML = `
-                <div class="w-8 h-8 rounded-full bg-accent flex items-center justify-center text-white flex-shrink-0">
-                    <i class="fas fa-robot text-xs"></i>
-                </div>
-                <div class="bg-white border border-slate-100 p-3 rounded-lg rounded-tl-none shadow-sm text-slate-700 max-w-[85%]">
-                    ${text}
-                </div>
+                <div class="w-8 h-8 rounded-full bg-accent flex items-center justify-center text-white flex-shrink-0"><i class="fas fa-robot text-xs"></i></div>
+                <div class="bg-white border border-slate-100 p-3 rounded-lg rounded-tl-none shadow-sm text-slate-700 max-w-[85%]">${text}</div>
             `;
             messagesContainer.appendChild(div);
             messagesContainer.scrollTop = messagesContainer.scrollHeight;
         }
 
-        // Add Loading Indicator
         function addLoading() {
             const div = document.createElement('div');
-            div.id = 'ai-loading';
+            div.id = 'ai-loading-chat';
             div.className = 'flex gap-3 chat-animate';
             div.innerHTML = `
-                <div class="w-8 h-8 rounded-full bg-accent flex items-center justify-center text-white flex-shrink-0">
-                    <i class="fas fa-robot text-xs"></i>
-                </div>
+                <div class="w-8 h-8 rounded-full bg-accent flex items-center justify-center text-white flex-shrink-0"><i class="fas fa-robot text-xs"></i></div>
                 <div class="bg-white border border-slate-100 p-4 rounded-lg rounded-tl-none shadow-sm flex gap-1 items-center">
                     <div class="w-2 h-2 bg-slate-400 rounded-full typing-dot"></div>
                     <div class="w-2 h-2 bg-slate-400 rounded-full typing-dot"></div>
@@ -506,11 +638,10 @@
         }
 
         function removeLoading() {
-            const loading = document.getElementById('ai-loading');
+            const loading = document.getElementById('ai-loading-chat');
             if (loading) loading.remove();
         }
 
-        // Call Gemini API
         async function handleSend() {
             const text = chatInput.value.trim();
             if (!text) return;
@@ -519,24 +650,9 @@
             chatInput.value = '';
             addLoading();
 
-            const apiKey = ""; // Runtime provided
+            const apiKey = "AIzaSyA3g5vgRipZpAA7BeD8lojp7ZFEPzJJyaA"; 
             
-            // --- INSTRUCTIONS FOR LIVE WEBSITE ---
-            // If you are hosting this on your own website (GitHub Pages), the 'apiKey' above will be empty.
-            // You must get a free API Key from https://aistudio.google.com/
-            // and paste it inside the quotes below:
-            const userProvidedKey = "AIzaSyA3g5vgRipZpAA7BeD8lojp7ZFEPzJJyaA"; 
-            
-            // Logic to select the key (Preview vs Live)
-            const activeKey = apiKey || userProvidedKey;
-
-            if (!activeKey) {
-                removeLoading();
-                addAIMessage("⚠️ <strong>Configuration Error:</strong> API Key is missing.<br><br>To fix this on your live website, please edit the <code>index.html</code> file and paste your Google Gemini API key into the <code>userProvidedKey</code> variable.");
-                return;
-            }
-
-            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${activeKey}`;
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
 
             const systemPrompt = `You are an intelligent, professional AI assistant for Nolwazi Hlophe's personal portfolio website. 
             Here is the context of her resume, experience, and LinkedIn profile highlights:
@@ -546,59 +662,27 @@
             User Question: ${text}
             
             Instructions:
-            1. Answer the user's question based on the provided context (Website + LinkedIn info).
+            1. Answer the user's question based on the provided context.
             2. Be concise, enthusiastic, and professional.
             3. Highlight her expertise in Fintech, AI, and Regulation.
             4. If the answer is not in the context, politely suggest they use the "Get in Touch" form.
             5. Keep your response under 40 words.`;
 
-            const payload = {
-                contents: [{
-                    parts: [{ text: systemPrompt }]
-                }]
-            };
+            try {
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ contents: [{ parts: [{ text: systemPrompt }] }] })
+                });
 
-            const delays = [500, 1000, 2000];
-            let attempt = 0;
-            let success = false;
-
-            while (attempt < 3 && !success) {
-                try {
-                    const response = await fetch(url, {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify(payload)
-                    });
-
-                    if (response.status === 400 || response.status === 403) {
-                         throw new Error("AUTH_ERROR");
-                    }
-
-                    if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
-
-                    const data = await response.json();
-                    const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || "I'm having trouble connecting right now. Please try again later.";
-                    
-                    removeLoading();
-                    addAIMessage(reply);
-                    success = true;
-
-                } catch (error) {
-                    if (error.message === "AUTH_ERROR") {
-                        removeLoading();
-                        addAIMessage("🔒 <strong>Authentication Error:</strong> The API Key is invalid or restricted. Please check your key configuration.");
-                        return; // Stop retrying
-                    }
-
-                    console.warn(`Attempt ${attempt + 1} failed:`, error);
-                    attempt++;
-                    if (attempt < 3) {
-                        await new Promise(r => setTimeout(r, delays[attempt]));
-                    } else {
-                        removeLoading();
-                        addAIMessage("I'm currently experiencing high traffic or network issues. Please try again in a moment.");
-                    }
-                }
+                if (!response.ok) throw new Error(`HTTP Error`);
+                const data = await response.json();
+                const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || "I'm having trouble connecting right now.";
+                removeLoading();
+                addAIMessage(reply);
+            } catch (error) {
+                removeLoading();
+                addAIMessage("I'm currently experiencing high traffic or network issues. Please try again in a moment.");
             }
         }
 
