@@ -81,7 +81,6 @@
             </div>
         </div>
 
-        <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full shadow-lg">
             <div class="px-4 pt-2 pb-6 space-y-1">
                 <a href="index.html" class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-accent hover:bg-slate-50 rounded-md">About Me</a>
@@ -123,11 +122,57 @@
                 </button>
             </div>
 
-            <div class="text-sm text-slate-400 mb-6">23 Publications Listed</div>
+            <div class="text-sm text-slate-400 mb-6">25 Publications Listed</div>
 
             <div class="space-y-6" id="publications-list">
 
-                <!-- Item 2026 (New) -->
+                <!-- Item 2026 (Global AI Report - Newest) -->
+                <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
+                    <div class="flex-shrink-0">
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-cyan-50 text-accent font-bold text-sm ring-4 ring-white group-hover:bg-accent group-hover:text-white transition-colors">
+                            2026
+                        </span>
+                    </div>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-bold text-primary mb-2 group-hover:text-accent transition-colors">
+                            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6674099" target="_blank">
+                                The 2026 Global AI in Financial Services Report: Adoption, Impact and Risks <i class="fas fa-external-link-alt text-xs ml-2 opacity-50"></i>
+                            </a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-2">CCAF, WEF and FSCA</p>
+                        <p class="text-xs text-slate-400 uppercase tracking-wide">SSRN Working Paper</p>
+                    </div>
+                    <div class="mt-4 sm:mt-0 sm:self-center">
+                        <button class="explore-btn text-xs font-semibold text-accent border border-accent px-3 py-1 rounded hover:bg-accent hover:text-white transition-colors" data-title="The 2026 Global AI in Financial Services Report: Adoption, Impact and Risks">
+                            Explore
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Item 2026 (Smartphone Access) -->
+                <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
+                    <div class="flex-shrink-0">
+                        <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-cyan-50 text-accent font-bold text-sm ring-4 ring-white group-hover:bg-accent group-hover:text-white transition-colors">
+                            2026
+                        </span>
+                    </div>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-bold text-primary mb-2 group-hover:text-accent transition-colors">
+                            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6674099" target="_blank">
+                                Does Access to a Smartphone Really Provide Access to the Digital Economy? Case Studies from Rural Eswatini <i class="fas fa-external-link-alt text-xs ml-2 opacity-50"></i>
+                            </a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-2">Hlophe, N.; Musengi, S.; Hlophe, N. and Georg, C-P.</p>
+                        <p class="text-xs text-slate-400 uppercase tracking-wide">SSRN Working Paper</p>
+                    </div>
+                    <div class="mt-4 sm:mt-0 sm:self-center">
+                        <button class="explore-btn text-xs font-semibold text-accent border border-accent px-3 py-1 rounded hover:bg-accent hover:text-white transition-colors" data-title="Does Access to a Smartphone Really Provide Access to the Digital Economy? Case Studies from Rural Eswatini">
+                            Explore
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Item 2026 (TechFinancials) -->
                 <div class="bg-white border border-slate-100 p-6 rounded-sm shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row gap-6 items-start group">
                     <div class="flex-shrink-0">
                         <span class="inline-flex items-center justify-center h-12 w-12 rounded-full bg-cyan-50 text-accent font-bold text-sm ring-4 ring-white group-hover:bg-accent group-hover:text-white transition-colors">
@@ -770,6 +815,42 @@
 
         // --- CURATED SUMMARIES DATABASE ---
         const curatedSummaries = {
+            "The 2026 Global AI in Financial Services Report: Adoption, Impact and Risks": `
+                <div class="space-y-4">
+                    <div class="bg-blue-50 p-4 rounded-sm border-l-4 border-accent">
+                        <h4 class="font-bold text-primary mb-1">📄 Executive Summary</h4>
+                        <p class="text-sm text-slate-700">A comprehensive, globally-focused working paper published on SSRN by CCAF, WEF, and the FSCA. It provides a definitive overview of how AI is being deployed across global financial markets, assessing both its transformative impacts and systemic vulnerabilities.</p>
+                    </div>
+                    
+                    <h4 class="font-bold text-primary flex items-center gap-2"><i class="fas fa-globe text-accent"></i> Key Findings</h4>
+                    <ul class="list-disc pl-5 space-y-2 text-slate-600 text-sm">
+                        <li><strong>Adoption Trends:</strong> Benchmarks the rapid acceleration of AI and machine learning tools by both incumbents and fintechs globally, focusing on efficiency gains and personalization.</li>
+                        <li><strong>Systemic Impact:</strong> Analyzes how AI integration is fundamentally altering market dynamics, including potential shifts in competition and systemic stability.</li>
+                        <li><strong>Risk Landscape:</strong> Extensively documents the critical risks, including algorithmic bias, the "black box" explainability problem, and emerging cybersecurity threats.</li>
+                    </ul>
+
+                    <h4 class="font-bold text-primary flex items-center gap-2"><i class="fas fa-balance-scale text-accent"></i> Why it Matters</h4>
+                    <p class="text-sm text-slate-600">As a collaborative effort involving major global institutions, this report serves as a crucial benchmark for regulators and industry leaders worldwide, framing the urgent need for harmonized, forward-looking AI governance.</p>
+                </div>
+            `,
+            "Does Access to a Smartphone Really Provide Access to the Digital Economy? Case Studies from Rural Eswatini": `
+                <div class="space-y-4">
+                    <div class="bg-blue-50 p-4 rounded-sm border-l-4 border-accent">
+                        <h4 class="font-bold text-primary mb-1">📄 Executive Summary</h4>
+                        <p class="text-sm text-slate-700">An empirical working paper published on SSRN that challenges the assumption that mere technological access equates to meaningful economic participation. Based on case studies in rural Eswatini.</p>
+                    </div>
+                    
+                    <h4 class="font-bold text-primary flex items-center gap-2"><i class="fas fa-mobile-alt text-accent"></i> Key Analysis</h4>
+                    <ul class="list-disc pl-5 space-y-2 text-slate-600 text-sm">
+                        <li><strong>The Access vs. Usage Gap:</strong> Highlights the critical distinction between owning a smartphone and possessing the digital literacy or financial means to utilize it for economic advancement.</li>
+                        <li><strong>Rural Realities:</strong> Provides granular, on-the-ground case studies detailing the specific, compounding barriers faced by rural populations in Eswatini (e.g., data costs, network reliability, digital skills).</li>
+                        <li><strong>Policy Re-evaluation:</strong> Argues that financial inclusion strategies must move beyond hardware distribution metrics to focus on capability building and relevant, affordable digital services.</li>
+                    </ul>
+
+                    <h4 class="font-bold text-primary flex items-center gap-2"><i class="fas fa-bullseye text-accent"></i> Why it Matters</h4>
+                    <p class="text-sm text-slate-600">This paper provides a necessary reality check for policymakers and technologists, emphasizing that closing the digital divide requires human-centric interventions, not just technological deployment.</p>
+                </div>
+            `,
             "Keeping the pulse in the machine: The case for human-centric AI disclosures": `
                 <div class="space-y-4">
                     <div class="bg-blue-50 p-4 rounded-sm border-l-4 border-accent">
@@ -1237,11 +1318,12 @@
                     The user is interested in this specific publication title: "${title}" by Nolwazi Hlophe.
                     
                     Instructions:
-                    1. Provide a brief **Summary** of what a paper with this title is likely about.
-                    2. Explain **Why it matters**.
-                    3. Suggest 2-3 **Key Takeaways**.
+                    1. Provide a brief **Summary** of what a paper with this title is likely about, based on general knowledge of the topic (Fintech, AI, Regulation, Financial Inclusion).
+                    2. Explain **Why it matters** in the context of African financial markets or global regulation.
+                    3. Suggest 2-3 **Key Takeaways** a reader might expect.
                     
-                    Disclaimer: Start by briefly stating that this is an AI-generated preview.
+                    Disclaimer: Start by briefly stating that this is an AI-generated preview based on the title.
+                    
                     Format with simple HTML (<h4>, <p>, <ul>). Keep it under 150 words.`;
 
                     await callGemini(url, systemPrompt);
@@ -1256,6 +1338,7 @@
                     parts: [{ text: prompt }]
                 }]
             };
+
             const delays = [1000, 2000, 4000];
             let attempt = 0;
             let success = false;
@@ -1267,7 +1350,9 @@
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(payload)
                     });
+
                     if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
+
                     const data = await response.json();
                     const reply = data.candidates?.[0]?.content?.parts?.[0]?.text;
                     
@@ -1280,7 +1365,9 @@
                     } else {
                         throw new Error('No content returned');
                     }
+
                 } catch (error) {
+                    console.warn(`Attempt ${attempt + 1} failed:`, error);
                     attempt++;
                     if (attempt < 3) {
                         await new Promise(r => setTimeout(r, delays[attempt]));
