@@ -31,9 +31,9 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: '#0f172a', // Slate 900 - Matching the deep navy look
+                        primary: '#0f172a', // Slate 900
                         secondary: '#334155', // Slate 700
-                        accent: '#06b6d4', // Cyan 500 - Preserving your preferred accent color
+                        accent: '#06b6d4', // Cyan 500
                         surface: '#f8fafc', // Slate 50
                     },
                     fontFamily: {
@@ -50,23 +50,6 @@
             background: linear-gradient(rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.85)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
             background-size: cover;
             background-position: center;
-        }
-        /* Chat Widget Animations */
-        @keyframes slideIn {
-            from { opacity: 0; transform: translateY(20px) scale(0.95); }
-            to { opacity: 1; transform: translateY(0) scale(1); }
-        }
-        .chat-animate {
-            animation: slideIn 0.3s ease-out forwards;
-        }
-        .typing-dot {
-            animation: typing 1.4s infinite ease-in-out both;
-        }
-        .typing-dot:nth-child(1) { animation-delay: -0.32s; }
-        .typing-dot:nth-child(2) { animation-delay: -0.16s; }
-        @keyframes typing {
-            0%, 80%, 100% { transform: scale(0); }
-            40% { transform: scale(1); }
         }
     </style>
 </head>
@@ -223,7 +206,7 @@
                 Download my comprehensive Curriculum Vitae to review my detailed professional history, academic background, and industry contributions.
             </p>
             <a href="Nolwazi Hlophe CV.pdf" target="_blank" class="inline-flex justify-center items-center px-8 py-4 bg-primary text-white rounded-sm font-medium hover:bg-slate-800 transition-colors shadow-lg hover:shadow-xl">
-                <i class="fas fa-download mr-3"></i> Download Full CV
+                <i class="fas fa-download mr-3"></i> Nolwazi Hlophe CV
             </a>
         </div>
     </section>
@@ -367,52 +350,13 @@
         </div>
     </footer>
 
-    <!-- GEMINI AI CHAT WIDGET -->
-    <div id="ai-chat-widget" class="fixed bottom-6 right-6 z-50 font-sans">
-        <div id="chat-window" class="hidden bg-white w-80 sm:w-96 h-[500px] rounded-lg shadow-2xl border border-slate-200 flex flex-col mb-4 transition-all duration-300 transform origin-bottom-right scale-95 opacity-0">
-            <div class="bg-primary text-white p-4 rounded-t-lg flex justify-between items-center shadow-sm">
-                <div class="flex items-center gap-2">
-                    <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                    <h3 class="font-bold text-sm">✨ Ask Nolwazi AI</h3>
-                </div>
-                <button id="close-chat" class="text-slate-300 hover:text-white transition-colors">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            
-            <div id="chat-messages" class="flex-1 p-4 overflow-y-auto text-sm space-y-4 bg-slate-50">
-                <div class="flex gap-3">
-                    <div class="w-8 h-8 rounded-full bg-accent flex items-center justify-center text-white flex-shrink-0">
-                        <i class="fas fa-robot text-xs"></i>
-                    </div>
-                    <div class="bg-white border border-slate-100 p-3 rounded-lg rounded-tl-none shadow-sm text-slate-700">
-                        Hello! I'm Nolwazi's AI assistant. I've read her entire portfolio. Ask me anything about her experience with Fintech, AI regulation, or her research! ✨
-                    </div>
-                </div>
-            </div>
-
-            <div class="p-3 border-t border-slate-200 bg-white rounded-b-lg">
-                <div class="flex gap-2 relative">
-                    <input type="text" id="chat-input" placeholder="Ask about her experience..." class="flex-1 border border-slate-300 rounded-full px-4 py-2 text-sm focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent pr-10">
-                    <button id="send-msg" class="bg-primary text-white w-9 h-9 rounded-full hover:bg-slate-800 transition-colors flex items-center justify-center absolute right-1 top-0.5 mt-px">
-                        <i class="fas fa-paper-plane text-xs"></i>
-                    </button>
-                </div>
-                <div class="text-center mt-2">
-                    <span class="text-[10px] text-slate-400">Powered by Gemini AI ✨</span>
-                </div>
-            </div>
-        </div>
-
-        <button id="chat-toggle" class="bg-primary text-white w-16 h-16 rounded-full shadow-2xl hover:bg-slate-800 transition-all hover:scale-105 flex items-center justify-center text-2xl border-4 border-white">
-            <i class="fas fa-comment-dots"></i>
-        </button>
-    </div>
-
     <script>
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
-        btn.addEventListener('click', () => { menu.classList.toggle('hidden'); });
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
 
         const navbar = document.getElementById('navbar');
         window.addEventListener('scroll', () => {
@@ -424,138 +368,6 @@
                 navbar.classList.add('py-4');
             }
         });
-
-        // --- GEMINI AI CHATBOT LOGIC ---
-        const chatToggle = document.getElementById('chat-toggle');
-        const chatWindow = document.getElementById('chat-window');
-        const closeChat = document.getElementById('close-chat');
-        const chatInput = document.getElementById('chat-input');
-        const sendMsgBtn = document.getElementById('send-msg');
-        const messagesContainer = document.getElementById('chat-messages');
-
-        const linkedInContext = `
-        [LinkedIn Profile Summary for Nolwazi Hlophe]
-        - Profile URL: https://www.linkedin.com/in/nolwazi-hlophe/
-        - Professional Headline: Senior Fintech Specialist | FSCA South Africa
-        - Key Topics: Fintech Regulation, AI in Finance, Consumer Protection, Financial Inclusion.
-        - Recent Posts/Activity:
-          1. "AI Series": Discussing the FSCA's approach to Artificial Intelligence in finance and regulatory frameworks.
-          2. Shared insights on "Finance's next frontier", regarding digital transformation and future trends.
-          3. Active engagement in industry discussions about DeFi and Open Finance.
-        - Engagement: Nolwazi is active on LinkedIn sharing industry news and regulatory updates.
-        `;
-
-        const pageContent = document.body.innerText.replace(/\s+/g, ' ').substring(0, 10000); 
-        const fullContext = linkedInContext + "\n---\n[Website Content below]\n" + pageContent;
-
-        function toggleChat() {
-            chatWindow.classList.toggle('hidden');
-            if (!chatWindow.classList.contains('hidden')) {
-                setTimeout(() => {
-                    chatWindow.classList.remove('scale-95', 'opacity-0');
-                    chatWindow.classList.add('scale-100', 'opacity-100');
-                    chatInput.focus();
-                }, 10);
-                chatToggle.classList.add('hidden');
-            } else {
-                chatWindow.classList.add('scale-95', 'opacity-0');
-                chatWindow.classList.remove('scale-100', 'opacity-100');
-                chatToggle.classList.remove('hidden');
-            }
-        }
-
-        chatToggle.addEventListener('click', toggleChat);
-        closeChat.addEventListener('click', toggleChat);
-
-        function addUserMessage(text) {
-            const div = document.createElement('div');
-            div.className = 'flex gap-3 justify-end chat-animate';
-            div.innerHTML = `<div class="bg-accent text-white p-3 rounded-lg rounded-tr-none shadow-sm max-w-[85%]">${text}</div>`;
-            messagesContainer.appendChild(div);
-            messagesContainer.scrollTop = messagesContainer.scrollHeight;
-        }
-
-        function addAIMessage(text) {
-            const div = document.createElement('div');
-            div.className = 'flex gap-3 chat-animate';
-            div.innerHTML = `
-                <div class="w-8 h-8 rounded-full bg-accent flex items-center justify-center text-white flex-shrink-0"><i class="fas fa-robot text-xs"></i></div>
-                <div class="bg-white border border-slate-100 p-3 rounded-lg rounded-tl-none shadow-sm text-slate-700 max-w-[85%]">${text}</div>
-            `;
-            messagesContainer.appendChild(div);
-            messagesContainer.scrollTop = messagesContainer.scrollHeight;
-        }
-
-        function addLoading() {
-            const div = document.createElement('div');
-            div.id = 'ai-loading-chat';
-            div.className = 'flex gap-3 chat-animate';
-            div.innerHTML = `
-                <div class="w-8 h-8 rounded-full bg-accent flex items-center justify-center text-white flex-shrink-0"><i class="fas fa-robot text-xs"></i></div>
-                <div class="bg-white border border-slate-100 p-4 rounded-lg rounded-tl-none shadow-sm flex gap-1 items-center">
-                    <div class="w-2 h-2 bg-slate-400 rounded-full typing-dot"></div>
-                    <div class="w-2 h-2 bg-slate-400 rounded-full typing-dot"></div>
-                    <div class="w-2 h-2 bg-slate-400 rounded-full typing-dot"></div>
-                </div>
-            `;
-            messagesContainer.appendChild(div);
-            messagesContainer.scrollTop = messagesContainer.scrollHeight;
-        }
-
-        function removeLoading() {
-            const loading = document.getElementById('ai-loading-chat');
-            if (loading) loading.remove();
-        }
-
-        async function handleSend() {
-            const text = chatInput.value.trim();
-            if (!text) return;
-
-            addUserMessage(text);
-            chatInput.value = '';
-            addLoading();
-
-            const apiKey = "AIzaSyA3g5vgRipZpAA7BeD8lojp7ZFEPzJJyaA"; 
-            
-            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
-
-            const systemPrompt = `You are an intelligent, professional AI assistant for Nolwazi Hlophe's personal portfolio website. 
-            Here is the context of her resume, experience, and LinkedIn profile highlights:
-            ---
-            ${fullContext}
-            ---
-            User Question: ${text}
-            
-            Instructions:
-            1. Answer the user's question based on the provided context.
-            2. Be concise, enthusiastic, and professional.
-            3. Highlight her expertise in Fintech, AI, and Regulation.
-            4. If the answer is not in the context, politely suggest they use the "Get in Touch" form.
-            5. Keep your response under 40 words.`;
-
-            try {
-                const response = await fetch(url, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ contents: [{ parts: [{ text: systemPrompt }] }] })
-                });
-
-                if (!response.ok) throw new Error(`HTTP Error`);
-                const data = await response.json();
-                const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || "I'm having trouble connecting right now.";
-                removeLoading();
-                addAIMessage(reply);
-            } catch (error) {
-                removeLoading();
-                addAIMessage("I'm currently experiencing high traffic or network issues. Please try again in a moment.");
-            }
-        }
-
-        sendMsgBtn.addEventListener('click', handleSend);
-        chatInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') handleSend();
-        });
-
     </script>
 </body>
 </html>
