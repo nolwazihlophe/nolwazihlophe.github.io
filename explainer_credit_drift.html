@@ -24,15 +24,35 @@
             }
         }
     </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
         .mono { font-family: 'JetBrains Mono', monospace; }
-        input[type=range] { -webkit-appearance: none; height: 6px; border-radius: 3px; background: #e2e8f0; }
-        input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%; background: #06b6d4; cursor: pointer; border: 3px solid white; box-shadow: 0 0 0 1px #06b6d4; }
-        input[type=range]::-moz-range-thumb { width: 18px; height: 18px; border-radius: 50%; background: #06b6d4; cursor: pointer; border: 3px solid white; box-shadow: 0 0 0 1px #06b6d4; }
-        .bar-transition { transition: height 0.4s ease, background-color 0.4s ease; }
-        .fade-transition { transition: opacity 0.3s ease, transform 0.3s ease; }
+        input[type=range] { -webkit-appearance: none; height: 6px; border-radius: 3px; background: #e2e8f0; outline: none; }
+        input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 20px; height: 20px; border-radius: 50%; background: #06b6d4; cursor: pointer; border: 3px solid white; box-shadow: 0 0 0 1px #06b6d4, 0 2px 6px rgba(15,23,42,0.3); transition: transform 0.15s ease; }
+        input[type=range]::-webkit-slider-thumb:hover { transform: scale(1.15); }
+        input[type=range]::-moz-range-thumb { width: 20px; height: 20px; border-radius: 50%; background: #06b6d4; cursor: pointer; border: 3px solid white; box-shadow: 0 0 0 1px #06b6d4; }
+
+        .bar-transition { transition: height 0.5s cubic-bezier(.22,1,.36,1), background-color 0.4s ease; }
+        .fade-transition { transition: background-color 0.5s ease; }
+        .card-hover { transition: box-shadow 0.3s ease, transform 0.3s ease; }
+        .card-hover:hover { box-shadow: 0 8px 30px rgba(15,23,42,0.08); transform: translateY(-2px); }
+
+        .num-pulse { animation: numPulse 0.4s ease; }
+        @keyframes numPulse { 0% { transform: scale(1.08); opacity: 0.7; } 100% { transform: scale(1); opacity: 1; } }
+
+        .status-dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; margin-right: 6px; }
+        .status-dot.pulse-live { animation: pulseDot 1.6s ease-in-out infinite; }
+        @keyframes pulseDot { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+
+        #playBtn { transition: all 0.2s ease; }
+        #playBtn:active { transform: scale(0.95); }
+
+        .chart-line { transition: d 0.15s linear; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .bar-transition, .fade-transition, .num-pulse, .status-dot.pulse-live { animation: none !important; transition: none !important; }
+        }
     </style>
 </head>
 <body class="bg-surface text-slate-900 flex flex-col min-h-screen">
@@ -71,66 +91,113 @@
                     The Credit Scoring Drift Monitor
                 </h1>
                 <p class="text-lg text-slate-500">
-                    A model is only as fair as the population it was trained on. Move the clock forward and watch what happens to accuracy, approval rates and the gap between demographic groups as the world quietly stops matching the training data — without a single line of code changing.
+                    A model is only as fair as the population it was trained on. Move the clock forward — or press play — and watch what happens to accuracy, approval rates and the gap between demographic groups as the world quietly stops matching the training data, without a single line of code changing.
                 </p>
             </header>
 
             <!-- Control Panel -->
-            <div class="grid md:grid-cols-3 gap-6 mb-10">
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
                 <div class="md:col-span-2 bg-slate-50 border border-slate-100 rounded-sm p-6">
                     <div class="flex justify-between items-center mb-2">
                         <label for="monthSlider" class="text-sm font-bold text-primary uppercase tracking-wide">Months Since Deployment</label>
-                        <span id="monthLabel" class="mono text-accent font-bold text-lg">0</span>
+                        <div class="flex items-center gap-3">
+                            <span id="monthLabel" class="mono text-accent font-bold text-lg">0</span>
+                            <button id="playBtn" class="w-9 h-9 rounded-full bg-primary text-white flex items-center justify-center hover:bg-slate-800 flex-shrink-0" aria-label="Play timeline">
+                                <i class="fas fa-play text-xs" id="playIcon"></i>
+                            </button>
+                        </div>
                     </div>
-                    <input type="range" id="monthSlider" min="0" max="36" value="0" step="1" class="w-full">
+                    <div class="relative pt-1">
+                        <input type="range" id="monthSlider" min="0" max="36" value="0" step="1" class="w-full">
+                    </div>
                     <div class="flex justify-between text-xs text-slate-400 mt-2">
                         <span>Launch</span>
                         <span>18 months</span>
                         <span>36 months</span>
                     </div>
-                    <p class="text-xs text-slate-500 mt-4 leading-relaxed">Advancing the slider simulates <strong>population drift</strong>: the applicant base, macroeconomic conditions and behaviour patterns diverge from the data the model was trained on, while the model itself stays frozen — exactly as it would in a bank that reviews models annually rather than continuously.</p>
+                    <p class="text-xs text-slate-500 mt-4 leading-relaxed">Advancing the slider (or pressing play) simulates <strong>population drift</strong>: the applicant base, macroeconomic conditions and behaviour patterns diverge from the data the model was trained on, while the model itself stays frozen — exactly as it would in a bank that reviews models annually rather than continuously.</p>
+                    <div class="flex flex-wrap gap-2 mt-4">
+                        <button class="preset-btn text-xs font-semibold px-3 py-1.5 rounded-full border border-slate-200 text-slate-600 hover:border-accent hover:text-accent transition-colors" data-month="0">Launch</button>
+                        <button class="preset-btn text-xs font-semibold px-3 py-1.5 rounded-full border border-slate-200 text-slate-600 hover:border-accent hover:text-accent transition-colors" data-month="12">Year 1</button>
+                        <button class="preset-btn text-xs font-semibold px-3 py-1.5 rounded-full border border-slate-200 text-slate-600 hover:border-accent hover:text-accent transition-colors" data-month="24">Year 2</button>
+                        <button class="preset-btn text-xs font-semibold px-3 py-1.5 rounded-full border border-slate-200 text-slate-600 hover:border-accent hover:text-accent transition-colors" data-month="36">Year 3</button>
+                    </div>
                 </div>
-                <div class="bg-slate-50 border border-slate-100 rounded-sm p-6 flex flex-col justify-center">
-                    <label class="text-sm font-bold text-primary uppercase tracking-wide mb-2">Human Override Rate</label>
-                    <div id="overrideRate" class="mono text-3xl font-bold text-primary mb-1">0.3%</div>
-                    <p id="overrideNote" class="text-xs text-slate-500 leading-relaxed">Reviewers agree with the model almost every time. This is the number a supervisor should ask for.</p>
+                <div class="bg-slate-50 border border-slate-100 rounded-sm p-6 flex flex-col justify-center items-center text-center">
+                    <label class="text-sm font-bold text-primary uppercase tracking-wide mb-3">Human Override Rate</label>
+                    <svg viewBox="0 0 120 70" class="w-32 mb-1">
+                        <path d="M10,65 A50,50 0 0,1 110,65" fill="none" stroke="#e2e8f0" stroke-width="10" stroke-linecap="round"/>
+                        <path id="overrideArc" d="M10,65 A50,50 0 0,1 110,65" fill="none" stroke="#06b6d4" stroke-width="10" stroke-linecap="round" stroke-dasharray="157" stroke-dashoffset="156"/>
+                    </svg>
+                    <div id="overrideRate" class="mono text-3xl font-bold text-primary -mt-4">0.3%</div>
+                    <p id="overrideNote" class="text-xs text-slate-500 leading-relaxed mt-2">Reviewers agree with the model almost every time. This is the number a supervisor should ask for.</p>
                 </div>
             </div>
 
             <!-- Key metrics -->
-            <div class="grid md:grid-cols-3 gap-6 mb-10">
-                <div class="bg-white border border-slate-200 rounded-sm p-6 text-center">
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
+                <div class="bg-white border border-slate-200 rounded-sm p-6 text-center card-hover">
                     <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-2">Model Accuracy</p>
                     <p id="accuracyVal" class="mono text-4xl font-bold text-primary">91.4%</p>
-                    <p id="accuracyDelta" class="text-xs text-emerald-600 font-semibold mt-1">baseline</p>
+                    <p id="accuracyDelta" class="text-xs text-slate-400 font-semibold mt-1">baseline</p>
                 </div>
-                <div class="bg-white border border-slate-200 rounded-sm p-6 text-center">
+                <div class="bg-white border border-slate-200 rounded-sm p-6 text-center card-hover">
                     <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-2">Disparate Impact Ratio</p>
                     <p id="diVal" class="mono text-4xl font-bold text-primary">0.94</p>
                     <p class="text-xs text-slate-400 mt-1">4/5ths rule threshold: 0.80</p>
                 </div>
-                <div class="bg-white border border-slate-200 rounded-sm p-6 text-center">
+                <div class="bg-white border border-slate-200 rounded-sm p-6 text-center card-hover">
                     <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-2">Status</p>
-                    <p id="statusVal" class="text-2xl font-bold text-emerald-600">Within Tolerance</p>
+                    <p id="statusVal" class="text-xl font-bold text-emerald-600 flex items-center justify-center"><span class="status-dot pulse-live bg-emerald-500" id="statusDot"></span>Within Tolerance</p>
                     <p class="text-xs text-slate-400 mt-1">Based on internal model risk policy</p>
                 </div>
             </div>
 
+            <!-- Trend chart -->
+            <div class="bg-white border border-slate-200 rounded-sm p-8 mb-8">
+                <div class="flex items-center justify-between mb-1 flex-wrap gap-2">
+                    <h3 class="font-bold text-primary">Accuracy & Fairness Over Time</h3>
+                    <div class="flex items-center gap-4 text-xs font-semibold">
+                        <span class="flex items-center gap-1.5"><span class="w-3 h-0.5 bg-accent inline-block"></span>Accuracy</span>
+                        <span class="flex items-center gap-1.5"><span class="w-3 border-t-2 border-dashed border-primary inline-block"></span>Disparate Impact</span>
+                    </div>
+                </div>
+                <p class="text-sm text-slate-500 mb-6">Traced live as you move the slider. The dashed threshold line marks the regulatory 4/5ths fairness floor.</p>
+                <div class="relative h-56">
+                    <svg id="trendChart" viewBox="0 0 600 220" class="w-full h-full" preserveAspectRatio="none">
+                        <line x1="0" y1="0" x2="600" y2="0" stroke="#f1f5f9" stroke-width="1"/>
+                        <line x1="0" y1="55" x2="600" y2="55" stroke="#f1f5f9" stroke-width="1"/>
+                        <line x1="0" y1="110" x2="600" y2="110" stroke="#f1f5f9" stroke-width="1"/>
+                        <line x1="0" y1="165" x2="600" y2="165" stroke="#f1f5f9" stroke-width="1"/>
+                        <line x1="0" y1="219" x2="600" y2="219" stroke="#e2e8f0" stroke-width="1"/>
+                        <line x1="0" y1="44" x2="600" y2="44" stroke="#f59e0b" stroke-width="1" stroke-dasharray="4,4"/>
+                        <text x="4" y="38" font-size="10" fill="#d97706" font-family="Inter, sans-serif" font-weight="600">Fairness floor (0.80)</text>
+                        <path id="accuracyLine" class="chart-line" fill="none" stroke="#06b6d4" stroke-width="3" stroke-linecap="round"/>
+                        <path id="diLine" class="chart-line" fill="none" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6,4"/>
+                        <line id="cursorLine" x1="0" y1="0" x2="0" y2="220" stroke="#cbd5e1" stroke-width="1"/>
+                        <circle id="accuracyDot" r="5" fill="#06b6d4" stroke="white" stroke-width="2"/>
+                        <circle id="diDot" r="5" fill="#0f172a" stroke="white" stroke-width="2"/>
+                    </svg>
+                    <span class="absolute bottom-0 left-0 text-xs text-slate-400">Month 0</span>
+                    <span class="absolute bottom-0 right-0 text-xs text-slate-400">Month 36</span>
+                </div>
+            </div>
+
             <!-- Approval rate by group chart -->
-            <div class="bg-white border border-slate-200 rounded-sm p-8 mb-10">
+            <div class="bg-white border border-slate-200 rounded-sm p-8 mb-8">
                 <h3 class="font-bold text-primary mb-1">Approval Rate by Applicant Group</h3>
                 <p class="text-sm text-slate-500 mb-6">The gap between these two bars is the disparate impact ratio above. Watch it widen as drift accumulates.</p>
                 <div class="flex items-end gap-12 justify-center border-b border-slate-100 pb-0">
                     <div class="flex flex-col items-center gap-3">
                         <span id="groupAVal" class="mono font-bold text-primary">68%</span>
-                        <div class="w-20 h-40 flex items-end bg-slate-50 rounded-t-sm overflow-hidden">
+                        <div class="w-20 h-40 flex items-end bg-slate-50 rounded-t-sm overflow-hidden relative">
                             <div class="w-full bg-accent rounded-t-sm bar-transition" id="groupABar" style="height: 68%"></div>
                         </div>
                         <span class="text-xs text-slate-500 font-medium text-center">Group A<br>(majority in training data)</span>
                     </div>
                     <div class="flex flex-col items-center gap-3">
                         <span id="groupBVal" class="mono font-bold text-primary">64%</span>
-                        <div class="w-20 h-40 flex items-end bg-slate-50 rounded-t-sm overflow-hidden">
+                        <div class="w-20 h-40 flex items-end bg-slate-50 rounded-t-sm overflow-hidden relative">
                             <div class="w-full bg-slate-400 rounded-t-sm bar-transition" id="groupBBar" style="height: 64%"></div>
                         </div>
                         <span class="text-xs text-slate-500 font-medium text-center">Group B<br>(underrepresented)</span>
@@ -139,9 +206,9 @@
             </div>
 
             <!-- Narrative panel -->
-            <div id="narrativeBox" class="bg-primary text-white rounded-sm p-8 mb-10 fade-transition">
+            <div id="narrativeBox" class="bg-primary text-white rounded-sm p-8 mb-8 fade-transition">
                 <div class="flex items-start gap-4">
-                    <i class="fas fa-circle-info text-accent text-xl mt-1"></i>
+                    <i class="fas fa-circle-info text-accent text-xl mt-1" id="narrativeIcon"></i>
                     <div>
                         <h4 class="font-bold mb-2" id="narrativeTitle">Month 0: Launch</h4>
                         <p class="text-slate-300 text-sm leading-relaxed" id="narrativeText">The model has just been validated. Accuracy and fairness metrics sit comfortably inside policy. No one is watching for drift yet, because there hasn't been time for any to occur.</p>
@@ -198,46 +265,82 @@
 
     <script>
         const slider = document.getElementById('monthSlider');
+        const playBtn = document.getElementById('playBtn');
+        const playIcon = document.getElementById('playIcon');
+        let playing = false;
+        let playTimer = null;
 
         function computeState(month) {
-            const t = month / 36; // 0 to 1
-            const accuracy = 91.4 - (t * t * 14.5); // decays quadratically
+            const t = month / 36;
+            const accuracy = 91.4 - (t * t * 14.5);
             const groupA = 68 - (t * 6);
-            const groupB = 64 - (t * 22); // underrepresented group degrades faster
+            const groupB = 64 - (t * 22);
             const di = groupB / groupA;
-            const overrideRate = 0.3 + (t * t * 1.1); // barely moves even as things worsen
+            const overrideRate = 0.3 + (t * t * 1.1);
             return { accuracy, groupA, groupB, di, overrideRate, month };
         }
 
         function statusFor(di, accuracy) {
-            if (di >= 0.8 && accuracy >= 85) return { label: 'Within Tolerance', color: 'text-emerald-600' };
-            if (di >= 0.8 && accuracy < 85) return { label: 'Accuracy Warning', color: 'text-amber-600' };
-            if (di < 0.8 && accuracy >= 85) return { label: 'Fairness Breach', color: 'text-red-600' };
-            return { label: 'Breach: Act Now', color: 'text-red-600' };
+            if (di >= 0.8 && accuracy >= 85) return { label: 'Within Tolerance', color: 'text-emerald-600', dot: 'bg-emerald-500' };
+            if (di >= 0.8 && accuracy < 85) return { label: 'Accuracy Warning', color: 'text-amber-600', dot: 'bg-amber-500' };
+            if (di < 0.8 && accuracy >= 85) return { label: 'Fairness Breach', color: 'text-red-600', dot: 'bg-red-500' };
+            return { label: 'Breach: Act Now', color: 'text-red-600', dot: 'bg-red-500' };
         }
 
         function narrativeFor(month) {
-            if (month === 0) return { title: 'Month 0: Launch', text: "The model has just been validated. Accuracy and fairness metrics sit comfortably inside policy. No one is watching for drift yet, because there hasn't been time for any to occur." };
-            if (month <= 6) return { title: `Month ${month}: Everything looks fine`, text: 'Metrics are moving, but so slowly that no single monthly report looks alarming. This is the window in which drift is easiest to catch and least likely to be caught — nothing has crossed a threshold yet.' };
-            if (month <= 14) return { title: `Month ${month}: The gap is widening`, text: 'The underrepresented group is now being approved at a noticeably lower rate than at launch. A human reviewer clicking through individual files would have no way to notice this; it only shows up when someone looks at the aggregate.' };
-            if (month <= 24) return { title: `Month ${month}: Approaching the threshold`, text: "The disparate impact ratio is closing in on the regulatory 4/5ths threshold. The override rate has barely moved, which tells you the reviewers still believe they are looking at a well-behaved model." };
-            if (month <= 30) return { title: `Month ${month}: Threshold breached`, text: 'The model would now fail a fairness test it passed comfortably at launch. It has not been retrained. It has not been touched. It has simply kept doing exactly what it was trained to do, to a population that has moved on.' };
-            return { title: `Month ${month}: This is what silent failure looks like`, text: 'By this point the institution likely has months of loan books built on a model operating outside its validated tolerance — and a human-in-the-loop control that never flagged it, because it was never built to look for this.' };
+            if (month === 0) return { title: 'Month 0: Launch', text: "The model has just been validated. Accuracy and fairness metrics sit comfortably inside policy. No one is watching for drift yet, because there hasn't been time for any to occur.", icon: 'fa-circle-info', bg: 'bg-primary' };
+            if (month <= 6) return { title: `Month ${month}: Everything looks fine`, text: 'Metrics are moving, but so slowly that no single monthly report looks alarming. This is the window in which drift is easiest to catch and least likely to be caught — nothing has crossed a threshold yet.', icon: 'fa-circle-info', bg: 'bg-primary' };
+            if (month <= 14) return { title: `Month ${month}: The gap is widening`, text: 'The underrepresented group is now being approved at a noticeably lower rate than at launch. A human reviewer clicking through individual files would have no way to notice this; it only shows up when someone looks at the aggregate.', icon: 'fa-circle-info', bg: 'bg-primary' };
+            if (month <= 24) return { title: `Month ${month}: Approaching the threshold`, text: "The disparate impact ratio is closing in on the regulatory 4/5ths threshold. The override rate has barely moved, which tells you the reviewers still believe they are looking at a well-behaved model.", icon: 'fa-triangle-exclamation', bg: 'bg-amber-900' };
+            if (month <= 30) return { title: `Month ${month}: Threshold breached`, text: 'The model would now fail a fairness test it passed comfortably at launch. It has not been retrained. It has not been touched. It has simply kept doing exactly what it was trained to do, to a population that has moved on.', icon: 'fa-circle-exclamation', bg: 'bg-red-900' };
+            return { title: `Month ${month}: This is what silent failure looks like`, text: 'By this point the institution likely has months of loan books built on a model operating outside its validated tolerance — and a human-in-the-loop control that never flagged it, because it was never built to look for this.', icon: 'fa-circle-exclamation', bg: 'bg-red-900' };
+        }
+
+        const CHART_W = 600, CHART_H = 220, MAXM = 36;
+        function chartX(m) { return (m / MAXM) * CHART_W; }
+        function accY(acc) { return CHART_H - ((acc - 75) / (93 - 75)) * CHART_H; }
+        function diYv(di) { return CHART_H - ((di - 0.55) / (1.0 - 0.55)) * CHART_H; }
+
+        function fullPathUpTo(month, yFn, valFn) {
+            let d = '';
+            for (let m = 0; m <= month; m++) {
+                const s = computeState(m);
+                const x = chartX(m);
+                const y = yFn(valFn(s));
+                d += (m === 0 ? 'M' : 'L') + x.toFixed(1) + ',' + y.toFixed(1) + ' ';
+            }
+            return d.trim();
+        }
+
+        function animateNum(el) {
+            el.classList.remove('num-pulse');
+            void el.offsetWidth;
+            el.classList.add('num-pulse');
         }
 
         function render() {
             const month = parseInt(slider.value, 10);
             const s = computeState(month);
+
             document.getElementById('monthLabel').textContent = month;
-            document.getElementById('accuracyVal').textContent = s.accuracy.toFixed(1) + '%';
+            const accEl = document.getElementById('accuracyVal');
+            accEl.textContent = s.accuracy.toFixed(1) + '%';
+            animateNum(accEl);
+
             const delta = s.accuracy - 91.4;
             const deltaEl = document.getElementById('accuracyDelta');
             if (month === 0) { deltaEl.textContent = 'baseline'; deltaEl.className = 'text-xs text-slate-400 font-semibold mt-1'; }
             else { deltaEl.textContent = delta.toFixed(1) + ' pts vs. launch'; deltaEl.className = delta < -8 ? 'text-xs text-red-600 font-semibold mt-1' : 'text-xs text-amber-600 font-semibold mt-1'; }
 
-            document.getElementById('diVal').textContent = s.di.toFixed(2);
+            const diEl = document.getElementById('diVal');
+            diEl.textContent = s.di.toFixed(2);
+            animateNum(diEl);
+
             document.getElementById('overrideRate').textContent = s.overrideRate.toFixed(1) + '%';
             document.getElementById('overrideNote').textContent = month < 20 ? 'Reviewers agree with the model almost every time. This is the number a supervisor should ask for.' : "Barely moved, despite the model's accuracy falling sharply. That gap is the rubber stamp, quantified.";
+            const arcPct = Math.min(s.overrideRate / 3, 1);
+            const arcLen = 157;
+            document.getElementById('overrideArc').setAttribute('stroke-dashoffset', (arcLen - arcLen * arcPct).toFixed(1));
 
             document.getElementById('groupAVal').textContent = s.groupA.toFixed(0) + '%';
             document.getElementById('groupBVal').textContent = s.groupB.toFixed(0) + '%';
@@ -247,15 +350,60 @@
 
             const status = statusFor(s.di, s.accuracy);
             const statusEl = document.getElementById('statusVal');
-            statusEl.textContent = status.label;
-            statusEl.className = 'text-2xl font-bold ' + status.color;
+            statusEl.innerHTML = '';
+            const newDot = document.createElement('span');
+            newDot.className = 'status-dot pulse-live ' + status.dot;
+            newDot.id = 'statusDot';
+            statusEl.appendChild(newDot);
+            statusEl.appendChild(document.createTextNode(status.label));
+            statusEl.className = 'text-xl font-bold flex items-center justify-center ' + status.color;
+
+            document.getElementById('accuracyLine').setAttribute('d', fullPathUpTo(month, accY, st => st.accuracy));
+            document.getElementById('diLine').setAttribute('d', fullPathUpTo(month, diYv, st => st.di));
+            const cx = chartX(month);
+            document.getElementById('cursorLine').setAttribute('x1', cx);
+            document.getElementById('cursorLine').setAttribute('x2', cx);
+            const accDot = document.getElementById('accuracyDot');
+            accDot.setAttribute('cx', cx); accDot.setAttribute('cy', accY(s.accuracy));
+            const diDot = document.getElementById('diDot');
+            diDot.setAttribute('cx', cx); diDot.setAttribute('cy', diYv(s.di));
 
             const n = narrativeFor(month);
             document.getElementById('narrativeTitle').textContent = n.title;
             document.getElementById('narrativeText').textContent = n.text;
+            document.getElementById('narrativeIcon').className = 'fas ' + n.icon + ' text-accent text-xl mt-1';
+            document.getElementById('narrativeBox').className = 'rounded-sm p-8 mb-8 fade-transition text-white ' + n.bg;
         }
 
-        slider.addEventListener('input', render);
+        function stopPlaying() {
+            playing = false;
+            clearInterval(playTimer);
+            playIcon.className = 'fas fa-play text-xs';
+        }
+
+        playBtn.addEventListener('click', () => {
+            if (playing) { stopPlaying(); return; }
+            playing = true;
+            playIcon.className = 'fas fa-pause text-xs';
+            if (parseInt(slider.value, 10) >= 36) slider.value = 0;
+            playTimer = setInterval(() => {
+                let v = parseInt(slider.value, 10);
+                if (v >= 36) { stopPlaying(); render(); return; }
+                slider.value = v + 1;
+                render();
+            }, 180);
+        });
+
+        slider.addEventListener('input', () => { stopPlaying(); render(); });
+
+        document.querySelectorAll('.preset-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                stopPlaying();
+                slider.value = btn.dataset.month;
+                render();
+            });
+        });
+
         render();
     </script>
 </body>
