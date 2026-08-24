@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H2456ZKJMW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-H2456ZKJMW');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Model That Nobody Told | Nolwazi Hlophe</title>
+    <link rel="icon" href="NH Logo.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { primary: '#0f172a', secondary: '#334155', accent: '#06b6d4', surface: '#f8fafc' },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .article-body { font-family: 'Georgia', serif; font-size: 1.125rem; line-height: 1.8; color: #334155; }
+        .article-body h2 { font-family: 'Inter', sans-serif; color: #0f172a; font-weight: 700; font-size: 1.5rem; margin-top: 2.5rem; margin-bottom: 1rem; }
+        .article-body p { margin-bottom: 1.5rem; }
+        .article-body a { color: #06b6d4; text-decoration: underline; }
+        .article-body a:hover { color: #0891b2; }
+        .explainer-cta { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+    </style>
+</head>
+<body class="bg-surface text-slate-900 flex flex-col min-h-screen">
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-sm transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-primary tracking-tight">NH<span class="text-accent">.</span></a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">About Me</a>
+                    <a href="publications.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">Publications</a>
+                    <a href="news_articles.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">Media</a>
+                    <a href="blog.html" class="text-sm font-medium text-accent transition-colors">Blog</a>
+                    <a href="explainers.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">Interactive Explainers</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-32 pb-24 bg-white flex-1">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-8">
+                <a href="blog.html" class="inline-flex items-center text-slate-500 hover:text-accent font-medium transition-colors">
+                    <i class="fas fa-arrow-left mr-2"></i> Back to Blog
+                </a>
+            </div>
+
+            <header class="mb-12">
+                <div class="flex items-center text-sm text-slate-400 mb-4">
+                    <span class="uppercase tracking-wider font-semibold text-accent">AI Governance</span>
+                    <span class="mx-3">•</span>
+                    <span>2026</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl font-bold text-primary leading-tight mb-6 tracking-tight">
+                    The Model That Nobody Told
+                </h1>
+                <p class="text-xl text-slate-500 italic mb-8">Model validation is usually treated as a one-time event: a model is tested, approved, and deployed. But the world it was trained on does not hold still, and a model that was fair and accurate on day one can drift quietly out of tolerance without anyone changing a single parameter.</p>
+                <div class="flex items-center gap-4 py-6 border-y border-slate-100">
+                    <div class="w-12 h-12 bg-slate-200 rounded-full overflow-hidden">
+                        <img src="1. Nolwazi Hlophe.png" alt="Nolwazi Hlophe" class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <p class="font-bold text-primary">Nolwazi Hlophe</p>
+                        <p class="text-sm text-slate-500">Senior Specialist: FinTech | FSCA</p>
+                    </div>
+                </div>
+            </header>
+
+            <article class="article-body">
+                <p>In an earlier piece on this blog, I argued that the "human in the loop" is frequently a rubber stamp — a person with neither the time nor the tooling to meaningfully interrogate a model's individual outputs.<sup class="text-sm"><a href="#fn1" id="ref1">[1]</a></sup> That argument focused on a single transaction: one loan application, one reviewer, one click. This piece is about a problem that a diligent, well-resourced human reviewer would still miss, because it is not visible at the level of any individual decision at all. It is only visible in aggregate, over time. It is called model drift, and it is arguably a bigger governance blind spot than the rubber-stamp problem, because almost nobody outside a model risk team is looking for it.</p>
+
+                <h2>Two kinds of drift</h2>
+                <p>Model risk practitioners generally distinguish between two related phenomena. Data drift occurs when the statistical properties of the incoming applicant population change relative to the data the model was trained on — a shift in income distributions, employment patterns, or the mix of first-time versus repeat borrowers, for instance. Concept drift is subtler still: it occurs when the underlying relationship between the input variables and the outcome the model is predicting changes, even if the applicant population looks similar on paper. A rise in interest rates, a change in labour market conditions, or a shift in consumer indebtedness can all quietly sever the statistical relationships a credit model learned to rely on.<sup class="text-sm"><a href="#fn2" id="ref2">[2]</a></sup></p>
+                <p>Neither of these produces an error message. The model keeps running, keeps scoring, and keeps returning confident numbers. Nothing in the system tells anyone that those numbers are becoming less reliable, or that they are becoming less reliable for some groups of applicants faster than others.</p>
+
+                <h2>Why this compounds the oversight problem</h2>
+                <p>This is precisely why treating human review as a purely transaction-level control is structurally inadequate, whatever governance documents may claim. A reviewer assessing one application at a time has no visibility into the shape of the population the model is now scoring, and no baseline against which to notice that the shape has changed. Detecting drift requires aggregate monitoring — tracking accuracy, calibration, and fairness metrics like disparate impact ratios across a rolling window of decisions — not individual case review.<sup class="text-sm"><a href="#fn3" id="ref3">[3]</a></sup> International standard-setters have increasingly framed this as a model risk management discipline in its own right, distinct from, and prior to, transaction-level controls.<sup class="text-sm"><a href="#fn4" id="ref4">[4]</a></sup></p>
+                <p>There is also a quieter, more troubling implication. If drift is degrading a model's accuracy and fairness, an attentive human reviewer's override rate should, in theory, start to rise — they should be catching and correcting more of the model's now-worse decisions. If the override rate stays flat while the underlying model quality deteriorates, that flatness is itself evidence that no genuine oversight is occurring. The reviewer is not becoming a better check on a worsening model; they are simply continuing to agree with it, because they have no independent way of knowing it has changed.</p>
+
+                <h2>What supervisors and institutions should be asking</h2>
+                <p>The practical response is not to abandon human review, but to relocate where it does its work. Institutions should be able to demonstrate, on an ongoing basis, that they are monitoring for both data and concept drift against a defined tolerance band, that breaches trigger a defined escalation and retraining process, and that fairness metrics are tracked by demographic group rather than in aggregate alone — since, as the interactive explainer below illustrates, a model can drift substantially worse for one group while looking broadly stable overall.</p>
+                <p>Below is a small interactive tool that lets you move a credit scoring model forward in time and watch exactly this dynamic unfold: accuracy degrading, the gap between applicant groups widening, and the human override rate barely moving throughout. It is a simplified simulation, not a real institution's data, but the shape of the problem is drawn directly from how these systems actually behave once deployed.</p>
+            </article>
+
+            <!-- Explainer CTA -->
+            <a href="explainer_credit_drift.html" class="block explainer-cta rounded-sm p-8 my-12 text-white group hover:opacity-95 transition-opacity">
+                <div class="flex items-center justify-between flex-col md:flex-row gap-6">
+                    <div>
+                        <span class="text-xs font-bold tracking-wider uppercase text-accent">Interactive Explainer</span>
+                        <h3 class="text-2xl font-bold mt-2 mb-2">The Credit Scoring Drift Monitor</h3>
+                        <p class="text-slate-300 text-sm max-w-md">Move the clock forward on a live model and watch accuracy, fairness and the override rate diverge in real time.</p>
+                    </div>
+                    <span class="flex-shrink-0 inline-flex items-center gap-2 bg-accent text-primary font-bold px-6 py-3 rounded-sm group-hover:bg-cyan-400 transition-colors">
+                        Launch Explainer <i class="fas fa-arrow-right"></i>
+                    </span>
+                </div>
+            </a>
+
+            <div class="mt-16 pt-8 border-t border-slate-200">
+                <h3 class="text-lg font-bold text-primary mb-4">References</h3>
+                <ol class="list-decimal pl-5 space-y-2 text-sm text-slate-500">
+                    <li id="fn1">Hlophe, N. (2026) 'The "Human in the Loop" Is Often Just a Rubber Stamp', <a href="blog_human_loop.html" class="text-accent no-underline">nolwazihlophe.github.io</a>. <a href="#ref1" class="text-accent no-underline">↩</a></li>
+                    <li id="fn2">Bank for International Settlements (2022) <em>Machine Learning in Credit Risk Modelling: Fitness for Purpose</em>, BIS Financial Stability Institute. <a href="#ref2" class="text-accent no-underline">↩</a></li>
+                    <li id="fn3">Financial Stability Board (2024) <em>The Financial Stability Implications of Artificial Intelligence</em>, FSB. <a href="#ref3" class="text-accent no-underline">↩</a></li>
+                    <li id="fn4">International Association of Insurance Supervisors (2023) <em>Application Paper on the Supervision of Artificial Intelligence</em>, IAIS. <a href="#ref4" class="text-accent no-underline">↩</a></li>
+                </ol>
+            </div>
+
+            <div class="mt-12 pt-8 border-t border-slate-200">
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-4">Related Reading</p>
+                <a href="blog_defi_liquidity.html" target="_blank" class="group flex items-center justify-between gap-6 bg-slate-50 border border-slate-100 rounded-sm p-6 hover:shadow-md hover:border-accent/40 transition-all">
+                    <div>
+                        <p class="font-bold text-primary group-hover:text-accent transition-colors">Liquidity Is a Number Until It Isn't</p>
+                        <p class="text-sm text-slate-500">DeFi lending protocols replace a credit committee with a formula — with no lender of last resort if it fails.</p>
+                    </div>
+                    <i class="fas fa-arrow-right text-slate-300 group-hover:text-accent group-hover:translate-x-1 transition-all flex-shrink-0"></i>
+                </a>
+            </div>
+
+            <!-- Comments Section -->
+            <div class="mt-16 pt-12 border-t border-slate-200">
+                <h3 class="text-2xl font-bold text-primary mb-6">Discussion</h3>
+                <form id="comment-form" class="mb-12 bg-slate-50 p-6 rounded-sm border border-slate-100 shadow-sm" onsubmit="event.preventDefault(); alert('Comment submitted for moderation!'); this.reset();">
+                    <h4 class="font-bold text-slate-700 mb-4">Leave a Comment</h4>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-slate-700 mb-2">Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-sm focus:ring-2 focus:ring-accent" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-slate-700 mb-2">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-sm focus:ring-2 focus:ring-accent" required>
+                        </div>
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-sm font-medium text-slate-700 mb-2">Message</label>
+                        <textarea id="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-sm focus:ring-2 focus:ring-accent" required></textarea>
+                    </div>
+                    <button type="submit" class="bg-primary text-white font-bold py-2.5 px-6 rounded-sm hover:bg-slate-800 shadow-sm">Post Comment</button>
+                </form>
+                <div class="space-y-6">
+                    <h4 class="text-lg font-bold text-primary mb-4">Comments (0)</h4>
+                    <p class="text-slate-500 italic bg-white p-6 rounded-sm border border-slate-100 text-center">Be the first to share your thoughts on this article.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
