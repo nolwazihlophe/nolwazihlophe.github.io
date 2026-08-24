@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H2456ZKJMW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-H2456ZKJMW');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive: DeFi Lending Pool Liquidity Simulator | Nolwazi Hlophe</title>
+    <link rel="icon" href="NH Logo.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { primary: '#0f172a', secondary: '#334155', accent: '#06b6d4', surface: '#f8fafc' },
+                    fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+        input[type=range] { -webkit-appearance: none; height: 6px; border-radius: 3px; background: #e2e8f0; }
+        input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%; background: #06b6d4; cursor: pointer; border: 3px solid white; box-shadow: 0 0 0 1px #06b6d4; }
+        input[type=range]::-moz-range-thumb { width: 18px; height: 18px; border-radius: 50%; background: #06b6d4; cursor: pointer; border: 3px solid white; box-shadow: 0 0 0 1px #06b6d4; }
+        .fade-transition { transition: opacity 0.3s ease; }
+    </style>
+</head>
+<body class="bg-surface text-slate-900 flex flex-col min-h-screen">
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-sm transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-primary tracking-tight">NH<span class="text-accent">.</span></a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">About Me</a>
+                    <a href="publications.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">Publications</a>
+                    <a href="news_articles.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">Media</a>
+                    <a href="blog.html" class="text-sm font-medium text-slate-600 hover:text-accent transition-colors">Blog</a>
+                    <a href="explainers.html" class="text-sm font-medium text-accent transition-colors">Interactive Explainers</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-32 pb-24 bg-white flex-1">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-8">
+                <a href="explainers.html" class="inline-flex items-center text-slate-500 hover:text-accent font-medium transition-colors">
+                    <i class="fas fa-arrow-left mr-2"></i> Back to Interactive Explainers
+                </a>
+            </div>
+
+            <header class="mb-12 max-w-3xl">
+                <div class="flex items-center text-sm text-slate-400 mb-4">
+                    <span class="uppercase tracking-wider font-semibold text-accent">Interactive Explainer</span>
+                    <span class="mx-3">•</span>
+                    <span>Decentralised Finance</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl font-bold text-primary leading-tight mb-6 tracking-tight">
+                    The DeFi Lending Pool Liquidity Simulator
+                </h1>
+                <p class="text-lg text-slate-500">
+                    A DeFi lending pool sets interest rates using a simple formula and no human underwriter. Drag the sliders to see how a pool's own rules can turn an ordinary spike in borrowing into a liquidity squeeze — and how a "decentralised" protocol still has a run risk that looks a lot like a bank's.
+                </p>
+            </header>
+
+            <!-- Controls -->
+            <div class="grid md:grid-cols-2 gap-6 mb-10">
+                <div class="bg-slate-50 border border-slate-100 rounded-sm p-6">
+                    <div class="flex justify-between items-center mb-2">
+                        <label for="suppliedSlider" class="text-sm font-bold text-primary uppercase tracking-wide">Total Supplied to Pool</label>
+                        <span id="suppliedLabel" class="mono text-accent font-bold text-lg">$10.0M</span>
+                    </div>
+                    <input type="range" id="suppliedSlider" min="2" max="20" value="10" step="0.5" class="w-full">
+                    <p class="text-xs text-slate-500 mt-3">Depositors who lend their assets into the pool to earn yield.</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-100 rounded-sm p-6">
+                    <div class="flex justify-between items-center mb-2">
+                        <label for="borrowedSlider" class="text-sm font-bold text-primary uppercase tracking-wide">Total Borrowed from Pool</label>
+                        <span id="borrowedLabel" class="mono text-accent font-bold text-lg">$6.0M</span>
+                    </div>
+                    <input type="range" id="borrowedSlider" min="0" max="20" value="6" step="0.5" class="w-full">
+                    <p class="text-xs text-slate-500 mt-3">Borrowers who post collateral and draw liquidity out of the pool.</p>
+                </div>
+            </div>
+
+            <!-- Key metrics -->
+            <div class="grid md:grid-cols-4 gap-4 mb-10">
+                <div class="bg-white border border-slate-200 rounded-sm p-5 text-center">
+                    <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-2">Utilisation</p>
+                    <p id="utilVal" class="mono text-3xl font-bold text-primary">60%</p>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-sm p-5 text-center">
+                    <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-2">Borrow APR</p>
+                    <p id="borrowAprVal" class="mono text-3xl font-bold text-primary">7.2%</p>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-sm p-5 text-center">
+                    <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-2">Supply APY</p>
+                    <p id="supplyAprVal" class="mono text-3xl font-bold text-primary">4.1%</p>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-sm p-5 text-center">
+                    <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-2">Available to Withdraw</p>
+                    <p id="availVal" class="mono text-3xl font-bold text-primary">$4.0M</p>
+                </div>
+            </div>
+
+            <!-- Interest rate curve visualization -->
+            <div class="bg-white border border-slate-200 rounded-sm p-8 mb-10">
+                <h3 class="font-bold text-primary mb-1">The Interest Rate Curve</h3>
+                <p class="text-sm text-slate-500 mb-6">This is the entire "monetary policy" of the pool: a formula, not a committee. Rates rise gently until the kink point, then spike hard to push utilisation back down.</p>
+                <div class="relative h-64">
+                    <svg viewBox="0 0 600 240" class="w-full h-full" preserveAspectRatio="none">
+                        <line x1="0" y1="0" x2="0" y2="240" stroke="#e2e8f0" stroke-width="1"/>
+                        <line x1="0" y1="240" x2="600" y2="240" stroke="#e2e8f0" stroke-width="1"/>
+                        <path d="M0,220 L480,150 L600,10" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4,4"/>
+                        <line id="kinkLine" x1="480" y1="0" x2="480" y2="240" stroke="#f59e0b" stroke-width="1" stroke-dasharray="3,3"/>
+                        <circle id="curDot" cx="360" cy="150" r="7" fill="#06b6d4" stroke="white" stroke-width="2"/>
+                    </svg>
+                    <span class="absolute top-0 left-1 text-xs text-slate-400">High rate</span>
+                    <span class="absolute bottom-1 left-1 text-xs text-slate-400">0% util.</span>
+                    <span class="absolute bottom-1 right-1 text-xs text-slate-400">100% util.</span>
+                    <span class="absolute top-0 right-1 text-xs text-amber-600 font-semibold">Kink point (80%)</span>
+                </div>
+            </div>
+
+            <!-- Liquidity bar -->
+            <div class="bg-white border border-slate-200 rounded-sm p-8 mb-10">
+                <h3 class="font-bold text-primary mb-4">Pool Composition</h3>
+                <div class="w-full h-10 rounded-sm overflow-hidden flex border border-slate-200">
+                    <div id="borrowedBar" class="bg-primary flex items-center justify-center text-white text-xs font-semibold transition-all duration-300" style="width: 60%">Borrowed</div>
+                    <div id="availBar" class="bg-accent flex items-center justify-center text-white text-xs font-semibold transition-all duration-300" style="width: 40%">Available</div>
+                </div>
+                <div class="flex justify-between text-xs text-slate-400 mt-2">
+                    <span>0%</span>
+                    <span>100% of supplied liquidity</span>
+                </div>
+            </div>
+
+            <!-- Narrative -->
+            <div id="narrativeBox" class="rounded-sm p-8 mb-10 fade-transition bg-primary text-white">
+                <div class="flex items-start gap-4">
+                    <i id="narrativeIcon" class="fas fa-circle-info text-accent text-xl mt-1"></i>
+                    <div>
+                        <h4 class="font-bold mb-2" id="narrativeTitle">Healthy pool</h4>
+                        <p class="text-slate-300 text-sm leading-relaxed" id="narrativeText">At 60% utilisation, the pool is comfortably below the kink point. Depositors can withdraw on demand, and the algorithm has no need to intervene.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- What this demonstrates -->
+            <div class="border-t border-slate-100 pt-10">
+                <h3 class="font-bold text-primary text-xl mb-4">What this is actually showing</h3>
+                <div class="grid md:grid-cols-3 gap-6 text-sm text-slate-600 leading-relaxed">
+                    <div>
+                        <p class="font-bold text-primary mb-1">No lender of last resort</p>
+                        <p>In a bank run, a central bank can step in. In a DeFi pool, once utilisation hits 100%, the last depositor to try to withdraw simply cannot — the code has no more liquidity to give them, no matter what the interest rate says.</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-primary mb-1">The rate spike is the alarm, not the fix</p>
+                        <p>The kinked curve is designed to make borrowing expensive enough to push utilisation back down. It only works if borrowers respond fast enough — and in a genuine liquidity crunch, they often don't.</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-primary mb-1">This is a systemic question, not a coding one</p>
+                        <p>The mechanism is transparent and auditable; the risk it manages — a maturity and liquidity mismatch between depositors and borrowers — is the same risk regulators have supervised in banks for a century.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 bg-slate-50 border border-slate-100 rounded-sm p-6 text-center">
+                <p class="text-slate-600 text-sm">This explainer accompanies the blog post <a href="blog_defi_liquidity.html" class="text-accent font-semibold hover:text-primary">"Liquidity Is a Number Until It Isn't"</a>.</p>
+            </div>
+
+            <div class="mt-6 border-t border-slate-100 pt-10">
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-4">Also in this series</p>
+                <a href="explainer_credit_drift.html" class="group flex items-center justify-between gap-6 bg-white border border-slate-200 rounded-sm p-6 hover:shadow-lg hover:border-accent/40 transition-all">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-sm bg-primary flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-sliders text-accent"></i>
+                        </div>
+                        <div>
+                            <p class="font-bold text-primary group-hover:text-accent transition-colors">The Credit Scoring Drift Monitor</p>
+                            <p class="text-sm text-slate-500">Watch a credit model's accuracy and fairness quietly decay while the human override rate barely moves.</p>
+                        </div>
+                    </div>
+                    <i class="fas fa-arrow-right text-slate-300 group-hover:text-accent group-hover:translate-x-1 transition-all flex-shrink-0"></i>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-slate-950 text-slate-500 py-12 border-t border-slate-900 text-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="text-xs">&copy; 2026 Nolwazi Hlophe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const suppliedSlider = document.getElementById('suppliedSlider');
+        const borrowedSlider = document.getElementById('borrowedSlider');
+
+        function rateForUtil(u) {
+            // Kinked interest rate model. u in [0,1]. Kink at 0.8
+            const base = 0.02, slope1 = 0.06, kink = 0.8, slope2 = 0.6;
+            if (u <= kink) return base + (u / kink) * slope1;
+            return base + slope1 + ((u - kink) / (1 - kink)) * slope2;
+        }
+
+        function render() {
+            let supplied = parseFloat(suppliedSlider.value);
+            let borrowed = parseFloat(borrowedSlider.value);
+            if (borrowed > supplied) { borrowed = supplied; borrowedSlider.value = supplied; }
+
+            const util = supplied > 0 ? borrowed / supplied : 0;
+            const borrowApr = rateForUtil(util);
+            const reserveFactor = 0.1;
+            const supplyApr = borrowApr * util * (1 - reserveFactor);
+            const available = supplied - borrowed;
+
+            document.getElementById('suppliedLabel').textContent = '$' + supplied.toFixed(1) + 'M';
+            document.getElementById('borrowedLabel').textContent = '$' + borrowed.toFixed(1) + 'M';
+            document.getElementById('utilVal').textContent = (util * 100).toFixed(0) + '%';
+            document.getElementById('borrowAprVal').textContent = (borrowApr * 100).toFixed(1) + '%';
+            document.getElementById('supplyAprVal').textContent = (supplyApr * 100).toFixed(1) + '%';
+            document.getElementById('availVal').textContent = '$' + available.toFixed(1) + 'M';
+
+            const borrowedPct = (util * 100).toFixed(1);
+            const availPct = (100 - util * 100).toFixed(1);
+            document.getElementById('borrowedBar').style.width = borrowedPct + '%';
+            document.getElementById('availBar').style.width = availPct + '%';
+
+            // Move the dot along the curve (approximate, matches path visually)
+            const dot = document.getElementById('curDot');
+            let x, y;
+            if (util <= 0.8) {
+                x = (util / 0.8) * 480;
+                y = 220 - (util / 0.8) * 70;
+            } else {
+                x = 480 + ((util - 0.8) / 0.2) * 120;
+                y = 150 - ((util - 0.8) / 0.2) * 140;
+            }
+            dot.setAttribute('cx', x);
+            dot.setAttribute('cy', y);
+
+            const box = document.getElementById('narrativeBox');
+            const title = document.getElementById('narrativeTitle');
+            const text = document.getElementById('narrativeText');
+            const icon = document.getElementById('narrativeIcon');
+
+            if (util < 0.5) {
+                box.className = 'rounded-sm p-8 mb-10 fade-transition bg-primary text-white';
+                icon.className = 'fas fa-circle-info text-accent text-xl mt-1';
+                title.textContent = 'Underused pool';
+                text.textContent = 'Plenty of idle liquidity. Depositors earn very little because most of their capital is sitting unused rather than being lent out.';
+            } else if (util < 0.8) {
+                box.className = 'rounded-sm p-8 mb-10 fade-transition bg-primary text-white';
+                icon.className = 'fas fa-circle-info text-accent text-xl mt-1';
+                title.textContent = 'Healthy pool';
+                text.textContent = 'The pool sits comfortably below the kink point. Depositors can withdraw on demand, and the algorithm has no need to intervene.';
+            } else if (util < 0.97) {
+                box.className = 'rounded-sm p-8 mb-10 fade-transition bg-amber-900 text-white';
+                icon.className = 'fas fa-triangle-exclamation text-amber-300 text-xl mt-1';
+                title.textContent = 'Past the kink point';
+                text.textContent = "Borrow costs are climbing sharply now — that's the mechanism trying to push utilisation back down by making new borrowing unattractive. Existing depositors can still withdraw, but the buffer is thinning fast.";
+            } else {
+                box.className = 'rounded-sm p-8 mb-10 fade-transition bg-red-900 text-white';
+                icon.className = 'fas fa-circle-exclamation text-red-300 text-xl mt-1';
+                title.textContent = 'Liquidity crunch';
+                text.textContent = 'There is almost nothing left for depositors to withdraw against. Anyone still waiting to exit is now competing for a shrinking pool of available liquidity — no committee, deposit insurer or central bank is coming to top it up.';
+            }
+        }
+
+        suppliedSlider.addEventListener('input', render);
+        borrowedSlider.addEventListener('input', render);
+        render();
+    </script>
+</body>
+</html>
