@@ -24,14 +24,33 @@
             }
         }
     </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
         .mono { font-family: 'JetBrains Mono', monospace; }
-        input[type=range] { -webkit-appearance: none; height: 6px; border-radius: 3px; background: #e2e8f0; }
-        input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%; background: #06b6d4; cursor: pointer; border: 3px solid white; box-shadow: 0 0 0 1px #06b6d4; }
-        input[type=range]::-moz-range-thumb { width: 18px; height: 18px; border-radius: 50%; background: #06b6d4; cursor: pointer; border: 3px solid white; box-shadow: 0 0 0 1px #06b6d4; }
-        .fade-transition { transition: opacity 0.3s ease; }
+        input[type=range] { -webkit-appearance: none; height: 6px; border-radius: 3px; background: #e2e8f0; outline: none; }
+        input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 20px; height: 20px; border-radius: 50%; background: #06b6d4; cursor: pointer; border: 3px solid white; box-shadow: 0 0 0 1px #06b6d4, 0 2px 6px rgba(15,23,42,0.3); transition: transform 0.15s ease; }
+        input[type=range]::-webkit-slider-thumb:hover { transform: scale(1.15); }
+        input[type=range]::-moz-range-thumb { width: 20px; height: 20px; border-radius: 50%; background: #06b6d4; cursor: pointer; border: 3px solid white; box-shadow: 0 0 0 1px #06b6d4; }
+        .fade-transition { transition: background-color 0.5s ease; }
+        .card-hover { transition: box-shadow 0.3s ease, transform 0.3s ease; }
+        .card-hover:hover { box-shadow: 0 8px 30px rgba(15,23,42,0.08); transform: translateY(-2px); }
+        .num-pulse { animation: numPulse 0.4s ease; }
+        @keyframes numPulse { 0% { transform: scale(1.08); opacity: 0.7; } 100% { transform: scale(1); opacity: 1; } }
+        .scenario-btn.active { background: #0f172a; color: white; border-color: #0f172a; }
+
+        /* flowing particles along the pipe */
+        .flow-track { position: relative; overflow: hidden; }
+        .flow-dot { position: absolute; top: 50%; width: 6px; height: 6px; border-radius: 50%; background: #06b6d4; transform: translateY(-50%); }
+        @keyframes flowMove { from { left: -3%; } to { left: 103%; } }
+
+        .gauge-needle { transform-origin: 100px 100px; transition: transform 0.5s cubic-bezier(.22,1,.36,1); }
+        .pulse-critical { animation: pulseCritical 1s ease-in-out infinite; }
+        @keyframes pulseCritical { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+
+        @media (prefers-reduced-motion: reduce) {
+            .num-pulse, .flow-dot, .pulse-critical { animation: none !important; }
+        }
     </style>
 </head>
 <body class="bg-surface text-slate-900 flex flex-col min-h-screen">
@@ -70,12 +89,25 @@
                     The DeFi Lending Pool Liquidity Simulator
                 </h1>
                 <p class="text-lg text-slate-500">
-                    A DeFi lending pool sets interest rates using a simple formula and no human underwriter. Drag the sliders to see how a pool's own rules can turn an ordinary spike in borrowing into a liquidity squeeze — and how a "decentralised" protocol still has a run risk that looks a lot like a bank's.
+                    A DeFi lending pool sets interest rates using a simple formula and no human underwriter. Try a scenario, or drag the sliders yourself, to see how a pool's own rules can turn an ordinary spike in borrowing into a liquidity squeeze — and how a "decentralised" protocol still has a run risk that looks a lot like a bank's.
                 </p>
             </header>
 
+            <!-- Scenario presets -->
+            <div class="flex flex-wrap gap-3 mb-8">
+                <button class="scenario-btn text-sm font-semibold px-4 py-2 rounded-full border border-slate-200 text-slate-600 hover:border-accent hover:text-accent transition-colors" data-supplied="10" data-borrowed="6">
+                    <i class="fas fa-check-circle mr-1.5"></i>Healthy Pool
+                </button>
+                <button class="scenario-btn text-sm font-semibold px-4 py-2 rounded-full border border-slate-200 text-slate-600 hover:border-accent hover:text-accent transition-colors" data-supplied="10" data-borrowed="8.7">
+                    <i class="fas fa-triangle-exclamation mr-1.5"></i>Demand Spike
+                </button>
+                <button class="scenario-btn text-sm font-semibold px-4 py-2 rounded-full border border-slate-200 text-slate-600 hover:border-accent hover:text-accent transition-colors" data-supplied="6" data-borrowed="5.9">
+                    <i class="fas fa-circle-exclamation mr-1.5"></i>Bank Run (Mass Withdrawal)
+                </button>
+            </div>
+
             <!-- Controls -->
-            <div class="grid md:grid-cols-2 gap-6 mb-10">
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
                 <div class="bg-slate-50 border border-slate-100 rounded-sm p-6">
                     <div class="flex justify-between items-center mb-2">
                         <label for="suppliedSlider" class="text-sm font-bold text-primary uppercase tracking-wide">Total Supplied to Pool</label>
@@ -94,28 +126,51 @@
                 </div>
             </div>
 
-            <!-- Key metrics -->
-            <div class="grid md:grid-cols-4 gap-4 mb-10">
-                <div class="bg-white border border-slate-200 rounded-sm p-5 text-center">
+            <!-- Gauge + key metrics -->
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
+                <div class="bg-white border border-slate-200 rounded-sm p-6 flex flex-col items-center justify-center card-hover">
                     <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-2">Utilisation</p>
-                    <p id="utilVal" class="mono text-3xl font-bold text-primary">60%</p>
+                    <svg viewBox="0 0 200 110" class="w-40">
+                        <path d="M15,100 A85,85 0 0,1 62,22" fill="none" stroke="#10b981" stroke-width="14" stroke-linecap="round"/>
+                        <path d="M62,22 A85,85 0 0,1 138,22" fill="none" stroke="#f59e0b" stroke-width="14" stroke-linecap="round"/>
+                        <path d="M138,22 A85,85 0 0,1 185,100" fill="none" stroke="#ef4444" stroke-width="14" stroke-linecap="round"/>
+                        <line id="gaugeNeedle" class="gauge-needle" x1="100" y1="100" x2="100" y2="25" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="100" cy="100" r="7" fill="#0f172a"/>
+                    </svg>
+                    <p id="utilVal" class="mono text-3xl font-bold text-primary -mt-2">60%</p>
                 </div>
-                <div class="bg-white border border-slate-200 rounded-sm p-5 text-center">
+                <div class="bg-white border border-slate-200 rounded-sm p-5 text-center card-hover flex flex-col justify-center">
                     <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-2">Borrow APR</p>
                     <p id="borrowAprVal" class="mono text-3xl font-bold text-primary">7.2%</p>
-                </div>
-                <div class="bg-white border border-slate-200 rounded-sm p-5 text-center">
-                    <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-2">Supply APY</p>
+                    <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-2 mt-4">Supply APY</p>
                     <p id="supplyAprVal" class="mono text-3xl font-bold text-primary">4.1%</p>
                 </div>
-                <div class="bg-white border border-slate-200 rounded-sm p-5 text-center">
+                <div class="bg-white border border-slate-200 rounded-sm p-5 text-center card-hover flex flex-col justify-center">
                     <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-2">Available to Withdraw</p>
                     <p id="availVal" class="mono text-3xl font-bold text-primary">$4.0M</p>
+                    <p id="availWarning" class="text-xs text-slate-400 mt-1">Comfortable buffer</p>
+                </div>
+            </div>
+
+            <!-- Flow visualization -->
+            <div class="bg-white border border-slate-200 rounded-sm p-8 mb-8">
+                <h3 class="font-bold text-primary mb-1">Capital Flow</h3>
+                <p class="text-sm text-slate-500 mb-6">Depositors fund the pool; borrowers draw against it. Dot density and speed track how hard the pool is working.</p>
+                <div class="flex items-center gap-4">
+                    <div class="flex flex-col items-center gap-2 flex-shrink-0 w-24">
+                        <i class="fas fa-piggy-bank text-2xl text-accent"></i>
+                        <span class="text-xs font-semibold text-slate-600 text-center">Depositors</span>
+                    </div>
+                    <div id="flowTrack" class="flow-track flex-1 h-3 bg-slate-100 rounded-full"></div>
+                    <div class="flex flex-col items-center gap-2 flex-shrink-0 w-24">
+                        <i class="fas fa-hand-holding-dollar text-2xl text-primary"></i>
+                        <span class="text-xs font-semibold text-slate-600 text-center">Borrowers</span>
+                    </div>
                 </div>
             </div>
 
             <!-- Interest rate curve visualization -->
-            <div class="bg-white border border-slate-200 rounded-sm p-8 mb-10">
+            <div class="bg-white border border-slate-200 rounded-sm p-8 mb-8">
                 <h3 class="font-bold text-primary mb-1">The Interest Rate Curve</h3>
                 <p class="text-sm text-slate-500 mb-6">This is the entire "monetary policy" of the pool: a formula, not a committee. Rates rise gently until the kink point, then spike hard to push utilisation back down.</p>
                 <div class="relative h-64">
@@ -134,7 +189,7 @@
             </div>
 
             <!-- Liquidity bar -->
-            <div class="bg-white border border-slate-200 rounded-sm p-8 mb-10">
+            <div class="bg-white border border-slate-200 rounded-sm p-8 mb-8">
                 <h3 class="font-bold text-primary mb-4">Pool Composition</h3>
                 <div class="w-full h-10 rounded-sm overflow-hidden flex border border-slate-200">
                     <div id="borrowedBar" class="bg-primary flex items-center justify-center text-white text-xs font-semibold transition-all duration-300" style="width: 60%">Borrowed</div>
@@ -147,7 +202,7 @@
             </div>
 
             <!-- Narrative -->
-            <div id="narrativeBox" class="rounded-sm p-8 mb-10 fade-transition bg-primary text-white">
+            <div id="narrativeBox" class="rounded-sm p-8 mb-8 fade-transition bg-primary text-white">
                 <div class="flex items-start gap-4">
                     <i id="narrativeIcon" class="fas fa-circle-info text-accent text-xl mt-1"></i>
                     <div>
@@ -207,12 +262,39 @@
     <script>
         const suppliedSlider = document.getElementById('suppliedSlider');
         const borrowedSlider = document.getElementById('borrowedSlider');
+        const flowTrack = document.getElementById('flowTrack');
+        let flowDots = [];
+        let lastFlowCount = -1;
 
         function rateForUtil(u) {
-            // Kinked interest rate model. u in [0,1]. Kink at 0.8
             const base = 0.02, slope1 = 0.06, kink = 0.8, slope2 = 0.6;
             if (u <= kink) return base + (u / kink) * slope1;
             return base + slope1 + ((u - kink) / (1 - kink)) * slope2;
+        }
+
+        function setupFlowDots(count, durationSec) {
+            if (count === lastFlowCount) {
+                // just update duration on existing dots
+                flowTrack.querySelectorAll('.flow-dot').forEach((dot, i) => {
+                    dot.style.animationDuration = durationSec + 's';
+                });
+                return;
+            }
+            lastFlowCount = count;
+            flowTrack.innerHTML = '';
+            for (let i = 0; i < count; i++) {
+                const dot = document.createElement('div');
+                dot.className = 'flow-dot';
+                dot.style.animation = `flowMove ${durationSec}s linear infinite`;
+                dot.style.animationDelay = (-(i / count) * durationSec) + 's';
+                flowTrack.appendChild(dot);
+            }
+        }
+
+        function animateNum(el) {
+            el.classList.remove('num-pulse');
+            void el.offsetWidth;
+            el.classList.add('num-pulse');
         }
 
         function render() {
@@ -228,17 +310,35 @@
 
             document.getElementById('suppliedLabel').textContent = '$' + supplied.toFixed(1) + 'M';
             document.getElementById('borrowedLabel').textContent = '$' + borrowed.toFixed(1) + 'M';
-            document.getElementById('utilVal').textContent = (util * 100).toFixed(0) + '%';
+            const utilEl = document.getElementById('utilVal');
+            utilEl.textContent = (util * 100).toFixed(0) + '%';
+            animateNum(utilEl);
             document.getElementById('borrowAprVal').textContent = (borrowApr * 100).toFixed(1) + '%';
             document.getElementById('supplyAprVal').textContent = (supplyApr * 100).toFixed(1) + '%';
-            document.getElementById('availVal').textContent = '$' + available.toFixed(1) + 'M';
+            const availEl = document.getElementById('availVal');
+            availEl.textContent = '$' + available.toFixed(1) + 'M';
+            animateNum(availEl);
+
+            const warnEl = document.getElementById('availWarning');
+            if (util < 0.5) { warnEl.textContent = 'Ample buffer'; warnEl.className = 'text-xs text-emerald-600 mt-1 font-semibold'; }
+            else if (util < 0.8) { warnEl.textContent = 'Comfortable buffer'; warnEl.className = 'text-xs text-slate-400 mt-1'; }
+            else if (util < 0.97) { warnEl.textContent = 'Thinning fast'; warnEl.className = 'text-xs text-amber-600 mt-1 font-semibold'; }
+            else { warnEl.textContent = 'Critically low'; warnEl.className = 'text-xs text-red-600 mt-1 font-bold pulse-critical'; }
+
+            // gauge needle: 0% util -> -90deg (pointing left), 100% util -> +90deg (pointing right), 0 = straight up baseline
+            const angle = -90 + (util * 180);
+            document.getElementById('gaugeNeedle').style.transform = `rotate(${angle}deg)`;
 
             const borrowedPct = (util * 100).toFixed(1);
             const availPct = (100 - util * 100).toFixed(1);
             document.getElementById('borrowedBar').style.width = borrowedPct + '%';
             document.getElementById('availBar').style.width = availPct + '%';
 
-            // Move the dot along the curve (approximate, matches path visually)
+            // flow dots: count scales with borrowed volume, speed scales with utilisation
+            const dotCount = Math.max(2, Math.min(14, Math.round(borrowed)));
+            const duration = Math.max(0.8, 3.4 - util * 2.6); // faster as util rises
+            setupFlowDots(dotCount, duration);
+
             const dot = document.getElementById('curDot');
             let x, y;
             if (util <= 0.8) {
@@ -257,22 +357,22 @@
             const icon = document.getElementById('narrativeIcon');
 
             if (util < 0.5) {
-                box.className = 'rounded-sm p-8 mb-10 fade-transition bg-primary text-white';
+                box.className = 'rounded-sm p-8 mb-8 fade-transition bg-primary text-white';
                 icon.className = 'fas fa-circle-info text-accent text-xl mt-1';
                 title.textContent = 'Underused pool';
                 text.textContent = 'Plenty of idle liquidity. Depositors earn very little because most of their capital is sitting unused rather than being lent out.';
             } else if (util < 0.8) {
-                box.className = 'rounded-sm p-8 mb-10 fade-transition bg-primary text-white';
+                box.className = 'rounded-sm p-8 mb-8 fade-transition bg-primary text-white';
                 icon.className = 'fas fa-circle-info text-accent text-xl mt-1';
                 title.textContent = 'Healthy pool';
                 text.textContent = 'The pool sits comfortably below the kink point. Depositors can withdraw on demand, and the algorithm has no need to intervene.';
             } else if (util < 0.97) {
-                box.className = 'rounded-sm p-8 mb-10 fade-transition bg-amber-900 text-white';
+                box.className = 'rounded-sm p-8 mb-8 fade-transition bg-amber-900 text-white';
                 icon.className = 'fas fa-triangle-exclamation text-amber-300 text-xl mt-1';
                 title.textContent = 'Past the kink point';
                 text.textContent = "Borrow costs are climbing sharply now — that's the mechanism trying to push utilisation back down by making new borrowing unattractive. Existing depositors can still withdraw, but the buffer is thinning fast.";
             } else {
-                box.className = 'rounded-sm p-8 mb-10 fade-transition bg-red-900 text-white';
+                box.className = 'rounded-sm p-8 mb-8 fade-transition bg-red-900 text-white';
                 icon.className = 'fas fa-circle-exclamation text-red-300 text-xl mt-1';
                 title.textContent = 'Liquidity crunch';
                 text.textContent = 'There is almost nothing left for depositors to withdraw against. Anyone still waiting to exit is now competing for a shrinking pool of available liquidity — no committee, deposit insurer or central bank is coming to top it up.';
@@ -281,6 +381,24 @@
 
         suppliedSlider.addEventListener('input', render);
         borrowedSlider.addEventListener('input', render);
+
+        document.querySelectorAll('.scenario-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.scenario-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                suppliedSlider.value = btn.dataset.supplied;
+                borrowedSlider.value = btn.dataset.borrowed;
+                render();
+            });
+        });
+
+        // deactivate scenario highlight if user manually drags sliders
+        [suppliedSlider, borrowedSlider].forEach(s => {
+            s.addEventListener('input', () => {
+                document.querySelectorAll('.scenario-btn').forEach(b => b.classList.remove('active'));
+            });
+        });
+
         render();
     </script>
 </body>
